@@ -34,7 +34,7 @@ export const DivImg = styled.div`
 `;
 
 export const DivText = styled.div`
-    border: 3px solid blue;
+    border: 3px solid #ff00ea;
     h4{
         color: #fff;
         font-size: 60px;
