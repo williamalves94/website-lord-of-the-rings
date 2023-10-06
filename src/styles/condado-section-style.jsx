@@ -2,10 +2,9 @@ import styled from 'styled-components';
 
 export const Condado = styled.section`
     height: auto;
-    background-color: black;
-    
+    background-color: black;   
     border-top: 3px solid #F2CA53;
-    padding: 40px 40px 20px 40px;
+    padding: 60px 60px 40px 60px;
     p{
         color: #F2CA53;
         font-size: 70px;
@@ -25,18 +24,34 @@ export const DivMain = styled.div`
 `;
 
 export const DivImg = styled.div`
-    flex: 2 1;
-    height: 100%;
+    flex: 2 1; 
     img{
-        width: 100%;
-        
+        width: 100%;        
+        height: auto;
     }
 `;
 
 export const DivText = styled.div`
     border: 3px solid #ff00ea;
-    h4{
+    justify-content: center;
+    flex-direction: column;
+    p{
         color: #fff;
         font-size: 60px;
+    }
+`;
+
+export const DivCondadoImg = styled.div`
+    display: flex;
+    margin-top: 20px;
+    
+`;
+
+export const ImageIn = styled.div`
+    display: flex;
+    flex: 1 1 1;
+    border: 3px solid #F2CA53;
+    img{
+        width: 100%;
     }
 `;
