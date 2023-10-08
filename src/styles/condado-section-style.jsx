@@ -15,16 +15,18 @@ export const Condado = styled.section`
 `;
 
 export const DivMain = styled.div`
-    margin-top: 10px;
+    margin-top: 40px;
     display: flex;
-    align-items: center;
-    background-color: black;
+    height: auto;
+    background-color: #141414; //201f1f
     flex-wrap: wrap;
-    border: 3px solid #F2CA53;
+    //border: 3px solid #F2CA53;
+    border-radius: 5px;
+    
 `;
 
 export const DivImg = styled.div`
-    flex: 2 1; 
+    flex: 1; 
     img{
         width: 100%;        
         height: auto;
@@ -32,25 +34,36 @@ export const DivImg = styled.div`
 `;
 
 export const DivText = styled.div`
-    border: 3px solid #ff00ea;
-    justify-content: center;
-    flex-direction: column;
+    width: auto;
+    align-self: flex-start;
+    padding: 10px;
+    flex: 1;
+    .title{
+        justify-content: flex-start;
+        color:#F2CA53;
+        font-size: 60px;       
+    }
+
     p{
-        color: #fff;
-        font-size: 60px;
+        color: #F2CA53;
+        font-size: 45px;         
+        padding: 0 30px 0 30px;
+        font-family: 'Beau Rivage';
+        letter-spacing: 1px;
+
+
     }
 `;
 
 export const DivCondadoImg = styled.div`
     display: flex;
-    margin-top: 20px;
-    
+    margin-top: 20px;  
 `;
 
 export const ImageIn = styled.div`
     display: flex;
     flex: 1 1 1;
-    border: 3px solid #F2CA53;
+    border: 2px solid #F2CA53;
     img{
         width: 100%;
     }

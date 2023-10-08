@@ -1,10 +1,8 @@
 import { HeaderSection } from './components/header-section';
 import { HomeMain } from './components/home-main';
 import { CondadoSection } from './components/condado-section';
-import { OtherSection } from './components/other-section';
-
+import { FellowshipSection } from './components/fellowship-section';
 import { FooterFunc } from './components/footer';
-
 
 
 const App = () => {
@@ -13,7 +11,7 @@ const App = () => {
         <HeaderSection />      
         <HomeMain />
         <CondadoSection />
-        <OtherSection />
+        <FellowshipSection />
         <FooterFunc />
       </div>
   )
