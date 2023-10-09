@@ -20,9 +20,7 @@ export const DivMain = styled.div`
     height: auto;
     background-color: #141414; //201f1f
     flex-wrap: wrap;
-    //border: 3px solid #F2CA53;
-    border-radius: 5px;
-    
+    //border: 3px solid #F2CA53;   
 `;
 
 export const DivImg = styled.div`
@@ -30,6 +28,7 @@ export const DivImg = styled.div`
     img{
         width: 100%;        
         height: auto;
+        //border: 3px solid #F2CA53;
     }
 `;
 
@@ -45,7 +44,7 @@ export const DivText = styled.div`
     }
 
     p{
-        color: #F2CA53;
+        color: #F2CA53; //F2CA53
         font-size: 45px;         
         padding: 0 30px 0 30px;
         font-family: 'Beau Rivage';
@@ -63,8 +62,15 @@ export const DivCondadoImg = styled.div`
 export const ImageIn = styled.div`
     display: flex;
     flex: 1 1 1;
-    border: 2px solid #F2CA53;
+    
+    padding: 10px;
+
+    background-color: #141414;
     img{
         width: 100%;
+        
+        
+        
+        
     }
 `;
