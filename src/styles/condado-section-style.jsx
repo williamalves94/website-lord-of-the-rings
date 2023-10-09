@@ -45,7 +45,7 @@ export const DivText = styled.div`
 
     p{
         color: #F2CA53; //F2CA53
-        font-size: 45px;         
+        font-size: 40px;         
         padding: 0 30px 0 30px;
         font-family: 'Beau Rivage';
         letter-spacing: 1px;

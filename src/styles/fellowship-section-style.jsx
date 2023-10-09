@@ -6,12 +6,6 @@ export const Fellowship = styled.section`
     justify-content: center;    
     background-color: black;
     padding: 60px 60px 40px 60px;
-    p{
-        margin-top: 40px;
-        font-size: 70px;
-        color: #fff;
-        flex: 3;
-    }
 `;
 
 export const DivMainFellowship = styled.div`    
@@ -30,7 +24,21 @@ export const ImageFellowship =styled.div`
 `;
 
 export const DivTextFellowship = styled.div`
+    width: auto;
     flex: 1;
-    display: flex;
     margin-left: 30px;
+    p{
+        font-size: 35px;
+        padding: 20px;
+        color: #F2CA53;
+        flex: 3;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .title-fellowship{
+        justify-content: flex-start;
+        color:#F2CA53;
+        font-size: 60px
+    }
 `;
