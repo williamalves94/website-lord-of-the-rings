@@ -5,4 +5,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Beau Rivage', cursive;
+    scroll-behavior: smooth;
+    ::-webkit-scrollbar{
+        width: 15px;
+        background-color: black;        
+    }
+    ::-webkit-scrollbar-thumb{
+        background: linear-gradient(360deg,#000, #000, #F2CA53);
+        border-radius: 6px;
+    }
 }

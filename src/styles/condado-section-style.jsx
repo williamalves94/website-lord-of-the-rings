@@ -49,8 +49,6 @@ export const DivText = styled.div`
         padding: 0 30px 0 30px;
         font-family: 'Beau Rivage';
         letter-spacing: 1px;
-
-
     }
 `;
 
@@ -61,16 +59,11 @@ export const DivCondadoImg = styled.div`
 
 export const ImageIn = styled.div`
     display: flex;
-    flex: 1 1 1;
-    
+    flex: 1 1 1;    
     padding: 10px;
 
     background-color: #141414;
     img{
-        width: 100%;
-        
-        
-        
-        
+        width: 100%;       
     }
 `;
