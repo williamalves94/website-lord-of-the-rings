@@ -3,7 +3,8 @@ import { HomeMain } from './components/home-main';
 import { CondadoSection } from './components/condado-section';
 import { FellowshipSection } from './components/fellowship-section';
 import { FooterFunc } from './components/footer';
-
+import { RingSection } from './components/ring-section';
+import { GollumSection } from './components/gollum-section';
 
 const App = () => {
   return (  
@@ -12,6 +13,8 @@ const App = () => {
         <HomeMain />
         <CondadoSection />
         <FellowshipSection />
+        <RingSection />
+        <GollumSection />
         <FooterFunc />
       </div>
   )

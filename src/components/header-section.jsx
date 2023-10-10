@@ -9,7 +9,7 @@ export const HeaderSection = () => {
         </LogoImg>   
            
            <NavHeader>                      
-                <a href="#home">Terra Média</a>
+                <a href="#condado">Terra Média</a>
                 <a href="#sobre">Mapa</a>
                 <a href="#sobre">Mordor</a>       
             </NavHeader>

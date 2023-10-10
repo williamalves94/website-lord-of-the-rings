@@ -8,7 +8,6 @@ export const CondadoSection = () => {
     return (
       <Condado>
         <p>Terra Média</p>
-
         <DivMain>
           <DivImg>
             <img src={ CondadoMain }/>

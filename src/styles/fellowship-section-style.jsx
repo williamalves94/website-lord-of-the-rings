@@ -1,8 +1,7 @@
 import styled from 'styled-components';
 
 export const Fellowship = styled.section`
-    height: auto;
-    
+    height: auto;   
     justify-content: center;    
     background-color: black;
     padding: 60px 60px 40px 60px;
