@@ -41,6 +41,7 @@ export const FellowshipSection = () => {
               <img src={ Gandalf }/>
             </ImgFellowship>
           </DivFellowshipImg>
+          
           <DivFellowshipImg>
             <ImgFellowship>
               <img src={ Aragorn }/>

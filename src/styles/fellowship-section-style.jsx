@@ -27,7 +27,6 @@ export const DivTextFellowship = styled.div`
     width: auto;
     flex: 1;
     margin-left: 30px;
-    
     p{
         font-size: 35px;
         padding: 20px;
@@ -46,7 +45,7 @@ export const DivTextFellowship = styled.div`
 
 export const DivFellowshipImg = styled.div`
     display: flex;
-    margin-top: 20px;;
+    margin-top: 20px;
 `;
 
 export const ImgFellowship =styled.div`
