@@ -52,11 +52,8 @@ export const ImgFellowship =styled.div`
     display: flex;
     flex: 1 1 1;    
     padding: 10px;
-    border-radius: 5px;
     background-color: #141414;
     img{
         width: 100%;
-
-        border-radius: 5px;
     }
 `;
