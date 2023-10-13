@@ -38,6 +38,7 @@ export const RingImages = styled.div`
     flex: 1;
     img{
         width: 100%;
+        border: 2px solid #F2CA53;
     }
 `;
 export const RingText = styled.div`
@@ -60,6 +61,7 @@ export const DivGloveRing = styled.div`
     flex: 2;
     img{
         width: 100%;
+        border: 2px solid #F2CA53;
     }
 `;
 

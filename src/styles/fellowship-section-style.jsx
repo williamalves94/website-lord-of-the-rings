@@ -12,7 +12,7 @@ export const DivMainFellowship = styled.div`
     background-color: #141414; //201f1f
     flex-wrap: wrap;
     display: flex;
-    //border: 2px solid #F2CA53;
+    border: 2px solid #F2CA53;
 `;
 
 export const ImageFellowship =styled.div`

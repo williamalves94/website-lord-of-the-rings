@@ -37,6 +37,7 @@ export const DivImageGollum = styled.div`
     flex: 1;
     img{
         width: 100%;
+        border: 2px solid #9bb8cc;
 
     }
 `;
@@ -61,6 +62,7 @@ export const ImagesGollum =styled.div`
 flex: 1;
     img{
         width: 100%;
+        border: 2px solid #9bb8cc;
     }
 `;
 

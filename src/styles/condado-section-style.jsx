@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 export const Condado = styled.section`
     height: auto;
-    background-color: black;   
-    border-top: 3px solid #F2CA53;
+    background-color: black;
+    border-top: 2px solid #F2CA53;
     padding: 60px 60px 40px 60px;
     p{
         color: #F2CA53;
@@ -20,7 +20,7 @@ export const DivMain = styled.div`
     height: auto;
     background-color: #141414; //201f1f
     flex-wrap: wrap;
-    //border: 3px solid #F2CA53;   
+    border: 2px solid #F2CA53;   
 `;
 
 export const DivImg = styled.div`
@@ -28,7 +28,6 @@ export const DivImg = styled.div`
     img{
         width: 100%;        
         height: auto;
-        //border: 3px solid #F2CA53;
     }
 `;
 
@@ -54,7 +53,7 @@ export const DivText = styled.div`
 
 export const DivCondadoImg = styled.div`
     display: flex;
-    margin-top: 20px;  
+    margin-top: 20px;
 `;
 
 export const ImageIn = styled.div`
@@ -64,6 +63,7 @@ export const ImageIn = styled.div`
 
     background-color: #141414;
     img{
-        width: 100%;       
+        width: 100%;
+        border: 2px solid #F2CA53;     
     }
 `;

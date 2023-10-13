@@ -11,10 +11,8 @@ export const HeaderSection = () => {
            <NavHeader>                      
                 <a href="#condado">Terra Média</a>
                 <a href="#sobre">Mapa</a>
-                <a href="#sobre">Mordor</a>       
+                <a href="#mordor">Mordor</a>       
             </NavHeader>
         </Head>
     );
 };
-
-//<p>The Lord of the Rings</p>
