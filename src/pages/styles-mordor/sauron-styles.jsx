@@ -25,10 +25,12 @@ export const DivImgAndTextSauron = styled.div`
 
 export const DivImgSauron = styled.div`
     flex: 2;
+    border-radius: 4px;
     img{
         width: 100%;
         height: auto;
         border: 2px solid #F2CA52;
+        border-radius: 4px;
     }
 `;
 
@@ -48,8 +50,10 @@ export const ImageSauron = styled.div`
     display: flex;
     background-color: #111111;
     padding: 20px;
+    border-radius: 4px;
     img{
         width: 100%;
         border: 2px solid #F2CA52;
+        border-radius: 4px;
     }
 `;
