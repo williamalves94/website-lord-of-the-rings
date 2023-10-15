@@ -1,6 +1,6 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
-export const Head = styled.header`
+export const HeaderMordor = styled.header`
     width: 100%;
     height: 100px;
     border-bottom: 3px solid #F2CA53;
@@ -18,6 +18,15 @@ export const Head = styled.header`
     }
 `;
 
+export const LogoImg = styled.div`
+    img{
+        width: 380px;
+        margin-left: 80px;
+        align-items: center;
+        display: flex;
+    }
+`;
+
 export const NavHeader = styled.header`
     margin-right: 40px;
     a {
@@ -30,14 +39,5 @@ export const NavHeader = styled.header`
     }
     a:hover {
         color: #D4AF37;
-    }
-`;
-
-export const LogoImg = styled.div`
-    img{
-        width: 380px;
-        margin-left: 80px;
-        align-items: center;
-        display: flex;
     }
 `;

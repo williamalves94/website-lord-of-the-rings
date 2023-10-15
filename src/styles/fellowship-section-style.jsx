@@ -46,6 +46,7 @@ export const DivTextFellowship = styled.div`
 export const DivFellowshipImg = styled.div`
     display: flex;
     margin-top: 20px;
+    
 `;
 
 export const ImgFellowship =styled.div`
@@ -55,5 +56,6 @@ export const ImgFellowship =styled.div`
     background-color: #141414;
     img{
         width: 100%;
+        border: 2px solid #F2CA53;
     }
 `;

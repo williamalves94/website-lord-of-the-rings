@@ -1,10 +1,16 @@
-import { Mordor } from '../styles-mordor'
+import { MordorMainSection } from './mordor-main'
+import { HeaderMordorSection } from './header-mordor-section';
+import { NazgulSection } from '../mordor/nazgul-section';
 
  const MordorSection = () => {
     return (
-        <Mordor>
-            <p>Welcome to Mordor</p>
-       </Mordor>
+        <div>
+            <HeaderMordorSection />
+            <MordorMainSection />
+            <NazgulSection />
+        </div>
+            
+       
     );
 }
  
