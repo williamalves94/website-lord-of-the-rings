@@ -59,7 +59,7 @@ export const DivTwoImgGollum =styled.div`
 `;
 
 export const ImagesGollum =styled.div`
-flex: 1;
+    flex: 1;
     img{
         width: 100%;
         border: 2px solid #9bb8cc;
