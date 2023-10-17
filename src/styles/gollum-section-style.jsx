@@ -55,7 +55,7 @@ export const DivTwoImgGollum =styled.div`
     flex: 1;
     display: flex;
     margin-top: 20px;
-    background-color: #141414;
+    background-color: #111111;
 `;
 
 export const ImagesGollum =styled.div`
@@ -73,5 +73,5 @@ export const DivCenterTextGollum =styled.div`
     align-items: center;
     font-size: 35px;
     padding: 20px;
-    background-color: #141414;
+    background-color: #111111;
 `;

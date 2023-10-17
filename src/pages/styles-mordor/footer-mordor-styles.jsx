@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Footer = styled.footer`
+export const FooterMordor = styled.footer`
     width: 100%;
     height: 165px;
     background-color: black;
@@ -10,7 +10,7 @@ export const Footer = styled.footer`
     border-top: 3px solid #F2CA53;
 `;
 
-export const LogoFooter = styled.div`
+export const LogoFooterMordor = styled.div`
     height: 150px;
     img{
         width: 400px;
