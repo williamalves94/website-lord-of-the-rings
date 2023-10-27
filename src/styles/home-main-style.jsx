@@ -14,9 +14,14 @@ export const Home = styled.section`
 `;
 
 export const ImageMain = styled.section`
+    @media( max-width: 1250px ){
+        
+    }
     
     img{
         width: 100%;
-        height: 100vh;        
+        height: 100vh;
+        flex: 1 2 2;
+               
     }
 `;

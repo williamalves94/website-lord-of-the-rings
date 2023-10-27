@@ -6,7 +6,10 @@ export const MordorImageMain = styled.div`
     img{
         width: 100%;
         height: 100vh;
-        border-bottom: 2px solid #111111;        
+        border-bottom: 2px solid #111111;
+        border-radius: 4px;
+        border-bottom: 2px solid #F2CA53;
+            
     }
 `;
 
@@ -29,12 +32,14 @@ export const DivImgAndTextMordorOne = styled.div`
 `;
 
 export const ImageMordorOne = styled.div`
-    background-color: #111111; 
+    background-color: #111111;
+    padding: 20px;
     flex: 2;
     img{
         width: 100%;
         height: auto;
         border-bottom: 2px solid #111111;
+        border: 2px solid #F2CA53;
     }
 `;
 export const DivTextOne = styled.div`
@@ -55,12 +60,14 @@ export const DivImgAndTextMordorTwo = styled.div`
 `;
 
 export const ImageMordorTwo = styled.div`
-    background-color: #111111; 
+    background-color: #111111;
+    padding: 20px;
     flex: 2;
     img{
         width: 100%;
         height: auto;
         border-bottom: 2px solid #111111;
+        border: 2px solid #F2CA53;
     }
 `;
 export const DivTextTwo = styled.div`
@@ -80,12 +87,14 @@ export const Mountain = styled.div`
     background-color: #111111;
 `;
 export const ImgMountain = styled.div`
+    padding: 20px 20px 40px 20px;
     background-color: #111111; 
     flex: 2;
     img{
         width: 100%;
         height: auto;
         border-bottom: 2px solid #111111;
+        border: 2px solid #F2CA53;
     }
 `;
 export const TextMountain = styled.div`

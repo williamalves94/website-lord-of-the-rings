@@ -7,7 +7,7 @@ export const FooterMordor = styled.footer`
     display: flex;
     align-items: center;
     justify-content: center;
-    border-top: 3px solid #F2CA53;
+    border-top: 2px solid #F2CA53;
 `;
 
 export const LogoFooterMordor = styled.div`

@@ -7,12 +7,13 @@ import { FellowshipSection } from './components/fellowship-section';
 import { FooterFunc } from './components/footer';
 import { RingSection } from './components/ring-section';
 import { GollumSection } from './components/gollum-section';
+import { ModalMap } from './components/modal-map';
 
 const App = () => {
 
   return ( 
       <div>
-        <HeaderSection />      
+        <HeaderSection />     
         <HomeMain />
         <CondadoSection />
         <FellowshipSection />

@@ -16,7 +16,7 @@ export const CondadoSection = () => {
           <DivText>
             <p className='title'>O Condado</p>
             <p>O Condado é a terra natal dos Hobbits. A região fica localizada no noroeste da Terra-Média,
-            <br></br>na região de Eriador e dentro do reinado de Arnor, enquanto o reino existiu.<br></br>O Condado não é o lugar de nascimento de Frodo Bolseiro.</p>
+            na região de Eriador e dentro do reinado de Arnor, enquanto o reino existiu.<br></br>O Condado não é o lugar de nascimento de Frodo Bolseiro.</p>
           </DivText>
         </DivMain>
 

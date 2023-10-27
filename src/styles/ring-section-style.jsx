@@ -11,6 +11,7 @@ export const ImageRingMain = styled.div`
         width: 100%;
         height: auto;
         border-bottom: 2px solid #F2CA53;
+        border-radius: 4px;
     }
 `;
 
@@ -32,6 +33,7 @@ export const TitleRing = styled.div`
 export const DivImgAndTextRing = styled.div`
     display: flex;    
     background-color: #141414;
+    padding: 30px;
 `;
 
 export const RingImages = styled.div`
@@ -39,6 +41,7 @@ export const RingImages = styled.div`
     img{
         width: 100%;
         border: 2px solid #F2CA53;
+        border-radius: 4px;
     }
 `;
 export const RingText = styled.div`
@@ -55,6 +58,7 @@ export const RingText = styled.div`
 export const DivSecondImgAndText = styled.div`
     display: flex;
     background-color: #141414;
+    padding: 30px 30px 60px 30px;
 `;
 
 export const DivGloveRing = styled.div`
@@ -62,6 +66,7 @@ export const DivGloveRing = styled.div`
     img{
         width: 100%;
         border: 2px solid #F2CA53;
+        border-radius: 4px;
     }
 `;
 

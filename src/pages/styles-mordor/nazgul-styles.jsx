@@ -4,24 +4,31 @@ export const Nazgul = styled.div`
     background-color: #111111;
     width: 100%;
     height: auto;
+    border-bottom: 2px solid gray;
 `;
 
 export const NazgulImageMain = styled.div`
     img{
         width: 100%;
         height: 100vh;
+        border-bottom: 2px solid gray;
+        
     }
 `;
 
-export const DivAndTextNazgul = styled.div`
+export const DivImageAndTextNazgul = styled.div`
     display: flex;
 `;
+
 export const DivImageNazgul = styled.div`
     flex: 3;
+    padding: 40px 30px 30px 30px;
     img{
         width: 100%;
         height: auto;
         border: 2px solid gray;
+        border-radius: 4px;
+        
     }
 `;
 export const DivTextNazgul = styled.div`
@@ -33,8 +40,9 @@ export const DivTextNazgul = styled.div`
     }
 `;
 
-export const DivAndTextNazgulTwo = styled.div`
+export const DivImageAndTextNazgulTwo = styled.div`
     display: flex;
+    padding: 30px;
 `;
 
 export const DivImageNazgulTwo = styled.div`
@@ -43,8 +51,10 @@ export const DivImageNazgulTwo = styled.div`
         width: 100%;
         height: auto;
         border: 2px solid gray;
+        border-radius: 4px;
     }
 `;
+
 export const DivTextNazgulTwo = styled.div`
     flex: 2;
     p{
@@ -54,8 +64,9 @@ export const DivTextNazgulTwo = styled.div`
     }
 `;
 
-export const DivAndTextNazgulThree = styled.div`
+export const DivImageAndTextNazgulThree = styled.div`
     display: flex;
+    padding: 30px;
 `;
 
 export const DivImageNazgulThree = styled.div`
@@ -64,6 +75,7 @@ export const DivImageNazgulThree = styled.div`
         width: 100%;
         height: auto;
         border: 2px solid gray;
+        border-radius: 4px;
     }
 `;
 
@@ -76,8 +88,9 @@ export const DivTextNazgulThree = styled.div`
     }
 `;
 
-export const DivAndTextNazgulFour = styled.div`
+export const DivImageAndTextNazgulFour = styled.div`
     display: flex;
+    padding: 30px;
 `;
 
 export const DivImageNazgulFour = styled.div`
@@ -86,8 +99,10 @@ export const DivImageNazgulFour = styled.div`
         width: 100%;
         height: auto;
         border: 2px solid gray;
+        border-radius: 4px;
     }
 `;
+
 export const DivTextNazgulFour = styled.div`
     flex: 2;
     p{

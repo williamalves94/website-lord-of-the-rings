@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const HeaderMordor = styled.header`
     width: 100%;
     height: 100px;
-    border-bottom: 3px solid #F2CA53;
+    border-bottom: 2px solid #F2CA53;
     //z-index: 100;
     background-color: black; //1f242d
     color: white;
@@ -12,9 +12,7 @@ export const HeaderMordor = styled.header`
     justify-content: space-between;
     p {
         margin-left: 60px;
-        border: 2px solid black;
-        font-size: 40px;
-        color: white;        
+        font-size: 40px;        
     }
 `;
 
@@ -28,15 +26,26 @@ export const LogoImg = styled.div`
 `;
 
 export const NavHeader = styled.header`
-    margin-right: 40px;
+    margin-right: 100px;
+    display: flex;
     a {
         color: #F2CA53;
         justify-content: space-around;
-        margin-right: 50px;
-        font-size: 40px;
+        font-size: 44px;
         transition: all.3s;
         text-decoration: none;
     }
+
+    .mapa {
+        color: #F2CA53;
+        justify-content: space-around;
+        margin-right: 60px;
+        font-size: 44px;
+        transition: all.3s;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
     a:hover {
         color: #D4AF37;
     }

@@ -30,12 +30,14 @@ export const DivImagesOrcsAndTextOne = styled.div`
     display: flex;
     margin-top: 20px;
     background-color: #111111;
+    padding: 30px;
 `;
 export const ImgOrcs = styled.div`
     flex: 1;
     img{
         width: 100%;
         border: 2px solid #F2CA53;
+        border-radius: 4px;
     }
 `;
 export const TextOrcs = styled.div`
@@ -44,6 +46,6 @@ export const TextOrcs = styled.div`
     display: flex;
     align-items: center;
     font-size: 35px;
-    padding: 20px;
+    padding: 40px;
     background-color: #111111;
 `;

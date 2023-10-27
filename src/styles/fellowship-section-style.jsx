@@ -13,13 +13,16 @@ export const DivMainFellowship = styled.div`
     flex-wrap: wrap;
     display: flex;
     border: 2px solid #F2CA53;
+    border-radius: 4px;
 `;
 
 export const ImageFellowship =styled.div`
+
     flex: 1;
     img{
         width: 100%;
-        height: auto;        
+        height: auto;
+        border-radius: 4px;        
     }
 `;
 
@@ -27,6 +30,7 @@ export const DivTextFellowship = styled.div`
     width: auto;
     flex: 1;
     margin-left: 30px;
+    
     p{
         font-size: 35px;
         padding: 20px;
@@ -57,5 +61,6 @@ export const ImgFellowship =styled.div`
     img{
         width: 100%;
         border: 2px solid #F2CA53;
+        border-radius: 4px;
     }
 `;

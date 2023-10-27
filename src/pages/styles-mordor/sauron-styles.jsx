@@ -19,7 +19,7 @@ export const TitleSauron = styled.div`
 export const DivImgAndTextSauron = styled.div`
     display: flex;
     background-color: #111111;
-    padding: 20px;
+    padding: 30px;
     margin-top: 20px;
 `;
 
@@ -44,6 +44,7 @@ export const DivTextSauron = styled.div`
 export const DivThreeImgSauron = styled.div`
     display: flex;
     width: 100%;
+    
 `;
 
 export const ImageSauron = styled.div`
@@ -51,9 +52,11 @@ export const ImageSauron = styled.div`
     background-color: #111111;
     padding: 20px;
     border-radius: 4px;
+    padding: 30px 30px 50px 30px;
     img{
         width: 100%;
         border: 2px solid #F2CA52;
         border-radius: 4px;
+        
     }
 `;
