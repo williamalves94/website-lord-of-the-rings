@@ -1,17 +1,11 @@
-import { MordorImageMain, TitleMordor, DivImgAndTextMordorOne, ImageMordorOne, DivTextOne, DivImgAndTextMordorTwo, ImageMordorTwo, DivTextTwo, Mountain, ImgMountain, TextMountain }  from '../styles-mordor/mordor-styles';
-import ImageMainMordor from '../../assets/mordor/mordormain.png';
+import { MordorImageMain, DivImgAndTextMordorOne, ImageMordorOne, DivTextOne, DivImgAndTextMordorTwo, ImageMordorTwo, DivTextTwo, Mountain, ImgMountain, TextMountain }  from '../styles-mordor/mordor-styles';
 import Mordor1 from '../../assets/mordor/mordor1.jpg';
 import Mordor2 from '../../assets/mordor/mordor2.png';
 import Mountain1 from '../../assets/mordor/mountainmordor.jpg';
 
 export const MordorMainSection = () => {
     return (
-        <MordorImageMain>
-            <TitleMordor>
-                <p className='title-mordor'>Mordor</p>
-            </TitleMordor>           
-            <img src={ ImageMainMordor } />
-
+        <MordorImageMain>                     
             <DivImgAndTextMordorOne>
                 <ImageMordorOne>
                     <img src={ Mordor1 } />

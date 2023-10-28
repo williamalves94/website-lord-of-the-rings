@@ -6,10 +6,15 @@ export const MordorImageMain = styled.div`
     img{
         width: 100%;
         height: 100vh;
-        border-bottom: 2px solid #111111;
         border-radius: 4px;
-        border-bottom: 2px solid #F2CA53;
-            
+        border-bottom: 2px solid #F2CA53;            
+    }
+`;
+
+export const MainImageEagle = styled.div`
+    img{
+        width: 100%;
+        height: auto;
     }
 `;
 
