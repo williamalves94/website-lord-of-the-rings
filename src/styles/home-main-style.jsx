@@ -1,8 +1,7 @@
 import styled from 'styled-components';
 
 export const Home = styled.section`
-    height: 100vh;
-    background-color: black;   
+    background-color: black;
     p{
         color: #fff;
         font-size: 50px;
@@ -15,5 +14,6 @@ export const Home = styled.section`
     img{
         width: 100%;
         height: auto;
+        border-bottom: 2px solid #F2CA53;
     }
 `;

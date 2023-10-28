@@ -3,12 +3,11 @@ import styled from 'styled-components';
 export const Condado = styled.section`
     height: auto;
     background-color: black;
-    border-top: 2px solid #F2CA53;
     padding: 60px 60px 40px 60px;
     p{
         color: #F2CA53;
         font-size: 80px;
-        margin-top: 30px;
+        margin-top: 20px;
         justify-content: center;
         display: flex;
     }
