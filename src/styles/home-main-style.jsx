@@ -11,17 +11,9 @@ export const Home = styled.section`
         align-items: center;
         display: flex;
     }
-`;
-
-export const ImageMain = styled.section`
-    @media( max-width: 1250px ){
-        
-    }
     
     img{
         width: 100%;
-        height: 100vh;
-        flex: 1 2 2;
-               
+        height: auto;
     }
 `;

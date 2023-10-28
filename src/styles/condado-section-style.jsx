@@ -45,6 +45,14 @@ export const DivText = styled.div`
     @media( max-width: 1713px ){
         font-size: 50px;
     }
+
+    @media( max-width: 1170px  ){
+        font-size: 40px;
+    }
+
+    @media( max-width: 1100px  ){
+        font-size: 36px;
+    }
        
     }
 
@@ -69,7 +77,18 @@ export const DivText = styled.div`
     @media( max-width: 1445px  ){
         font-size: 28px;
     }
+    @media( max-width: 1170px  ){
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
 
+    @media( max-width: 1100px  ){
+        font-size: 21px;
+    }
+
+    @media( max-width: 1024px  ){
+        font-size: 20px; 
+    }
     }
 
     

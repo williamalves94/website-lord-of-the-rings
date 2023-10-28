@@ -5,9 +5,11 @@ import MainImage from '../assets/imagemain.jpg';
 export const HomeMain = () => {
     return (
       <Home>
-        <ImageMain>
-          <img src={ MainImage }/>            
-        </ImageMain>
+        <img src={ MainImage }/>
       </Home>
     );
   };
+
+  //<ImageMain>
+  //  <img src={ MainImage }/>            
+  //</ImageMain>
