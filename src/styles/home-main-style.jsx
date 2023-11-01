@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const Home = styled.section`
     background-color: black;
+    height: 100%;
     p{
         color: #fff;
         font-size: 50px;

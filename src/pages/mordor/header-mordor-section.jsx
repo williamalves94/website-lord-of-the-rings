@@ -10,7 +10,7 @@ export const HeaderMordorSection = () => {
             </LogoImg>   
            
            <NavHeader>                      
-           <Link to="/"><a>Terra Média</a></Link>
+            <Link to="/"><a>Terra Média</a></Link>
                 <p className="mapa">Mapa</p>
                 <a href="#mordor">Mordor</a>       
             </NavHeader>

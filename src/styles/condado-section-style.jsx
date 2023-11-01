@@ -4,6 +4,7 @@ export const Condado = styled.section`
     height: auto;
     background-color: black;
     padding: 60px 60px 40px 60px;
+    
     p{
         color: #F2CA53;
         font-size: 80px;
@@ -21,6 +22,11 @@ export const DivMain = styled.div`
     flex-wrap: wrap;
     border: 2px solid #F2CA53;
     border-radius: 4px;
+
+    @media( max-width: 930px ){
+        grid-template-columns: repeat(2, 1fr);
+        flex-direction: column;
+    }
 `;
 
 export const DivImg = styled.div`
@@ -96,6 +102,11 @@ export const DivText = styled.div`
 export const DivCondadoImg = styled.div`
     display: flex;
     margin-top: 20px;
+
+    @media( max-width: 930px  ){
+        font-size: 20px;
+        flex-direction: column;
+    }
 `;
 
 export const ImageIn = styled.div`
