@@ -13,7 +13,7 @@ export const Condado = styled.section`
         display: flex;
 
     @media( max-width: 930px  ){
-        font-size: 60px;
+        font-size: 45px;
     }
     }
 `;
