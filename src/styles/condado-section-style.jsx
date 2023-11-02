@@ -15,7 +15,12 @@ export const Condado = styled.section`
     @media( max-width: 930px  ){
         font-size: 45px;
         margin-top: 0px;
-        padding: 0px;
+    }
+
+    @media( max-width: 480px  ){
+        font-size: 45px;
+        margin-top: 0px;
+        padding: 10px 10px 10px 10px;
     }
     }
 `;
