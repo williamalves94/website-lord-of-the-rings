@@ -16,12 +16,11 @@ export const Condado = styled.section`
         font-size: 45px;
         margin-top: 0px;
     }
-
+    }
     @media( max-width: 480px  ){
         font-size: 45px;
         margin-top: 0px;
-        padding: 10px 10px 10px 10px;
-    }
+        padding: 20px 20px 20px 20px;
     }
 `;
 
