@@ -45,7 +45,6 @@ export const NavHeader = styled.header`
     @media( max-width: 950px ){
         font-size: 33px;
     }
-
     }
 
     .mapa {
@@ -97,6 +96,10 @@ export const NavHeader = styled.header`
     @media( max-width: 950px ){
         margin-right: 50px;     
     }
+
+    @media( max-width: 480px  ){
+        display: none;
+    }
 `;
 
 export const LogoImg = styled.div`
@@ -126,6 +129,5 @@ export const LogoImg = styled.div`
         align-items: center;
         display: flex;
     }
-
     }
 `;

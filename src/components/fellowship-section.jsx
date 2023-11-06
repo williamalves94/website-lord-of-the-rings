@@ -13,7 +13,7 @@ export const FellowshipSection = () => {
       <Fellowship>
         <DivMainFellowship>
           <ImageFellowship>
-            <img src={ FellowshipImagemMain }/>            
+            <img src={ FellowshipImagemMain }/>                      
           </ImageFellowship>
 
           <DivTextFellowship>

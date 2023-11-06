@@ -52,6 +52,7 @@ export const DivText = styled.div`
     align-self: flex-start;
     padding: 10px;
     flex: 1;
+    
     .title{
         justify-content: flex-start;
         color:#F2CA53;
