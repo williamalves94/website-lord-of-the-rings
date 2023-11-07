@@ -127,10 +127,6 @@ export const DivTextFellowship = styled.div`
         font-size: 15px; 
     }
 
-    @media( max-width: 969px  ){
-        font-size: 15px; 
-    }
-
     @media( max-width: 891px  ){
         font-size: 15px;
     }
@@ -143,7 +139,10 @@ export const DivTextFellowship = styled.div`
         font-size: 12px;
     }
 
-   
+    @media( max-width: 480px  ){
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
     }
 `;
 
