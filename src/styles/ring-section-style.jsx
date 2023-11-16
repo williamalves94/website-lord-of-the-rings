@@ -20,13 +20,75 @@ export const TitleRing = styled.div`
     .title-ring{       
         font-size: 70px;        
         color: #F2CA53;
-        margin: 100px 0 0 70px;   
+        margin: 100px 0 0 70px;
+
+    @media( max-width: 1350px ){
+        font-size: 65px;
+        margin-top: 70px;
+    }
+
+    @media( max-width: 1125px ){
+        font-size: 60px;
+        margin-top: 60px;
+    }
+
+    @media( max-width: 1025px ){
+        font-size: 56px;
+        margin-top: 45px;
+    }
+
+    @media( max-width: 930px ){
+        font-size: 47px;
+        margin-top: 40px;
+    }
+
+    @media( max-width: 830px ){
+        font-size: 45px;
+        margin-top: 30px;
+    }
+
     }
     .text-ring{
         color: #F2CA53;
         font-size: 42px;
         margin: 20px 0 0 70px;
+
+    @media( max-width: 1450px ){
+        font-size: 40px;
     }
+
+    @media( max-width: 1350px ){
+        font-size: 36px;
+    }
+
+    @media( max-width: 1250px ){
+        font-size: 36px;
+    }
+
+    @media( max-width: 1250px ){
+        font-size: 36px;
+    }
+
+    @media( max-width: 1125px ){
+        font-size: 32px;
+    }
+
+    @media( max-width: 1025px ){
+        font-size: 30px;
+    }
+
+    @media( max-width: 930px ){
+        font-size: 28px;
+        margin-top: 10px;
+    }
+
+    @media( max-width: 830px ){
+        font-size: 25px;
+        margin-top: 5px;
+    }
+    }
+
+    
     
 `;
 
