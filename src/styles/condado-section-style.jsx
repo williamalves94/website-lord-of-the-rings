@@ -39,6 +39,7 @@ export const DivMain = styled.div`
     }
 `;
 
+
 export const DivImg = styled.div`
     flex: 1; 
     img{
