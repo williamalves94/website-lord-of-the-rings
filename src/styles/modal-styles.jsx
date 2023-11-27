@@ -9,17 +9,21 @@ export const Modal = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
   position: absolute;
   position: fixed;
   z-index: 999;
   img {
     width: 1200px;
     height: 850px;
-    display: flex;
+
+    justify-content: flex-end;
     //border: 2px solid #f2ca53;
   }
-  .button {
-    position: absolute;
+  p {
+    border: 2px solid blue;
+    color: #2c2315;
+    font-size: 30px;
+    font-weight: 600;
+    cursor: pointer;
   }
 `;

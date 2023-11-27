@@ -10,8 +10,6 @@ import { GollumSection } from "./components/gollum-section";
 import { ModalMap } from "./components/modal-map";
 
 const App = () => {
-  const [openModal, setOpenModal] = useState(false);
-
   return (
     <div>
       <ModalMap isOpen={true} />

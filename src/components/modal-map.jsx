@@ -1,12 +1,20 @@
+import React, { useState } from "react";
+import Mapa from "../assets/mapa.jpg";
+
 import { Modal } from "../styles/modal-styles";
-//import { CgClose } from "react-icons/cg";
 
 export const ModalMap = ({ isOpen }) => {
+  const [openModal, setOpenModal] = useState(false);
+
+  const handleCloseModal = () => {
+    setOpenModal(false);
+  };
+
   if (isOpen) {
     return (
       <Modal>
-        <button>BUTTON</button>
-        <img src="../src/assets/mapa.jpg" alt=""></img>
+        <img src={Mapa} alt=""></img>
+        <p onClick={() => setOpenModal}>X</p>
       </Modal>
     );
   }
