@@ -15,12 +15,13 @@ export const Modal = styled.div`
   img {
     width: 1200px;
     height: 850px;
-
     justify-content: flex-end;
     //border: 2px solid #f2ca53;
   }
   p {
-    border: 2px solid blue;
+    justify-self: flex-start;
+    height: 850px;
+    //border: 2px solid blue;
     color: #2c2315;
     font-size: 30px;
     font-weight: 600;

@@ -21,7 +21,11 @@ const App = () => {
   };
   return (
     <div>
-      <ModalMap isOpen={openModal} handleCloseModal={handleCloseModal} />
+      <ModalMap
+        isOpen={openModal}
+        handleCloseModal={handleCloseModal}
+        onClose={(e) => setOpenModal(false)}
+      />
       <HeaderSection handleOpenModal={handleOpenModal} />
       <HomeMain />
       <CondadoSection />
