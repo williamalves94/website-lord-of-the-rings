@@ -10,11 +10,19 @@ import { GollumSection } from "./components/gollum-section";
 import { ModalMap } from "./components/modal-map";
 
 const App = () => {
+  const [openModal, setOpenModal] = useState(false);
+
+  const handleOpenModal = () => {
+    setOpenModal(true);
+  };
+
+  const handleCloseModal = () => {
+    setOpenModal(false);
+  };
   return (
     <div>
-      <ModalMap isOpen={true} />
-      <HeaderSection />
-
+      <ModalMap isOpen={openModal} handleCloseModal={handleCloseModal} />
+      <HeaderSection handleOpenModal={handleOpenModal} />
       <HomeMain />
       <CondadoSection />
       <FellowshipSection />

@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { Head, NavHeader, LogoImg } from "../styles/header-style";
 import LogoMain from "../assets/logosf.png";
 
-export const HeaderSection = () => {
+export const HeaderSection = ({ handleOpenModal }) => {
   return (
     <Head>
       <LogoImg>
@@ -13,12 +13,7 @@ export const HeaderSection = () => {
         <Link to="/">
           <a>Terra Média</a>
         </Link>
-        <p
-          onClick={() => {
-            setOpenModal(true);
-          }}
-          className="mapa"
-        >
+        <p onClick={handleOpenModal} className="mapa">
           Mapa
         </p>
 
