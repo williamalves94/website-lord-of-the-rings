@@ -98,10 +98,12 @@ export const TitleRing = styled.div`
 
 export const DivImgAndTextRing = styled.div`
   display: flex;
-  background-color: #141414;
+  background-color: black;
   padding: 30px;
   @media (max-width: 480px) {
     flex-direction: column;
+    padding: 15px;
+    //border: 4px solid blue;
   }
 `;
 
@@ -118,18 +120,26 @@ export const RingText = styled.div`
   display: flex;
   align-items: center;
   padding: 40px;
+  @media (max-width: 480px) {
+    font-size: 20px;
+    padding: 10px;
+  }
   p {
     color: #f2ca53;
     font-size: 35px;
+    @media (max-width: 480px) {
+      font-size: 20px;
+    }
   }
 `;
 
 export const DivSecondImgAndText = styled.div`
   display: flex;
-  background-color: #141414;
+  background-color: black; //#141414;
   padding: 30px 30px 60px 30px;
   @media (max-width: 480px) {
-    flex-direction: column;
+    flex-direction: column-reverse;
+    padding: 15px;
   }
 `;
 
@@ -147,8 +157,14 @@ export const DivGloveRingText = styled.div`
   display: flex;
   align-items: center;
   padding: 40px;
+  @media (max-width: 480px) {
+    padding: 15px;
+  }
   p {
     color: #f2ca53;
     font-size: 35px;
+    @media (max-width: 480px) {
+      font-size: 20px;
+    }
   }
 `;
