@@ -90,7 +90,7 @@ export const TitleRing = styled.div`
       margin-top: 5px;
     }
     @media (max-width: 480px) {
-      font-size: 16px;
+      font-size: 15px;
       margin: 0px;
     }
   }
