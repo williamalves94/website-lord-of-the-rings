@@ -1,1 +1,1 @@
-Meu segundo projeto pessoal uma landing Page desenvolvida por mim sozinho do zero usando Javascript, ReactJS, Styled-components 100% resposivo.
+Meu segundo projeto pessoal desenvolvido por mim do zero, uma landing Page desenvolvida usando ReactJS e Styled-components 100% resposivo.
