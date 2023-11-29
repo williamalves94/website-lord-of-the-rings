@@ -47,7 +47,7 @@ export const TitleRing = styled.div`
       margin-top: 30px;
     }
     @media (max-width: 480px) {
-      font-size: 40px;
+      font-size: 35px;
       margin: 0px;
     }
   }
@@ -90,8 +90,8 @@ export const TitleRing = styled.div`
       margin-top: 5px;
     }
     @media (max-width: 480px) {
-      font-size: 30px;
-      margin: 0px;
+      font-size: 35px;
+      margin: 10px 0 0 10px;
     }
   }
 `;
