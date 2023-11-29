@@ -100,6 +100,9 @@ export const DivImgAndTextRing = styled.div`
   display: flex;
   background-color: #141414;
   padding: 30px;
+  @media (max-width: 480px) {
+    flex-direction: column;
+  }
 `;
 
 export const RingImages = styled.div`
@@ -125,6 +128,9 @@ export const DivSecondImgAndText = styled.div`
   display: flex;
   background-color: #141414;
   padding: 30px 30px 60px 30px;
+  @media (max-width: 480px) {
+    flex-direction: column;
+  }
 `;
 
 export const DivGloveRing = styled.div`
