@@ -93,6 +93,12 @@ export const DivImageAndTextgollum = styled.div`
   display: flex;
   background-color: #141414;
   margin-top: 20px;
+
+  @media (max-width: 480px) {
+    padding: 15px;
+    flex-direction: column;
+    margin-top: 0px;
+  }
 `;
 
 export const DivImageGollum = styled.div`
@@ -111,13 +117,22 @@ export const DivTextGollum = styled.div`
   font-size: 42px;
   padding: 40px;
   color: #9bb8cc;
+  @media (max-width: 480px) {
+    font-size: 20px;
+    padding: 15px;
+  }
 `;
 
 export const DivTwoImgGollum = styled.div`
   flex: 1;
   display: flex;
   margin-top: 20px;
-  background-color: #111111;
+  background-color: #141414;
+  @media (max-width: 480px) {
+    flex-direction: column-reverse;
+    padding: 15px;
+    margin-top: 0px;
+  }
 `;
 
 export const ImagesGollum = styled.div`
@@ -136,5 +151,9 @@ export const DivCenterTextGollum = styled.div`
   align-items: center;
   font-size: 35px;
   padding: 20px;
-  background-color: #111111;
+  background-color: #141414;
+  @media (max-width: 480px) {
+    font-size: 20px;
+    padding: 15px;
+  }
 `;
