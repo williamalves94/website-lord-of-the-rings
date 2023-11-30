@@ -28,13 +28,27 @@ export const DivSidebar = styled.div`
 export const DivTags = styled.div`
   a {
     color: #f2ca53;
-    font-size: 30px;
+    font-size: 34px;
     cursor: pointer;
     margin: 0 25px 0 25px;
     text-decoration: none;
     :hover {
       color: #d4af37;
       transition: all.3s;
+    }
+    @media (max-width: 400px) {
+      font-size: 35px;
+      margin: 0 18px 0 18px;
+    }
+
+    @media (max-width: 320px) {
+      font-size: 35px;
+      margin: 0 12px 0 12px;
+    }
+
+    @media (max-width: 310px) {
+      font-size: 30px;
+      margin: 0 15px 0 15px;
     }
   }
 `;
