@@ -56,7 +56,6 @@ export const GollumSection = () => {
 
         <DivCenterTextGollum>
           <p>
-            {" "}
             Eles nos amaldiçoaram... Nos chamaram de assasino... Nos
             amaldiçoaram, e nos jogaram fora!... E nós choramos precioso; onde
             esta o tal assasino?... E nós esqueceu do gosto do pão, do barulho

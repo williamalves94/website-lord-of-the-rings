@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import React, { useState } from "react";
-import { Head, NavHeader, LogoImg } from "../styles/header-style";
+import { Head, NavHeader, LogoImg, MenuIcon } from "../styles/header-style";
 import LogoMain from "../assets/logosf.png";
 import { BiMenu } from "react-icons/bi";
 
@@ -13,7 +13,9 @@ export const HeaderSection = ({ handleOpenModal }) => {
       <LogoImg>
         <img src={LogoMain} />
       </LogoImg>
-
+      <MenuIcon>
+        <BiMenu />
+      </MenuIcon>
       <NavHeader>
         <Link to="/">
           <a>Terra Média</a>

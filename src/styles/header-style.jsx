@@ -23,6 +23,22 @@ export const Head = styled.header`
   }
 `;
 
+export const MenuIcon = styled.menu`
+  font-size: 40px;
+  //display: flex;
+  margin-right: 20px;
+  color: #f2ca53;
+  display: none;
+  cursor: pointer;
+  :hover {
+    color: #d4af37;
+    transition: all.3s;
+  }
+  @media (max-width: 480px) {
+    display: flex;
+  }
+`;
+
 export const NavHeader = styled.header`
   margin-right: 100px;
   display: flex;
@@ -124,6 +140,13 @@ export const LogoImg = styled.div`
       width: 300px;
       margin-left: 50px;
       align-items: center;
+      display: flex;
+    }
+
+    @media (max-width: 480px) {
+      width: 250px;
+      align-items: center;
+      margin-left: 20px;
       display: flex;
     }
   }
