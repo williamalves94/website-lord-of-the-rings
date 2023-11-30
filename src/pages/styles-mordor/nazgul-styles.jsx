@@ -8,6 +8,8 @@ export const Nazgul = styled.div`
 `;
 
 export const NazgulImageMain = styled.div`
+  display: flex;
+  justify-content: flex-end;
   img {
     width: 100%;
     height: 100vh;
@@ -18,10 +20,9 @@ export const NazgulImageMain = styled.div`
 export const TitleNasgul = styled.div`
   display: flex;
   align-items: center;
-  justify-self: flex-end;
   position: absolute;
+  margin-right: 200px;
   height: 100vh;
-  margin-left: 100px;
   .title-nazgul {
     font-size: 220px;
     color: #000;

@@ -11,7 +11,7 @@ export const Modal = styled.div`
   justify-content: center;
   position: absolute;
   position: fixed;
-  z-index: 999;
+  z-index: 1000;
   img {
     width: 1200px;
     height: 850px;

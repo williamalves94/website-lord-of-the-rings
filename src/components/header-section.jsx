@@ -12,7 +12,7 @@ export const HeaderSection = ({ handleOpenModal }) => {
   return (
     <Head>
       <LogoImg>
-        <img src={LogoMain} />
+        <img src={LogoMain} href="#" />
       </LogoImg>
       <MenuIcon>
         <BiMenu onClick={showSidebar} />

@@ -7,6 +7,7 @@ export const DivSidebar = styled.div`
   justify-content: center;
   align-items: center;
   position: fixed;
+  z-index: 999;
   height: 8%;
   top: 100px;
   width: 100%;

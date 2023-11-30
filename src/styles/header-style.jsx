@@ -4,7 +4,8 @@ export const Head = styled.header`
   width: 100%;
   height: 100px;
   border-bottom: 2px solid #f2ca53;
-  //z-index: 100;
+  z-index: 999;
+  position: fixed;
   background-color: black; //1f242d
   color: white;
   display: flex;
@@ -121,6 +122,7 @@ export const LogoImg = styled.div`
     margin-left: 80px;
     align-items: center;
     display: flex;
+    cursor: pointer;
 
     @media (max-width: 1250px) {
       width: 330px;
