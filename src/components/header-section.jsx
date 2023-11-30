@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { Head, NavHeader, LogoImg, MenuIcon } from "../styles/header-style";
 import LogoMain from "../assets/logosf.png";
 import { BiMenu } from "react-icons/bi";
+import { SidebarSection } from "./sidebar";
 
 export const HeaderSection = ({ handleOpenModal }) => {
   const [sidebar, setSidebar] = useState(false);
@@ -14,8 +15,10 @@ export const HeaderSection = ({ handleOpenModal }) => {
         <img src={LogoMain} />
       </LogoImg>
       <MenuIcon>
-        <BiMenu />
+        <BiMenu onClick={showSidebar} />
+        {sidebar && <SidebarSection active={setSidebar} />}
       </MenuIcon>
+
       <NavHeader>
         <Link to="/">
           <a>Terra Média</a>
