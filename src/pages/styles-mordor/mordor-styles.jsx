@@ -24,10 +24,65 @@ export const TitleMordor = styled.div`
   position: absolute;
   height: 100vh;
   margin-left: 100px;
+  @media (max-width: 1599px) {
+    margin-top: -50px;
+  }
+  @media (max-width: 1349px) {
+    margin-top: -80px;
+    margin-left: 70px;
+  }
+  @media (max-width: 1249px) {
+    margin-top: -100px;
+    margin-left: 70px;
+  }
+  @media (max-width: 1200px) {
+    margin-top: -150px;
+    margin-left: 70px;
+  }
+  @media (max-width: 1150px) {
+    margin-top: -170px;
+    margin-left: 70px;
+  }
+  @media (max-width: 1024px) {
+    margin-top: -190px;
+    margin-left: 50px;
+  }
+  @media (max-width: 950px) {
+    margin-top: -220px;
+    margin-left: 50px;
+  }
+  @media (max-width: 950px) {
+    margin-top: -250px;
+    margin-left: 50px;
+  }
 
   .title-mordor {
     font-size: 220px;
     color: #f2ca53;
+    @media (max-width: 1599px) {
+      font-size: 210px;
+    }
+    @media (max-width: 1349px) {
+      font-size: 200px;
+    }
+    @media (max-width: 1249px) {
+      font-size: 180px;
+    }
+    @media (max-width: 1200px) {
+      font-size: 170px;
+    }
+    @media (max-width: 1150px) {
+      font-size: 150px;
+    }
+    @media (max-width: 1024px) {
+      font-size: 130px;
+    }
+    @media (max-width: 950px) {
+      font-size: 120px;
+    }
+    @media (max-width: 850px) {
+      font-size: 110px;
+    }
   }
 `;
 
