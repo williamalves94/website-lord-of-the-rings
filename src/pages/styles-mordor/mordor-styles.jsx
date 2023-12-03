@@ -1,8 +1,11 @@
 import styled from "styled-components";
 
 export const MordorImageMain = styled.div`
-  background-color: #111111;
+  background-color: #141414;
+  border-top: 2px solid #f2ca53;
   border-bottom: 2px solid #f2ca53;
+  margin-top: -6px;
+
   img {
     width: 100%;
     height: 100vh;
@@ -15,6 +18,9 @@ export const MainImageEagle = styled.div`
   img {
     width: 100%;
     height: auto;
+    @media (max-width: 480px) {
+      margin-top: 90px;
+    }
   }
 `;
 
@@ -55,6 +61,10 @@ export const TitleMordor = styled.div`
     margin-top: -250px;
     margin-left: 50px;
   }
+  @media (max-width: 480px) {
+    margin-top: -300px;
+    margin-left: 30px;
+  }
 
   .title-mordor {
     font-size: 220px;
@@ -82,6 +92,12 @@ export const TitleMordor = styled.div`
     }
     @media (max-width: 850px) {
       font-size: 110px;
+    }
+    @media (max-width: 850px) {
+      font-size: 110px;
+    }
+    @media (max-width: 480px) {
+      font-size: 60px;
     }
   }
 `;
