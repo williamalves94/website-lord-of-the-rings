@@ -38,6 +38,25 @@ export const DivTags = styled.div`
       color: #d4af37;
       transition: all.3s;
     }
+    @media (max-width: 459px) {
+      font-size: 35px;
+      margin: 0 17px 0 17px;
+    }
+    @media (max-width: 442px) {
+      font-size: 35px;
+      margin: 0 16px 0 16px;
+    }
+    @media (max-width: 436px) {
+      font-size: 34px;
+      margin: 0 15px 0 15px;
+    }
+    @media (max-width: 419px) {
+      font-size: 33px;
+      margin: 0 15px 0 15px;
+    }
+    @media (max-width: 419px) {
+      font-size: 32px;
+    }
   }
   p {
     color: #f2ca53;
@@ -48,19 +67,29 @@ export const DivTags = styled.div`
       color: #d4af37;
       transition: all.3s;
     }
+    @media (max-width: 442px) {
+      font-size: 35px;
+    }
     @media (max-width: 400px) {
       font-size: 35px;
-      margin: 0 18px 0 18px;
+    }
+
+    @media (max-width: 436px) {
+      font-size: 34px;
+    }
+    @media (max-width: 419px) {
+      font-size: 32px;
+    }
+    @media (max-width: 419px) {
+      font-size: 33px;
     }
 
     @media (max-width: 320px) {
       font-size: 35px;
-      margin: 0 12px 0 12px;
     }
 
     @media (max-width: 310px) {
       font-size: 30px;
-      margin: 0 15px 0 15px;
     }
   }
 `;
