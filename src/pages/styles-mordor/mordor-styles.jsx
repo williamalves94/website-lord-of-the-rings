@@ -2,9 +2,8 @@ import styled from "styled-components";
 
 export const MordorImageMain = styled.div`
   background-color: #141414;
-  border-top: 2px solid #f2ca53;
   border-bottom: 2px solid #f2ca53;
-  margin-top: -6px;
+  margin-top: -8px;
 
   img {
     width: 100%;

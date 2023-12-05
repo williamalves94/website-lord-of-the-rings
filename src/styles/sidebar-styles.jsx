@@ -27,11 +27,22 @@ export const DivSidebar = styled.div`
 `;
 
 export const DivTags = styled.div`
+  display: flex;
   a {
     color: #f2ca53;
     font-size: 34px;
     cursor: pointer;
-    margin: 0 25px 0 25px;
+    margin: 0 20px 0 20px;
+    text-decoration: none;
+    :hover {
+      color: #d4af37;
+      transition: all.3s;
+    }
+  }
+  p {
+    color: #f2ca53;
+    font-size: 34px;
+    cursor: pointer;
     text-decoration: none;
     :hover {
       color: #d4af37;
