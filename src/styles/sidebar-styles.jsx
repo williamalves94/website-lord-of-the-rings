@@ -54,8 +54,14 @@ export const DivTags = styled.div`
       font-size: 33px;
       margin: 0 15px 0 15px;
     }
-    @media (max-width: 419px) {
+    @media (max-width: 410px) {
       font-size: 32px;
+    }
+    @media (max-width: 403px) {
+      font-size: 31px;
+    }
+    @media (max-width: 393px) {
+      font-size: 30px;
     }
   }
   p {
@@ -80,16 +86,22 @@ export const DivTags = styled.div`
     @media (max-width: 419px) {
       font-size: 32px;
     }
-    @media (max-width: 419px) {
-      font-size: 33px;
+    @media (max-width: 410px) {
+      font-size: 32px;
     }
-
-    @media (max-width: 320px) {
-      font-size: 35px;
+    @media (max-width: 403px) {
+      font-size: 31px;
     }
-
-    @media (max-width: 310px) {
+    @media (max-width: 393px) {
       font-size: 30px;
+
+      @media (max-width: 320px) {
+        font-size: 35px;
+      }
+
+      @media (max-width: 310px) {
+        font-size: 30px;
+      }
     }
   }
 `;
