@@ -50,6 +50,15 @@ export const TitleRing = styled.div`
       font-size: 35px;
       margin: 5px 0px 0px 10px;
     }
+    @media (max-width: 461px) {
+      font-size: 30px;
+    }
+    @media (max-width: 415px) {
+      font-size: 30px;
+    }
+    @media (max-width: 365px) {
+      font-size: 30px;
+    }
   }
   .text-ring {
     color: #f2ca53;
@@ -92,6 +101,15 @@ export const TitleRing = styled.div`
     @media (max-width: 480px) {
       font-size: 17px;
       margin: 0px 0px 0px 10px;
+    }
+    @media (max-width: 461px) {
+      font-size: 15px;
+    }
+    @media (max-width: 415px) {
+      font-size: 13px;
+    }
+    @media (max-width: 365px) {
+      font-size: 11px;
     }
   }
 `;

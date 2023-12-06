@@ -63,6 +63,9 @@ export const DivTags = styled.div`
     @media (max-width: 393px) {
       font-size: 30px;
     }
+    @media (max-width: 375px) {
+      font-size: 28px;
+    }
   }
   p {
     color: #f2ca53;
@@ -94,14 +97,15 @@ export const DivTags = styled.div`
     }
     @media (max-width: 393px) {
       font-size: 30px;
-
-      @media (max-width: 320px) {
-        font-size: 35px;
-      }
-
-      @media (max-width: 310px) {
-        font-size: 30px;
-      }
+    }
+    @media (max-width: 375px) {
+      font-size: 28px;
+    }
+    @media (max-width: 320px) {
+      font-size: 35px;
+    }
+    @media (max-width: 310px) {
+      font-size: 30px;
     }
   }
 `;
