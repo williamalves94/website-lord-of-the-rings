@@ -148,6 +148,31 @@ export const RingText = styled.div`
     @media (max-width: 480px) {
       font-size: 20px;
     }
+    @media (max-width: 1200px) {
+      margin-top: -40px;
+      font-size: 23px;
+    }
+
+    @media (max-width: 1167px) {
+      margin-top: -40px;
+      font-size: 23px;
+    }
+    @media (max-width: 1096px) {
+      margin-top: -40px;
+      font-size: 21px;
+    }
+    @media (max-width: 1011px) {
+      margin-top: -40px;
+      font-size: 19px;
+    }
+    @media (max-width: 921px) {
+      margin-top: -40px;
+      font-size: 16px;
+    }
+    @media (max-width: 795px) {
+      margin-top: -30px;
+      font-size: 15px;
+    }
   }
 `;
 
@@ -181,6 +206,43 @@ export const DivGloveRingText = styled.div`
   p {
     color: #f2ca53;
     font-size: 35px;
+    @media (max-width: 1200px) {
+      margin-top: -40px;
+      font-size: 26px;
+    }
+
+    @media (max-width: 1167px) {
+      margin-top: -40px;
+      font-size: 23px;
+    }
+    @media (max-width: 1096px) {
+      margin-top: -40px;
+      font-size: 23px;
+    }
+    @media (max-width: 1011px) {
+      margin-top: -40px;
+      font-size: 23px;
+    }
+    @media (max-width: 921px) {
+      margin-top: -40px;
+      font-size: 22px;
+    }
+    @media (max-width: 900px) {
+      margin-top: -40px;
+      font-size: 20px;
+    }
+    @media (max-width: 817px) {
+      margin-top: -40px;
+      font-size: 18px;
+    }
+    @media (max-width: 795px) {
+      margin-top: -30px;
+      font-size: 18px;
+    }
+    @media (max-width: 769px) {
+      margin-top: -30px;
+      font-size: 18px;
+    }
     @media (max-width: 480px) {
       font-size: 20px;
     }

@@ -20,28 +20,25 @@ export const TitleGollum = styled.div`
     font-size: 80px;
     color: #9bb8cc;
     margin: 100px 0 0 70px;
-    @media (max-width: 1350px) {
+    @media (max-width: 1200px) {
       font-size: 65px;
-      margin-top: 70px;
+      margin-top: 160px;
     }
-
-    @media (max-width: 1125px) {
-      font-size: 60px;
-    }
-
-    @media (max-width: 1025px) {
-      font-size: 56px;
-    }
-
     @media (max-width: 930px) {
-      font-size: 47px;
-      margin-top: 40px;
-      margin-left: 40px;
+      font-size: 65px;
+      margin-top: 140px;
+      margin-left: 35px;
     }
 
     @media (max-width: 830px) {
-      font-size: 45px;
-      margin-top: 30px;
+      font-size: 65px;
+      margin-top: 120px;
+      margin-left: 35px;
+    }
+    @media (max-width: 769px) {
+      font-size: 65px;
+      margin-top: 120px;
+      margin-left: 35px;
     }
     @media (max-width: 480px) {
       font-size: 35px;
