@@ -41,10 +41,7 @@ export const GollumSection = () => {
             possuir O Um Anel. Smeagol tinha cerca de 589 anos quando morreu,
             uma idade notável para uma criatura que já foi um Hobbit, mas ele
             havia sido deformado e distorcido em corpo e mente pela corrupção do
-            Anel. Seu principal desejo era reaver o Anel que o escravizou, e ele
-            o perseguiu por muitos anos depois que Bilbo Bolseiro encontrou na
-            caverna de Gollum nas Montanhas Sombrias. Inadvertidamente, Gollum
-            desempenharia um papel vital na derradeira Busca do Anel.
+            Anel.
           </p>
         </DivTextGollum>
       </DivImageAndTextgollum>
@@ -56,11 +53,15 @@ export const GollumSection = () => {
 
         <DivCenterTextGollum>
           <p>
-            Eles nos amaldiçoaram... Nos chamaram de assasino... Nos
-            amaldiçoaram, e nos jogaram fora!... E nós choramos precioso; onde
-            esta o tal assasino?... E nós esqueceu do gosto do pão, do barulho
-            das árvores ao redor do vento... <br></br> E nós esqueceu até: do
-            nosso nome... Meeeu preecioooooso...
+            Seu principal desejo era reaver o Anel que o escravizou, e ele o
+            perseguiu por muitos anos depois que Bilbo Bolseiro encontrou na
+            caverna de Gollum nas Montanhas Sombrias. Inadvertidamente, Gollum
+            desempenharia um papel vital na derradeira Busca do Anel. Eles nos
+            amaldiçoaram... Nos chamaram de assasino... Nos amaldiçoaram, e nos
+            jogaram fora!... E nós choramos precioso; onde esta o tal
+            assasino?... E nós esqueceu do gosto do pão, do barulho das árvores
+            ao redor do vento... <br></br> E nós esqueceu até: do nosso nome...
+            Meeeu preecioooooso...
           </p>
         </DivCenterTextGollum>
 
