@@ -101,6 +101,9 @@ export const DivImageAndTextgollum = styled.div`
 export const DivImageGollum = styled.div`
   flex: 1;
   padding: 0 0 0 20px;
+  @media (max-width: 480px) {
+    padding: 0px;
+  }
   img {
     width: 100%;
     border: 2px solid #9bb8cc;
@@ -147,6 +150,7 @@ export const DivTextGollum = styled.div`
   @media (max-width: 480px) {
     font-size: 20px;
     padding: 15px;
+    margin-top: 0px;
   }
 `;
 

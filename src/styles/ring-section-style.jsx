@@ -145,9 +145,7 @@ export const RingText = styled.div`
   p {
     color: #f2ca53;
     font-size: 35px;
-    @media (max-width: 480px) {
-      font-size: 20px;
-    }
+
     @media (max-width: 1200px) {
       margin-top: -40px;
       font-size: 23px;
@@ -172,6 +170,10 @@ export const RingText = styled.div`
     @media (max-width: 795px) {
       margin-top: -30px;
       font-size: 15px;
+    }
+    @media (max-width: 480px) {
+      font-size: 20px;
+      margin-top: 0px;
     }
   }
 `;
@@ -245,6 +247,7 @@ export const DivGloveRingText = styled.div`
     }
     @media (max-width: 480px) {
       font-size: 20px;
+      margin-top: 0px;
     }
   }
 `;
