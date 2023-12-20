@@ -104,6 +104,9 @@ export const TitleMordor = styled.div`
 export const DivImgAndTextMordorOne = styled.div`
   display: flex;
   background-color: #111111;
+  @media (max-width: 480px) {
+    flex-direction: column;
+  }
 `;
 
 export const ImageMordorOne = styled.div`
@@ -153,15 +156,15 @@ export const DivTextOne = styled.div`
     @media (max-width: 750px) {
       font-size: 14px;
     }
-    @media (max-width: 480px) {
-      font-size: 8px;
-    }
   }
 `;
 
 export const DivImgAndTextMordorTwo = styled.div`
   display: flex;
   background-color: #111111;
+  @media (max-width: 480px) {
+    flex-direction: column;
+  }
 `;
 
 export const ImageMordorTwo = styled.div`
@@ -184,6 +187,33 @@ export const DivTextTwo = styled.div`
   p {
     color: #f2ca53;
     font-size: 38px;
+    @media (max-width: 1829px) {
+      font-size: 30px;
+    }
+    @media (max-width: 1473px) {
+      font-size: 28px;
+    }
+    @media (max-width: 1381px) {
+      font-size: 25px;
+    }
+    @media (max-width: 1244px) {
+      font-size: 22px;
+    }
+    @media (max-width: 1110px) {
+      font-size: 20px;
+    }
+    @media (max-width: 1025px) {
+      font-size: 18px;
+    }
+    @media (max-width: 930px) {
+      font-size: 16px;
+    }
+    @media (max-width: 840px) {
+      font-size: 14px;
+    }
+    @media (max-width: 750px) {
+      font-size: 14px;
+    }
   }
 `;
 
@@ -211,5 +241,32 @@ export const TextMountain = styled.div`
   p {
     color: #f2ca53;
     font-size: 38px;
+    @media (max-width: 1829px) {
+      font-size: 30px;
+    }
+    @media (max-width: 1473px) {
+      font-size: 28px;
+    }
+    @media (max-width: 1381px) {
+      font-size: 25px;
+    }
+    @media (max-width: 1244px) {
+      font-size: 22px;
+    }
+    @media (max-width: 1110px) {
+      font-size: 20px;
+    }
+    @media (max-width: 1025px) {
+      font-size: 18px;
+    }
+    @media (max-width: 930px) {
+      font-size: 16px;
+    }
+    @media (max-width: 840px) {
+      font-size: 14px;
+    }
+    @media (max-width: 750px) {
+      font-size: 14px;
+    }
   }
 `;
