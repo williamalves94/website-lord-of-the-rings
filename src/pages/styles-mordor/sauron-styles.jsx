@@ -21,6 +21,9 @@ export const DivImgAndTextSauron = styled.div`
   background-color: #111111;
   padding: 30px;
   margin-top: 20px;
+  @media (max-width: 480px) {
+    flex-direction: column;
+  }
 `;
 
 export const DivImgSauron = styled.div`
@@ -35,10 +38,10 @@ export const DivImgSauron = styled.div`
 `;
 
 export const DivTextSauron = styled.div`
-  flex: 2;
+  flex: 1;
   font-size: 38px;
   color: #f2ca52;
-  padding: 40px;
+  padding: 30px;
   p {
     @media (max-width: 1600px) {
       font-size: 35px;
@@ -65,7 +68,7 @@ export const DivTextSauron = styled.div`
       font-size: 14px;
     }
     @media (max-width: 480px) {
-      font-size: 5px;
+      font-size: 14px;
     }
   }
 `;
@@ -73,6 +76,9 @@ export const DivTextSauron = styled.div`
 export const DivThreeImgSauron = styled.div`
   display: flex;
   width: 100%;
+  @media (max-width: 480px) {
+    flex-direction: column;
+  }
 `;
 
 export const ImageSauron = styled.div`

@@ -35,33 +35,32 @@ export const TitleMordor = styled.div`
     margin-top: 220px;
     margin-left: ;
     color: #f2ca53;
+
     @media (max-width: 1599px) {
       font-size: 210px;
       margin-top: -320px;
     }
-    @media (max-width: 1349px) {
-      font-size: 200px;
+    @media (max-width: 1460px) {
+      font-size: 160px;
+      margin-top: -440px;
     }
-    @media (max-width: 1249px) {
-      font-size: 180px;
-    }
-    @media (max-width: 1200px) {
-      font-size: 170px;
-    }
-    @media (max-width: 1150px) {
+    @media (max-width: 1250px) {
       font-size: 150px;
+      margin-top: -560px;
+      margin-left: -50px;
     }
-    @media (max-width: 1024px) {
-      font-size: 130px;
-    }
-    @media (max-width: 950px) {
+    @media (max-width: 1070px) {
       font-size: 120px;
+      margin-top: -670px;
     }
-    @media (max-width: 850px) {
+    @media (max-width: 930px) {
       font-size: 110px;
+      margin-top: -750px;
+      margin-left: -70px;
     }
-    @media (max-width: 850px) {
-      font-size: 110px;
+    @media (max-width: 830px) {
+      font-size: 95px;
+      margin-top: -810px;
     }
     @media (max-width: 480px) {
       font-size: 60px;
