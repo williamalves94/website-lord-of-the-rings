@@ -27,6 +27,50 @@ export const TitleNasgul = styled.div`
   .title-nazgul {
     font-size: 200px;
     color: #000;
+    @media (max-width: 1690px) {
+      font-size: 180px;
+      margin-top: -40px;
+    }
+    @media (max-width: 1534px) {
+      font-size: 170px;
+      margin-top: -70px;
+      margin-right: -80px;
+    }
+    @media (max-width: 1400px) {
+      font-size: 150px;
+      margin-top: -70px;
+      margin-right: -80px;
+    }
+    @media (max-width: 1230px) {
+      font-size: 130px;
+      margin-top: -100px;
+      margin-right: -120px;
+    }
+    @media (max-width: 1100px) {
+      font-size: 100px;
+      margin-top: -120px;
+      margin-right: -160px;
+    }
+    @media (max-width: 900px) {
+      font-size: 100px;
+      margin-top: -150px;
+      margin-right: -160px;
+    }
+    @media (max-width: 790px) {
+      font-size: 90px;
+      margin-top: -170px;
+      margin-right: -180px;
+    }
+    @media (max-width: 769px) {
+      font-size: 90px;
+      margin-top: -170px;
+      margin-right: -180px;
+    }
+    @media (max-width: 480px) {
+      font-size: 60px;
+      margin-top: -200px;
+      margin-right: -250px;
+    }
   }
 `;
 
