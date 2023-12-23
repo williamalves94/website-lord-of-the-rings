@@ -12,19 +12,20 @@ export const NazgulImageMain = styled.div`
   justify-content: flex-end;
   img {
     width: 100%;
-    height: 100vh;
+    height: auto;
     border-bottom: 2px solid gray;
   }
 `;
 
 export const TitleNasgul = styled.div`
   display: flex;
-  align-items: center;
+  //align-items: center;
   position: absolute;
-  margin-right: 200px;
+  margin-top: 280px;
+  margin-right: 250px;
   height: 100vh;
   .title-nazgul {
-    font-size: 220px;
+    font-size: 200px;
     color: #000;
   }
 `;

@@ -187,7 +187,11 @@ export const DivTextTwo = styled.div`
 export const Mountain = styled.div`
   display: flex;
   background-color: #111111;
+  @media (max-width: 480px) {
+    flex-direction: column;
+  }
 `;
+
 export const ImgMountain = styled.div`
   padding: 20px 20px 40px 20px;
   background-color: #111111;
@@ -199,6 +203,7 @@ export const ImgMountain = styled.div`
     border: 2px solid #f2ca53;
   }
 `;
+
 export const TextMountain = styled.div`
   display: flex;
   align-items: center;
@@ -234,6 +239,10 @@ export const TextMountain = styled.div`
     }
     @media (max-width: 750px) {
       font-size: 14px;
+    }
+    @media (max-width: 480px) {
+      font-size: 14px;
+      padding: 0 0 20px 0;
     }
   }
 `;
