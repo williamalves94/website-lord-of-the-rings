@@ -8,7 +8,7 @@ export const Orcs = styled.section`
 export const OrcsImageMain = styled.div`
   img {
     width: 100%;
-    height: 100vh;
+    height: auto;
     border-bottom: 2px solid #f2ca53;
   }
 `;

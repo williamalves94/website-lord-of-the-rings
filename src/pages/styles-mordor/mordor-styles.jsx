@@ -25,45 +25,47 @@ export const MainImageEagle = styled.div`
 
 export const TitleMordor = styled.div`
   display: flex;
-  align-items: center;
+  //align-items: center;
   position: absolute;
   height: 100vh;
+  margin-top: 420px;
   margin-left: 120px;
 
   .title-mordor {
     font-size: 220px;
-    margin-top: 220px;
-    margin-left: ;
     color: #f2ca53;
-
     @media (max-width: 1599px) {
-      font-size: 210px;
-      margin-top: -320px;
+      font-size: 200px;
+      //margin-top: -320px;
     }
     @media (max-width: 1460px) {
-      font-size: 160px;
-      margin-top: -440px;
+      font-size: 180px;
+      margin-top: -100px;
     }
-    @media (max-width: 1250px) {
-      font-size: 150px;
-      margin-top: -560px;
+    @media (max-width: 1300px) {
+      font-size: 160px;
+      margin-top: -130px;
       margin-left: -50px;
     }
-    @media (max-width: 1070px) {
+    @media (max-width: 1155px) {
+      font-size: 140px;
+      margin-top: -160px;
+    }
+    @media (max-width: 960px) {
       font-size: 120px;
-      margin-top: -670px;
+      margin-top: -180px;
     }
-    @media (max-width: 930px) {
-      font-size: 110px;
-      margin-top: -750px;
-      margin-left: -70px;
+    @media (max-width: 890px) {
+      font-size: 100px;
+      margin-top: -200px;
     }
-    @media (max-width: 830px) {
-      font-size: 95px;
-      margin-top: -810px;
+    @media (max-width: 780px) {
+      font-size: 90px;
+      margin-top: -220px;
     }
     @media (max-width: 480px) {
       font-size: 60px;
+      margin-left: -90px;
     }
   }
 `;

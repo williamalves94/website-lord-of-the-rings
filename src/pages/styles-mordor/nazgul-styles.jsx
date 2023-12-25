@@ -76,6 +76,9 @@ export const TitleNasgul = styled.div`
 
 export const DivImageAndTextNazgul = styled.div`
   display: flex;
+  @media (max-width: 480px) {
+    flex-direction: column;
+  }
 `;
 
 export const DivImageNazgul = styled.div`
@@ -94,12 +97,42 @@ export const DivTextNazgul = styled.div`
     color: gray;
     font-size: 36px;
     padding: 40px;
+    @media (max-width: 1840px) {
+      font-size: 30px;
+    }
+    @media (max-width: 1550px) {
+      font-size: 27px;
+    }
+    @media (max-width: 1415px) {
+      font-size: 24px;
+    }
+    @media (max-width: 1260px) {
+      font-size: 21px;
+    }
+    @media (max-width: 1121px) {
+      font-size: 18px;
+    }
+    @media (max-width: 989px) {
+      font-size: 16px;
+    }
+    @media (max-width: 900px) {
+      font-size: 14px;
+    }
+    @media (max-width: 829px) {
+      font-size: 13px;
+    }
+    @media (max-width: 769px) {
+      font-size: 13px;
+    }
   }
 `;
 
 export const DivImageAndTextNazgulTwo = styled.div`
   display: flex;
   padding: 30px;
+  @media (max-width: 480px) {
+    flex-direction: column-reverse;
+  }
 `;
 
 export const DivImageNazgulTwo = styled.div`
@@ -118,12 +151,45 @@ export const DivTextNazgulTwo = styled.div`
     color: gray;
     font-size: 36px;
     padding: 40px;
+    @media (max-width: 1840px) {
+      font-size: 30px;
+    }
+    @media (max-width: 1557px) {
+      font-size: 27px;
+    }
+    @media (max-width: 1420px) {
+      font-size: 24px;
+    }
+    @media (max-width: 1310px) {
+      font-size: 21px;
+    }
+    @media (max-width: 1178px) {
+      font-size: 19px;
+    }
+    @media (max-width: 1073px) {
+      font-size: 17px;
+    }
+    @media (max-width: 1000px) {
+      font-size: 15px;
+    }
+    @media (max-width: 900px) {
+      font-size: 13px;
+    }
+    @media (max-width: 790px) {
+      font-size: 12px;
+    }
+    @media (max-width: 769px) {
+      font-size: 12px;
+    }
   }
 `;
 
 export const DivImageAndTextNazgulThree = styled.div`
   display: flex;
   padding: 30px;
+  @media (max-width: 480px) {
+    flex-direction: column;
+  }
 `;
 
 export const DivImageNazgulThree = styled.div`
@@ -142,12 +208,40 @@ export const DivTextNazgulThree = styled.div`
     color: gray;
     font-size: 36px;
     padding: 40px;
+    @media (max-width: 1655px) {
+      font-size: 32px;
+    }
+    @media (max-width: 1500px) {
+      font-size: 30px;
+    }
+    @media (max-width: 1425px) {
+      font-size: 27px;
+    }
+    @media (max-width: 1305px) {
+      font-size: 24px;
+    }
+    @media (max-width: 1189px) {
+      font-size: 21px;
+    }
+    @media (max-width: 1073px) {
+      font-size: 18px;
+    }
+    @media (max-width: 961px) {
+      font-size: 15px;
+    }
+    @media (max-width: 845px) {
+      font-size: 13px;
+    }
+    @media (max-width: 769px) {
+      font-size: 13px;
+    }
   }
 `;
 
 export const DivImageAndTextNazgulFour = styled.div`
   display: flex;
   padding: 30px;
+  flex-direction: column-reverse;
 `;
 
 export const DivImageNazgulFour = styled.div`
