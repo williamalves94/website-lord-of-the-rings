@@ -16,43 +16,49 @@ export const BalrogImageMain = styled.div`
 
 export const TitleBalrog = styled.div`
   display: flex;
-  align-items: center;
   position: absolute;
   height: 100vh;
+  margin-top: 380px;
   margin-left: 100px;
   .title-Balrog {
     font-size: 220px;
     color: #312c2c;
     @media (max-width: 1777px) {
       font-size: 210px;
-      margin-top: -320px;
+      margin-top: -100px;
     }
-    @media (max-width: 1449px) {
-      font-size: 160px;
-      margin-top: -490px;
+    @media (max-width: 1500px) {
+      font-size: 170px;
+      margin-top: -100px;
     }
-    @media (max-width: 1137px) {
+    @media (max-width: 1250px) {
+      font-size: 150px;
+      margin-top: -160px;
+      margin-left: -50px;
+    }
+    @media (max-width: 1138px) {
       font-size: 140px;
-      margin-top: -600px;
+      margin-top: -180px;
     }
     @media (max-width: 1035px) {
-      font-size: 120px;
-      margin-top: -700px;
+      font-size: 130px;
+      margin-top: -180px;
     }
-    @media (max-width: 1035px) {
+    @media (max-width: 860px) {
       font-size: 110px;
-      margin-top: -780px;
-      margin-left: -50px;
+      margin-top: -230px;
+      margin-left: -70px;
     }
-    @media (max-width: 770px) {
-      font-size: 100px;
-      margin-top: -850px;
-      margin-left: -50px;
+    @media (max-width: 769px) {
+      font-size: 110px;
+      margin-top: -230px;
+      margin-left: -70px;
     }
+
     @media (max-width: 480px) {
       font-size: 60px;
-      margin-top: -1040px;
-      margin-left: -70px;
+      margin-top: -290px;
+      margin-left: -80px;
     }
   }
 `;
