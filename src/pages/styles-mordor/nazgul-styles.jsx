@@ -22,7 +22,7 @@ export const TitleNasgul = styled.div`
   //align-items: center;
   position: absolute;
   margin-top: 280px;
-  margin-right: 250px;
+  margin-right: 230px;
   height: 100vh;
   .title-nazgul {
     font-size: 200px;
@@ -67,9 +67,9 @@ export const TitleNasgul = styled.div`
       margin-right: -180px;
     }
     @media (max-width: 480px) {
-      font-size: 60px;
+      font-size: 55px;
       margin-top: -200px;
-      margin-right: -250px;
+      margin-left: 20px;
     }
   }
 `;
@@ -260,5 +260,32 @@ export const DivTextNazgulFour = styled.div`
     color: gray;
     font-size: 36px;
     padding: 40px;
+    @media (max-width: 1655px) {
+      font-size: 32px;
+    }
+    @media (max-width: 1500px) {
+      font-size: 30px;
+    }
+    @media (max-width: 1425px) {
+      font-size: 27px;
+    }
+    @media (max-width: 1305px) {
+      font-size: 24px;
+    }
+    @media (max-width: 1189px) {
+      font-size: 21px;
+    }
+    @media (max-width: 1073px) {
+      font-size: 18px;
+    }
+    @media (max-width: 961px) {
+      font-size: 15px;
+    }
+    @media (max-width: 845px) {
+      font-size: 13px;
+    }
+    @media (max-width: 769px) {
+      font-size: 13px;
+    }
   }
 `;
