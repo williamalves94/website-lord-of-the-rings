@@ -71,6 +71,26 @@ export const TitleNasgul = styled.div`
       margin-top: -200px;
       margin-left: 20px;
     }
+    @media (max-width: 430px) {
+      font-size: 50px;
+      margin-top: -220px;
+      margin-left: 50px;
+    }
+    @media (max-width: 380px) {
+      font-size: 45px;
+      margin-top: -230px;
+      margin-left: 75px;
+    }
+    @media (max-width: 340px) {
+      font-size: 40px;
+      margin-top: -235px;
+      margin-left: 90px;
+    }
+    @media (max-width: 320px) {
+      font-size: 35px;
+      margin-top: -235px;
+      margin-left: 90px;
+    }
   }
 `;
 

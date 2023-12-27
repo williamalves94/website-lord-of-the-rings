@@ -52,13 +52,17 @@ export const NavHeader = styled.header`
     @media (max-width: 1250px) {
       font-size: 38px;
     }
-
     @media (max-width: 1100px) {
       font-size: 35px;
     }
-
     @media (max-width: 950px) {
       font-size: 33px;
+    }
+    @media (max-width: 850px) {
+      font-size: 31px;
+    }
+    @media (max-width: 785px) {
+      font-size: 30px;
     }
   }
 
@@ -78,17 +82,21 @@ export const NavHeader = styled.header`
       margin-right: 40px;
       margin-left: 40px;
     }
-
     @media (max-width: 1100px) {
       font-size: 35px;
       margin-right: 40px;
       margin-left: 40px;
     }
-
     @media (max-width: 950px) {
       font-size: 33px;
       margin-right: 30px;
       margin-left: 30px;
+    }
+    @media (max-width: 850px) {
+      font-size: 31px;
+    }
+    @media (max-width: 785px) {
+      font-size: 30px;
     }
   }
 
@@ -141,6 +149,12 @@ export const LogoImg = styled.div`
     @media (max-width: 950px) {
       width: 300px;
       margin-left: 50px;
+      align-items: center;
+      display: flex;
+    }
+    @media (max-width: 850px) {
+      width: 260px;
+      margin-left: 40px;
       align-items: center;
       display: flex;
     }

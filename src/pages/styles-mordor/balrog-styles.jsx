@@ -60,6 +60,21 @@ export const TitleBalrog = styled.div`
       margin-top: -290px;
       margin-left: -80px;
     }
+    @media (max-width: 450px) {
+      font-size: 55px;
+      margin-top: -305px;
+      margin-left: -80px;
+    }
+    @media (max-width: 380px) {
+      font-size: 45px;
+      margin-top: -315px;
+      margin-left: -80px;
+    }
+    @media (max-width: 330px) {
+      font-size: 40px;
+      margin-top: -320px;
+      margin-left: -85px;
+    }
   }
 `;
 
