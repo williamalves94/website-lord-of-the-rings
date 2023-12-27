@@ -59,27 +59,11 @@ export const LogoImg = styled.div`
     }
 
     @media (max-width: 480px) {
-      width: 250px;
+      width: 230px;
       align-items: center;
       margin-left: 20px;
       display: flex;
     }
-  }
-`;
-
-export const MenuIconMordor = styled.menu`
-  font-size: 40px;
-  //display: flex;
-  margin-right: 20px;
-  color: #f2ca53;
-  display: none;
-  cursor: pointer;
-  :hover {
-    color: #d4af37;
-    transition: all.3s;
-  }
-  @media (max-width: 480px) {
-    display: flex;
   }
 `;
 

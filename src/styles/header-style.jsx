@@ -25,7 +25,7 @@ export const Head = styled.header`
 `;
 
 export const MenuIcon = styled.menu`
-  font-size: 40px;
+  font-size: 37px;
   //display: flex;
   margin-right: 20px;
   color: #f2ca53;
@@ -160,7 +160,7 @@ export const LogoImg = styled.div`
     }
 
     @media (max-width: 480px) {
-      width: 250px;
+      width: 220px;
       align-items: center;
       margin-left: 20px;
       display: flex;
