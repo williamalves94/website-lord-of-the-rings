@@ -99,7 +99,7 @@ export const DivTextNazgul = styled.div`
   p {
     color: gray;
     font-size: 36px;
-    padding: 40px;
+    padding: 40px 40px 10px 40px;
     @media (max-width: 1840px) {
       font-size: 30px;
     }
@@ -132,9 +132,10 @@ export const DivTextNazgul = styled.div`
 
 export const DivImageAndTextNazgulTwo = styled.div`
   display: flex;
-  padding: 30px;
+  padding: 20px 20px 10px 20px;
   @media (max-width: 480px) {
     flex-direction: column-reverse;
+    margin-top: -20px;
   }
 `;
 
@@ -153,7 +154,7 @@ export const DivTextNazgulTwo = styled.div`
   p {
     color: gray;
     font-size: 36px;
-    padding: 40px;
+    padding: 40px 20px 20px 20px;
     @media (max-width: 1840px) {
       font-size: 30px;
     }
@@ -184,14 +185,18 @@ export const DivTextNazgulTwo = styled.div`
     @media (max-width: 769px) {
       font-size: 12px;
     }
+    @media (max-width: 480px) {
+      margin-top: -30px;
+    }
   }
 `;
 
 export const DivImageAndTextNazgulThree = styled.div`
   display: flex;
-  padding: 30px;
+  padding: 20px 20px 0px 20px;
   @media (max-width: 480px) {
     flex-direction: column;
+    margin-top: -40px;
   }
 `;
 
@@ -210,7 +215,7 @@ export const DivTextNazgulThree = styled.div`
   p {
     color: gray;
     font-size: 36px;
-    padding: 40px;
+    padding: 40px 20px 20px 20px;
     @media (max-width: 1655px) {
       font-size: 32px;
     }
@@ -238,13 +243,19 @@ export const DivTextNazgulThree = styled.div`
     @media (max-width: 769px) {
       font-size: 13px;
     }
+    @media (max-width: 480px) {
+      margin-top: -30px;
+    }
   }
 `;
 
 export const DivImageAndTextNazgulFour = styled.div`
   display: flex;
-  padding: 30px;
+  padding: 20px 20px 0px 20px;
   flex-direction: column-reverse;
+  @media (max-width: 480px) {
+    margin-top: -30px;
+  }
 `;
 
 export const DivImageNazgulFour = styled.div`
@@ -262,7 +273,7 @@ export const DivTextNazgulFour = styled.div`
   p {
     color: gray;
     font-size: 36px;
-    padding: 40px;
+    padding: 40px 20px 20px 20px;
     @media (max-width: 1655px) {
       font-size: 32px;
     }
@@ -289,6 +300,9 @@ export const DivTextNazgulFour = styled.div`
     }
     @media (max-width: 769px) {
       font-size: 13px;
+    }
+    @media (max-width: 480px) {
+      margin-top: -30px;
     }
   }
 `;

@@ -12,7 +12,8 @@ export const TitleSauron = styled.div`
   p {
     color: #f2ca52;
     font-size: 100px;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: -20px;
   }
 `;
 
@@ -24,7 +25,7 @@ export const DivImgAndTextSauron = styled.div`
   @media (max-width: 480px) {
     flex-direction: column;
     padding: 0px;
-    border: none;
+    border-top: 2px solid #f2ca52;
   }
 `;
 
@@ -40,6 +41,7 @@ export const DivImgSauron = styled.div`
       flex-direction: column;
       padding: 0px;
       border: none;
+      border-bottom: 2px solid #f2ca52;
     }
   }
 `;
