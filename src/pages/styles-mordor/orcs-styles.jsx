@@ -59,7 +59,7 @@ export const DivImagesOrcsAndTextOne = styled.div`
   display: flex;
   margin-top: 20px;
   background-color: #111111;
-  padding: 10px 20px 20px 20px;
+  padding: 0px 20px 20px 20px;
   @media (max-width: 480px) {
     flex-direction: column;
   }
