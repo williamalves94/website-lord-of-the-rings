@@ -49,7 +49,7 @@ export const TitleNasgul = styled.div`
     @media (max-width: 1100px) {
       font-size: 100px;
       margin-top: -120px;
-      margin-right: -160px;
+      margin-right: -100px;
     }
     @media (max-width: 900px) {
       font-size: 100px;
