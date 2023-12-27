@@ -23,6 +23,8 @@ export const DivImgAndTextSauron = styled.div`
   margin-top: 20px;
   @media (max-width: 480px) {
     flex-direction: column;
+    padding: 0px;
+    border: none;
   }
 `;
 
@@ -34,6 +36,11 @@ export const DivImgSauron = styled.div`
     height: auto;
     border: 2px solid #f2ca52;
     border-radius: 4px;
+    @media (max-width: 480px) {
+      flex-direction: column;
+      padding: 0px;
+      border: none;
+    }
   }
 `;
 
