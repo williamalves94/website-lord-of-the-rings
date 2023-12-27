@@ -16,7 +16,6 @@ export const OrcsImageMain = styled.div`
 export const TitleOrcs = styled.div`
   display: flex;
   position: absolute;
-  height: 100vh;
   margin-top: 400px;
   margin-left: 100px;
   .title-orcs {

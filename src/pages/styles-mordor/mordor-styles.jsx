@@ -4,7 +4,6 @@ export const MordorImageMain = styled.div`
   background-color: #141414;
   border-bottom: 2px solid #f2ca53;
   margin-top: -8px;
-
   img {
     width: 100%;
     height: 100vh;

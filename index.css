@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Poppins:wght@200;300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Poppins:wght@200;300&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Beau Rivage', cursive;
-    scroll-behavior: smooth;
-    ::-webkit-scrollbar{
-        width: 15px;        
-        background-color: black;        
-    }
-    ::-webkit-scrollbar-thumb{
-        background: linear-gradient(360deg,#000, #000, #F2CA53, #f0ce6b);
-        border-radius: 6px;
-    }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Beau Rivage", cursive;
+  scroll-behavior: smooth;
+  ::-webkit-scrollbar {
+    width: 15px;
+    background-color: black;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(360deg, #000, #000, #f2ca53, #f0ce6b);
+    border-radius: 6px;
+  }
 }

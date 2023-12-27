@@ -273,7 +273,7 @@ export const DivTextNazgulFour = styled.div`
   p {
     color: gray;
     font-size: 36px;
-    padding: 40px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
     @media (max-width: 1655px) {
       font-size: 32px;
     }
@@ -302,7 +302,7 @@ export const DivTextNazgulFour = styled.div`
       font-size: 13px;
     }
     @media (max-width: 480px) {
-      margin-top: -30px;
+      margin-top: -10px;
     }
   }
 `;
