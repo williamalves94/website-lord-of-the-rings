@@ -83,7 +83,7 @@ export const DivImageAndTextNazgul = styled.div`
 
 export const DivImageNazgul = styled.div`
   flex: 3;
-  padding: 40px 30px 30px 30px;
+  padding: 20px 20px 0px 20px;
   img {
     width: 100%;
     height: auto;
@@ -93,6 +93,9 @@ export const DivImageNazgul = styled.div`
 `;
 export const DivTextNazgul = styled.div`
   flex: 2;
+  @media (max-width: 769px) {
+    margin-top: -30px;
+  }
   p {
     color: gray;
     font-size: 36px;

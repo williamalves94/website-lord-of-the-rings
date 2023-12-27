@@ -46,7 +46,7 @@ export const SauronSection = () => {
           <img src={SauronTeste} />
         </ImageSauron>
 
-        <ImageSauron>
+        <ImageSauron className="image-three">
           <img src={Sauron3} />
         </ImageSauron>
       </DivThreeImgSauron>

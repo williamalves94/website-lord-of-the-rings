@@ -67,6 +67,16 @@ export const TitleMordor = styled.div`
       font-size: 60px;
       margin-left: -90px;
     }
+    @media (max-width: 414px) {
+      font-size: 50px;
+      margin-top: -230px;
+      margin-left: -90px;
+    }
+    @media (max-width: 375px) {
+      font-size: 50px;
+      margin-top: -250px;
+      margin-left: -90px;
+    }
   }
 `;
 
@@ -80,7 +90,7 @@ export const DivImgAndTextMordorOne = styled.div`
 
 export const ImageMordorOne = styled.div`
   background-color: #111111;
-  padding: 20px;
+  padding: 20px 20px 10px 20px;
   flex: 2;
   img {
     width: 100%;
@@ -125,6 +135,9 @@ export const DivTextOne = styled.div`
     @media (max-width: 750px) {
       font-size: 14px;
     }
+    @media (max-width: 480px) {
+      font-size: 14px;
+    }
   }
 `;
 
@@ -138,7 +151,7 @@ export const DivImgAndTextMordorTwo = styled.div`
 
 export const ImageMordorTwo = styled.div`
   background-color: #111111;
-  padding: 20px;
+  padding: 20px 20px 10px 20px;
   flex: 2;
   img {
     width: 100%;
@@ -195,7 +208,7 @@ export const Mountain = styled.div`
 `;
 
 export const ImgMountain = styled.div`
-  padding: 20px 20px 40px 20px;
+  padding: 20px 20px 10px 20px;
   background-color: #111111;
   flex: 2;
   img {
@@ -245,6 +258,7 @@ export const TextMountain = styled.div`
     @media (max-width: 480px) {
       font-size: 14px;
       padding: 0 0 20px 0;
+      //margin-top: -20px;
     }
   }
 `;

@@ -12,14 +12,14 @@ export const TitleSauron = styled.div`
   p {
     color: #f2ca52;
     font-size: 100px;
-    margin-top: 50px;
+    margin-top: 20px;
   }
 `;
 
 export const DivImgAndTextSauron = styled.div`
   display: flex;
   background-color: #111111;
-  padding: 30px;
+  padding: 0px 20px 10px 20px;
   margin-top: 20px;
   @media (max-width: 480px) {
     flex-direction: column;
@@ -41,7 +41,7 @@ export const DivTextSauron = styled.div`
   flex: 1;
   font-size: 38px;
   color: #f2ca52;
-  padding: 30px;
+  padding: 10px 20px 0px 20px;
   p {
     @media (max-width: 1600px) {
       font-size: 35px;
@@ -76,6 +76,11 @@ export const DivTextSauron = styled.div`
 export const DivThreeImgSauron = styled.div`
   display: flex;
   width: 100%;
+  .image-three {
+    @media (max-width: 480px) {
+      margin-bottom: 20px;
+    }
+  }
   @media (max-width: 480px) {
     flex-direction: column;
   }
@@ -84,9 +89,9 @@ export const DivThreeImgSauron = styled.div`
 export const ImageSauron = styled.div`
   display: flex;
   background-color: #111111;
-  padding: 20px;
+  padding: 10px 20px 10px 20px;
   border-radius: 4px;
-  padding: 30px 30px 50px 30px;
+  margin-bottom: 20px;
   img {
     width: 100%;
     border: 2px solid #f2ca52;
