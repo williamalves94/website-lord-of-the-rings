@@ -59,7 +59,7 @@ export const DivImagesOrcsAndTextOne = styled.div`
   display: flex;
   margin-top: 20px;
   background-color: #111111;
-  padding: 20px;
+  padding: 10px 20px 20px 20px;
   @media (max-width: 480px) {
     flex-direction: column;
   }
@@ -78,7 +78,7 @@ export const TextOrcs = styled.div`
   display: flex;
   align-items: center;
   font-size: 36px;
-  padding: 40px;
+  padding: 10px 20px 20px 20px;
   background-color: #111111;
   p {
     @media (max-width: 1812px) {

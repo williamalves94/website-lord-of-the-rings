@@ -65,7 +65,7 @@ export const TitleBalrog = styled.div`
 
 export const DivImgAndTextOne = styled.div`
   display: flex;
-  padding: 40px;
+  padding: 20px 20px 0 20px;
   @media (max-width: 480px) {
     flex-direction: column;
   }
@@ -88,7 +88,7 @@ export const DivTextBalrogOne = styled.div`
   p {
     color: #f2ca53;
     font-size: 36px;
-    padding: 40px;
+    padding: 10px 20px 0 20px;
     @media (max-width: 1476px) {
       font-size: 34px;
     }
@@ -118,9 +118,10 @@ export const DivTextBalrogOne = styled.div`
 
 export const DivImgAndTextTwo = styled.div`
   display: flex;
-  padding: 40px;
+  padding: 15px 20px 30px 20px;
   @media (max-width: 480px) {
     flex-direction: column-reverse;
+    padding: 15px 20px 0px 20px;
   }
 `;
 
@@ -140,7 +141,7 @@ export const DivTextBalrogTwo = styled.div`
   p {
     color: #f2ca53;
     font-size: 36px;
-    padding: 40px;
+    padding: 10px 20px 20px 20px;
     @media (max-width: 1516px) {
       font-size: 34px;
     }
