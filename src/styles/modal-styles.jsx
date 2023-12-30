@@ -3,24 +3,71 @@ import styled from "styled-components";
 export const Modal = styled.div`
   width: 100%;
   height: auto;
-  margin-top: 37px;
+  margin-top: 80px;
   //border: 2px solid yellow;
   color: #fff;
   display: flex;
-  align-items: center;
+  //align-items: center;
   justify-content: center;
   position: absolute;
   position: fixed;
   z-index: 1000;
   img {
-    width: 1200px;
-    height: 850px;
-    justify-content: flex-end;
+    //antes era 1200 por 850
+    width: 1150px;
+    height: 800px;
+    //justify-content: flex-end;
     //border: 2px solid #f2ca53;
+    @media (max-width: 1700px) {
+      width: 1100px;
+      height: 750px;
+    }
+    @media (max-width: 1500px) {
+      width: 1050px;
+      height: 700px;
+    }
+    @media (max-width: 1400px) {
+      width: 1000px;
+      height: 650px;
+    }
+    @media (max-width: 1300px) {
+      width: 950px;
+      height: 600px;
+    }
+    @media (max-width: 1200px) {
+      width: 900px;
+      height: 550px;
+    }
+    @media (max-width: 1100px) {
+      width: 850px;
+      height: 500px;
+    }
+    @media (max-width: 1000px) {
+      width: 800px;
+      height: 500px;
+    }
+    @media (max-width: 950px) {
+      width: 700px;
+      height: 420px;
+    }
+    @media (max-width: 900px) {
+      width: 650px;
+      height: 400px;
+    }
+    @media (max-width: 900px) {
+      width: 600px;
+      height: 370px;
+    }
+    @media (max-width: 480px) {
+      width: 330px;
+      height: 260px;
+    }
   }
   p {
-    justify-self: flex-start;
+    //justify-self: flex-end;
+
     height: 850px;
+    position: absolute;
     //border: 2px solid blue;
     color: #2c2315;
     font-size: 30px;

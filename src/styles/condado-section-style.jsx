@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Condado = styled.section`
   height: auto;
-  background-color: black;
+  background-color: #181818;
   padding: 60px 60px 40px 60px;
 
   p {
@@ -32,9 +32,10 @@ export const DivMain = styled.div`
   margin-top: 40px;
   display: flex;
   height: auto;
-  background-color: #141414; //201f1f
+  background-color: #181818; //0e0c0c
   flex-wrap: wrap;
-  border: 2px solid #f2ca53;
+  //border: 2px solid #f2ca53;
+  box-shadow: 12px 12px 20px 0px #00000086;
   border-radius: 4px;
 
   @media (max-width: 930px) {
@@ -48,6 +49,7 @@ export const DivImg = styled.div`
   img {
     width: 100%;
     height: auto;
+    border-radius: 4px 0px 0px 0px;
   }
 `;
 
@@ -56,7 +58,6 @@ export const DivText = styled.div`
   align-self: flex-start;
   padding: 10px;
   flex: 1;
-
   .title {
     justify-content: flex-start;
     color: #f2ca53;
@@ -126,10 +127,11 @@ export const ImageIn = styled.div`
   flex: 1 1 1;
   padding: 10px;
 
-  background-color: #141414;
+  background-color: #181818;
   img {
     width: 100%;
-    border: 2px solid #f2ca53;
+    //border: 2px solid #f2ca53;
     border-radius: 4px;
+    box-shadow: 12px 12px 20px 0px #0000008f;
   }
 `;
