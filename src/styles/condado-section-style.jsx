@@ -35,7 +35,7 @@ export const DivMain = styled.div`
   background-color: #181818; //0e0c0c
   flex-wrap: wrap;
   //border: 2px solid #f2ca53;
-  box-shadow: 12px 12px 20px 0px #00000086;
+  box-shadow: 12px 12px 20px 0px #00000085; //00000086
   border-radius: 4px;
 
   @media (max-width: 930px) {
@@ -132,6 +132,6 @@ export const ImageIn = styled.div`
     width: 100%;
     //border: 2px solid #f2ca53;
     border-radius: 4px;
-    box-shadow: 12px 12px 20px 0px #0000008f;
+    box-shadow: 12px 12px 20px 0px #0000009e;
   }
 `;

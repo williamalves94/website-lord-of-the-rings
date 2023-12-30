@@ -8,13 +8,13 @@ export const Fellowship = styled.section`
 
   @media (max-width: 480px) {
     flex-direction: column;
-    padding: 15px 15px 15px 15px;
+    padding: 15px 20px 15px 20px;
   }
 `;
 
 export const DivMainFellowship = styled.div`
   height: auto;
-  background-color: #0e0c0c; //201f1f
+  background-color: #181818; //201f1f
   flex-wrap: wrap;
   display: flex;
   //border: 2px solid #f2ca53;
@@ -23,6 +23,7 @@ export const DivMainFellowship = styled.div`
   margin-bottom: 25px;
   @media (max-width: 480px) {
     flex-direction: column;
+    //padding: 0px 20px 0 20px; FICOU DAORA DESSE JEITO
   }
 `;
 
