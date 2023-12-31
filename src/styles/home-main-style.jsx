@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Home = styled.section`
-  background-color: black;
+  background-color: #1d1d1d;
   height: 100%;
 
   p {

@@ -14,7 +14,7 @@ import Condado3 from "../assets/condadoimgs/condado3.jpg";
 export const CondadoSection = () => {
   return (
     <Condado>
-      <p>Terra Média</p>
+      <p className="title-page">Terra Média</p>
       <DivMain>
         <DivImg>
           <img src={CondadoMain} />

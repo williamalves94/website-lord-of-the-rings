@@ -2,15 +2,15 @@ import styled from "styled-components";
 
 export const Gollum = styled.section`
   height: auto;
-  background-color: #141414;
+  background-color: #1d1d1d;
 `;
 
 export const ImageGollumMain = styled.div`
   img {
     width: 100%;
     height: auto;
-    border-bottom: 2px solid #9bb8cc;
     border-top: 2px solid #9bb8cc;
+    border-bottom: 2px solid #9bb8cc;
   }
 `;
 
@@ -86,11 +86,15 @@ export const TitleGollum = styled.div`
   }
 `;
 
+export const DivGollumShadow = styled.div`
+  padding: 0 40px 40px 40px;
+`;
+
 export const DivImageAndTextgollum = styled.div`
   display: flex;
-  background-color: #141414;
+  background-color: #1d1d1d;
   margin-top: 20px;
-
+  box-shadow: 12px 12px 20px 0px #00000086;
   @media (max-width: 480px) {
     padding: 15px;
     flex-direction: column;
@@ -100,14 +104,13 @@ export const DivImageAndTextgollum = styled.div`
 
 export const DivImageGollum = styled.div`
   flex: 1;
-  padding: 0 0 0 20px;
   @media (max-width: 480px) {
     padding: 0px;
   }
   img {
     width: 100%;
-    border: 2px solid #9bb8cc;
-    border-radius: 4px;
+    height: 100%;
+    border-radius: 3px 3px 0 0;
   }
 `;
 
@@ -116,34 +119,34 @@ export const DivTextGollum = styled.div`
   align-items: center;
   flex: 1;
   font-size: 42px;
-  padding: 40px;
+  padding: 25px;
   color: #9bb8cc;
   @media (max-width: 1200px) {
-    margin-top: -40px;
+    //margin-top: -40px;
     font-size: 38px;
   }
 
   @media (max-width: 1130px) {
-    margin-top: -40px;
+    //margin-top: -40px;
     font-size: 34px;
   }
 
   @media (max-width: 1060px) {
-    margin-top: -40px;
+    //margin-top: -40px;
     font-size: 30px;
   }
 
   @media (max-width: 915px) {
-    margin-top: -40px;
+    //margin-top: -40px;
     font-size: 26px;
   }
 
   @media (max-width: 795px) {
-    margin-top: -40px;
+    //margin-top: -40px;
     font-size: 22px;
   }
   @media (max-width: 769px) {
-    margin-top: -40px;
+    //margin-top: -40px;
     font-size: 22px;
   }
 
@@ -154,13 +157,16 @@ export const DivTextGollum = styled.div`
   }
 `;
 
+export const DivTwoImageGollumShadow = styled.div`
+  padding: 0 40px 40px 40px;
+`;
+
 export const DivTwoImgGollum = styled.div`
   flex: 1;
   display: flex;
   margin-top: 20px;
-  background-color: #141414;
-  padding: 0 20px 10px 20px;
-
+  background-color: #1d1d1d;
+  box-shadow: 12px 12px 20px 0px #00000086;
   @media (max-width: 480px) {
     flex-direction: column-reverse;
     padding: 15px;
@@ -169,7 +175,6 @@ export const DivTwoImgGollum = styled.div`
 
   @media (max-width: 1200px) {
     flex-direction: column;
-    padding: 0px 20px 20px 20px;
   }
 `;
 
@@ -177,8 +182,8 @@ export const ImagesGollum = styled.div`
   flex: 1;
   img {
     width: 100%;
-    border: 2px solid #9bb8cc;
-    border-radius: 4px;
+    height: 100%;
+    border-radius: 3px;
   }
 `;
 
@@ -188,15 +193,10 @@ export const DivCenterTextGollum = styled.div`
   display: flex;
   align-items: center;
   font-size: 30px;
-  padding: 0px 20px 0px 20px;
-  background-color: #141414;
+  padding: 0 15px 0px 15px;
+  background-color: #1d1d1d;
 
   @media (max-width: 480px) {
     font-size: 20px;
-    padding: 15px;
-  }
-
-  @media (max-width: 1200px) {
-    padding: 10px 0 10px 0;
   }
 `;

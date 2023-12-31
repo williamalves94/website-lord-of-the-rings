@@ -63,7 +63,7 @@ export const DivTextFellowship = styled.div`
 
   p {
     font-size: 35px;
-    padding: 20px;
+    padding: 10px;
     color: #f2ca53;
     flex: 3;
     align-items: center;

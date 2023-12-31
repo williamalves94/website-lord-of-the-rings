@@ -4,7 +4,9 @@ export const Condado = styled.section`
   height: auto;
   background-color: #1d1d1d;
   padding: 60px 60px 40px 60px;
-
+  .title-page {
+    text-shadow: 10px 5px 6px black;
+  }
   p {
     color: #f2ca53;
     font-size: 80px;
@@ -56,13 +58,12 @@ export const DivImg = styled.div`
 export const DivText = styled.div`
   width: auto;
   align-self: flex-start;
-  padding: 10px;
+  padding: 0px;
   flex: 1;
   .title {
     justify-content: flex-start;
     color: #f2ca53;
     font-size: 60px;
-
     @media (max-width: 1713px) {
       font-size: 50px;
     }
