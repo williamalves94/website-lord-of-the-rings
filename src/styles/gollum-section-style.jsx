@@ -87,7 +87,7 @@ export const TitleGollum = styled.div`
 `;
 
 export const DivGollumShadow = styled.div`
-  padding: 0 40px 40px 40px;
+  padding: 20px 25px 40px 25px;
 `;
 
 export const DivImageAndTextgollum = styled.div`
@@ -96,7 +96,6 @@ export const DivImageAndTextgollum = styled.div`
   margin-top: 20px;
   box-shadow: 12px 12px 20px 0px #00000086;
   @media (max-width: 480px) {
-    padding: 15px;
     flex-direction: column;
     margin-top: 0px;
   }
@@ -158,7 +157,7 @@ export const DivTextGollum = styled.div`
 `;
 
 export const DivTwoImageGollumShadow = styled.div`
-  padding: 0 40px 40px 40px;
+  padding: 0 35px 40px 35px;
 `;
 
 export const DivTwoImgGollum = styled.div`
@@ -169,7 +168,6 @@ export const DivTwoImgGollum = styled.div`
   box-shadow: 12px 12px 20px 0px #00000086;
   @media (max-width: 480px) {
     flex-direction: column-reverse;
-    padding: 15px;
     margin-top: 0px;
   }
 
