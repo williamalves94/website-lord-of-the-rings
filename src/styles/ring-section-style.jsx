@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Ring = styled.section`
   height: auto;
   border-top: 2px solid #f2ca53;
-  background-color: black;
+  background-color: #1d1d1d;
 `;
 
 export const ImageRingMain = styled.div`
@@ -116,12 +116,10 @@ export const TitleRing = styled.div`
 
 export const DivImgAndTextRing = styled.div`
   display: flex;
-  background-color: black;
-  padding: 30px;
+  background-color: #1d1d1d;
+  box-shadow: 12px 12px 20px 0px #0000009e;
   @media (max-width: 480px) {
     flex-direction: column;
-    padding: 15px;
-    //border: 4px solid blue;
   }
 `;
 
@@ -129,8 +127,9 @@ export const RingImages = styled.div`
   flex: 1;
   img {
     width: 100%;
-    border: 2px solid #f2ca53;
-    border-radius: 4px;
+    height: 100%;
+    //border: 2px solid #f2ca53;
+    border-radius: 3px;
   }
 `;
 export const RingText = styled.div`
@@ -138,6 +137,7 @@ export const RingText = styled.div`
   display: flex;
   align-items: center;
   padding: 40px;
+
   @media (max-width: 480px) {
     font-size: 20px;
     padding: 10px;
@@ -180,11 +180,11 @@ export const RingText = styled.div`
 
 export const DivSecondImgAndText = styled.div`
   display: flex;
-  background-color: black; //#141414;
-  padding: 30px 30px 60px 30px;
+  background-color: #1d1d1d;
+  box-shadow: 12px 12px 20px 0px #0000009e;
+  //padding: 30px 30px 60px 30px;
   @media (max-width: 480px) {
     flex-direction: column-reverse;
-    padding: 15px;
   }
 `;
 
@@ -192,8 +192,8 @@ export const DivGloveRing = styled.div`
   flex: 2;
   img {
     width: 100%;
-    border: 2px solid #f2ca53;
-    border-radius: 4px;
+    height: 100%;
+    border-radius: 3px;
   }
 `;
 
@@ -249,5 +249,18 @@ export const DivGloveRingText = styled.div`
       font-size: 20px;
       margin-top: 0px;
     }
+  }
+`;
+
+export const DivRingShadow = styled.div`
+  padding: 20px 60px 40px 60px;
+  @media (max-width: 480px) {
+    padding: 20px 25px 15px 25px;
+  }
+`;
+export const DivGloveShadow = styled.div`
+  padding: 0px 60px 40px 60px;
+  @media (max-width: 480px) {
+    padding: 20px 25px 40px 25px;
   }
 `;

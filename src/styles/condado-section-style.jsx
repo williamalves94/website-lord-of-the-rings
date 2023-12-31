@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Condado = styled.section`
   height: auto;
-  background-color: #181818;
+  background-color: #1d1d1d;
   padding: 60px 60px 40px 60px;
 
   p {
@@ -24,7 +24,7 @@ export const Condado = styled.section`
   @media (max-width: 480px) {
     font-size: 45px;
     margin-top: 0px;
-    padding: 10px 20px 10px 20px;
+    padding: 10px 25px 10px 2px;
   }
 `;
 
@@ -32,11 +32,11 @@ export const DivMain = styled.div`
   margin-top: 40px;
   display: flex;
   height: auto;
-  background-color: #181818; //0e0c0c
+  background-color: #1d1d1d; //0e0c0c
   flex-wrap: wrap;
   //border: 2px solid #f2ca53;
   box-shadow: 12px 12px 20px 0px #00000085; //00000086
-  border-radius: 4px;
+  border-radius: 3px 3px 0px 0px;
 
   @media (max-width: 930px) {
     grid-template-columns: repeat(2, 1fr);
@@ -48,8 +48,8 @@ export const DivImg = styled.div`
   flex: 1;
   img {
     width: 100%;
-    height: auto;
-    border-radius: 4px 0px 0px 0px;
+    height: 100%;
+    border-radius: 3px 3px 0px 0px;
   }
 `;
 
@@ -114,8 +114,7 @@ export const DivText = styled.div`
 
 export const DivCondadoImg = styled.div`
   display: flex;
-  margin-top: 20px;
-
+  margin-top: 40px;
   @media (max-width: 930px) {
     font-size: 20px;
     flex-direction: column;
@@ -128,13 +127,15 @@ export const DivCondadoImg = styled.div`
 export const ImageIn = styled.div`
   display: flex;
   flex: 1 1 1;
-  padding: 10px;
-  background-color: #181818;
-  padding: 0px 0px 22px 0px;
+  background-color: #1d1d1d;
+  margin: 0 15px 0 15px;
+  @media (max-width: 480px) {
+    margin: 15px 15px 15px 15px;
+  }
   img {
     width: 100%;
     //border: 2px solid #f2ca53;
-    border-radius: 4px;
+    border-radius: 2px;
     box-shadow: 12px 12px 20px 0px #0000009e;
   }
 `;

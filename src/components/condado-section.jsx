@@ -31,15 +31,15 @@ export const CondadoSection = () => {
       </DivMain>
 
       <DivCondadoImg>
-        <ImageIn className="image-one">
+        <ImageIn>
           <img src={Condado1} />
         </ImageIn>
 
-        <ImageIn className="image-two">
+        <ImageIn>
           <img src={Condado2} />
         </ImageIn>
 
-        <ImageIn className="image-three">
+        <ImageIn>
           <img src={Condado3} />
         </ImageIn>
       </DivCondadoImg>

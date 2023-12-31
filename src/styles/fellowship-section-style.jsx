@@ -3,23 +3,23 @@ import styled from "styled-components";
 export const Fellowship = styled.section`
   height: auto;
   justify-content: center;
-  background-color: #181818;
+  background-color: #1d1d1d;
   padding: 60px 60px 40px 60px;
 
   @media (max-width: 480px) {
     flex-direction: column;
-    padding: 15px 20px 15px 20px;
+    padding: 15px 25px 15px 25px;
   }
 `;
 
 export const DivMainFellowship = styled.div`
   height: auto;
-  background-color: #181818; //201f1f
+  background-color: #1d1d1d; //201f1f
   flex-wrap: wrap;
   display: flex;
   //border: 2px solid #f2ca53;
   box-shadow: 12px 12px 20px 0px #00000086;
-  border-radius: 4px;
+  border-radius: 3px 3px 0px 0px;
   margin-bottom: 25px;
   @media (max-width: 480px) {
     flex-direction: column;
@@ -29,11 +29,12 @@ export const DivMainFellowship = styled.div`
 
 export const ImageFellowship = styled.div`
   flex: 1;
-  background-color: #181818;
+  background-color: #1d1d1d;
+
   img {
     width: 100%;
-    height: auto;
-    border-radius: 4px;
+    height: 100%;
+    border-radius: 3px 0px 0px 0px;
   }
 `;
 
@@ -41,7 +42,7 @@ export const DivTextFellowship = styled.div`
   width: auto;
   flex: 1;
   margin-left: 30px;
-  background-color: #181818;
+  background-color: #1d1d1d;
   .title-fellowship {
     justify-content: flex-start;
     color: #f2ca53;
@@ -162,12 +163,15 @@ export const ImgFellowship = styled.div`
   display: flex;
   flex: 1 1 1;
   padding: 10px;
-  background-color: #181818;
-
+  background-color: #1d1d1d;
+  margin: 10px;
+  @media (max-width: 480px) {
+    margin: 7px 0px 7px 0px;
+  }
   img {
     width: 100%;
     //border: 2px solid #f2ca53;
-    border-radius: 4px;
+    border-radius: 3px;
     box-shadow: 12px 12px 20px 0px #00000086;
   }
 `;
