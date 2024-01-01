@@ -12,12 +12,17 @@ export const Modal = styled.div`
   position: absolute;
   position: fixed;
   z-index: 1000;
+
   img {
     //antes era 1200 por 850
     width: 1150px;
     height: 800px;
     //justify-content: flex-end;
     //border: 2px solid #f2ca53;
+    @media (max-width: 2000px) {
+      width: 1050px;
+      height: 700px;
+    }
     @media (max-width: 1700px) {
       width: 1100px;
       height: 750px;
@@ -63,15 +68,55 @@ export const Modal = styled.div`
       height: 260px;
     }
   }
-  p {
-    //justify-self: flex-end;
+`;
 
-    height: 850px;
-    position: absolute;
-    //border: 2px solid blue;
+export const CloseButton = styled.div`
+  position: absolute;
+
+  height: auto;
+  p {
+    //height: auto;
     color: #2c2315;
     font-size: 30px;
+    margin: 5px 12px 0 0;
     font-weight: 600;
     cursor: pointer;
+    @media (max-width: 2000px) {
+    }
+    @media (max-width: 1700px) {
+    }
+    @media (max-width: 1500px) {
+    }
+    @media (max-width: 1400px) {
+    }
+    @media (max-width: 1300px) {
+    }
+    @media (max-width: 1200px) {
+    }
+    @media (max-width: 1100px) {
+    }
+    @media (max-width: 1000px) {
+    }
+    @media (max-width: 950px) {
+    }
+    @media (max-width: 900px) {
+    }
+    @media (max-width: 900px) {
+    }
+    @media (max-width: 480px) {
+    }
   }
+`;
+
+export const DivShadowModal = styled.div`
+  box-shadow: 12px 12px 20px 0px #00000085;
+  img {
+    height: 100%;
+  }
+`;
+
+export const ImageModal = styled.div`
+  //border: 2px solid blue;
+  display: flex;
+  justify-content: flex-end;
 `;

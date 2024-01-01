@@ -1,14 +1,25 @@
 import React from "react";
 import Mapa from "../assets/mapa.jpg";
 
-import { Modal } from "../styles/modal-styles";
+import {
+  Modal,
+  DivShadowModal,
+  CloseButton,
+  ImageModal,
+} from "../styles/modal-styles";
 
 export const ModalMap = ({ isOpen, handleCloseModal }) => {
   if (isOpen) {
     return (
       <Modal>
-        <img src={Mapa} alt=""></img>
-        <p onClick={handleCloseModal}>X</p>
+        <DivShadowModal>
+          <ImageModal>
+            <CloseButton>
+              <p onClick={handleCloseModal}>X</p>
+            </CloseButton>
+            <img src={Mapa} alt=""></img>
+          </ImageModal>
+        </DivShadowModal>
       </Modal>
     );
   }
