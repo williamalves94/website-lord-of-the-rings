@@ -3,7 +3,7 @@ import {
   DivMain,
   DivImg,
   DivText,
-  ImageIn,
+  //ImageIn,
   DivCondadoImg,
 } from "../styles/condado-section-style";
 import CondadoMain from "../assets/condadoimgs/condadomain.jpg";
@@ -31,17 +31,11 @@ export const CondadoSection = () => {
       </DivMain>
 
       <DivCondadoImg>
-        <ImageIn>
-          <img src={Condado1} />
-        </ImageIn>
+        <img className="image-one" src={Condado1} />
 
-        <ImageIn>
-          <img src={Condado2} />
-        </ImageIn>
+        <img className="image-two" src={Condado2} />
 
-        <ImageIn>
-          <img src={Condado3} />
-        </ImageIn>
+        <img className="image-three" src={Condado3} />
       </DivCondadoImg>
     </Condado>
   );

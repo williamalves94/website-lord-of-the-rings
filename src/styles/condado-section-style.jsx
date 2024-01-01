@@ -116,6 +116,24 @@ export const DivText = styled.div`
 export const DivCondadoImg = styled.div`
   display: flex;
   margin-top: 40px;
+
+  .image-one {
+    width: 100%;
+    border-radius: 2px;
+    box-shadow: 12px 12px 20px 0px #0000009e;
+  }
+  .image-two {
+    width: 100%;
+    border-radius: 2px;
+    margin: 35px 0 35px 0;
+    box-shadow: 12px 12px 20px 0px #0000009e;
+  }
+  .image-three {
+    width: 100%;
+    border-radius: 2px;
+    box-shadow: 12px 12px 20px 0px #0000009e;
+  }
+
   @media (max-width: 930px) {
     font-size: 20px;
     flex-direction: column;
@@ -125,18 +143,18 @@ export const DivCondadoImg = styled.div`
   }
 `;
 
-export const ImageIn = styled.div`
-  display: flex;
-  flex: 1 1 1;
-  background-color: #1d1d1d;
-  margin: 0 15px 0 15px;
-  @media (max-width: 480px) {
-    margin: 15px 15px 15px 15px;
-  }
-  img {
-    width: 100%;
-    //border: 2px solid #f2ca53;
-    border-radius: 2px;
-    box-shadow: 12px 12px 20px 0px #0000009e;
-  }
-`;
+//export const ImageIn = styled.div`
+//  display: flex;
+//  flex: 1 1 1;
+//  background-color: #1d1d1d;
+//  margin: 15px 0 15px 0;
+//  @media (max-width: 480px) {
+//    margin: 15px 15px 15px 15px;
+//  }
+//img {
+//     width: 100%;
+//  //border: 2px solid #f2ca53;
+//border-radius: 2px;
+//box-shadow: 12px 12px 20px 0px #0000009e;
+//}
+//`;
