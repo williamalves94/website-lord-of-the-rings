@@ -106,7 +106,7 @@ export const DivTextBalrogOne = styled.div`
   p {
     color: #f2ca53;
     font-size: 36px;
-    padding: 10px 20px 0 20px;
+    padding: 10px 20px 10px 20px;
     @media (max-width: 1476px) {
       font-size: 34px;
     }
@@ -144,14 +144,12 @@ export const DivImgAndTextTwo = styled.div`
   box-shadow: 12px 12px 20px 0px #00000085;
   @media (max-width: 480px) {
     flex-direction: column-reverse;
-    padding: 15px 20px 0px 20px;
   }
 `;
 
 export const DivImageBalrogTwo = styled.div`
   border-radius: 4px;
   flex: 3;
-
   img {
     width: 100%;
     height: 100%;
