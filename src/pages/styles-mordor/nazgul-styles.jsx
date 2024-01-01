@@ -156,7 +156,7 @@ export const DivTextNazgul = styled.div`
 
 export const DivShadowNazgulTwo = styled.div`
   display: flex;
-  padding: 10px 28px 25px 28px;
+  padding: 5px 28px 25px 28px;
 `;
 
 export const DivImageAndTextNazgulTwo = styled.div`
@@ -165,7 +165,6 @@ export const DivImageAndTextNazgulTwo = styled.div`
   border-radius: 3px;
   @media (max-width: 480px) {
     flex-direction: column-reverse;
-    margin-top: -20px;
   }
 `;
 
@@ -222,7 +221,7 @@ export const DivTextNazgulTwo = styled.div`
 
 export const DivShadowNazgulThree = styled.div`
   display: flex;
-  padding: 10px 28px 25px 28px;
+  padding: 5px 28px 25px 28px;
 `;
 
 export const DivImageAndTextNazgulThree = styled.div`
@@ -231,7 +230,6 @@ export const DivImageAndTextNazgulThree = styled.div`
   border-radius: 3px;
   @media (max-width: 480px) {
     flex-direction: column;
-    margin-top: -40px;
   }
 `;
 
@@ -285,16 +283,13 @@ export const DivTextNazgulThree = styled.div`
 
 export const DivShadowNazgulFour = styled.div`
   display: flex;
-  padding: 10px 28px 50px 28px;
+  padding: 5px 28px 50px 28px;
 `;
 
 export const DivImageAndTextNazgulFour = styled.div`
   display: flex;
   flex-direction: column-reverse;
   box-shadow: 12px 12px 20px 0px #00000085;
-  @media (max-width: 480px) {
-    margin-top: -30px;
-  }
 `;
 
 export const DivImageNazgulFour = styled.div`
