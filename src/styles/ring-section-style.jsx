@@ -10,7 +10,7 @@ export const ImageRingMain = styled.div`
   img {
     width: 100%;
     height: auto;
-    border-bottom: 2px solid #f2ca53;
+    box-shadow: 12px 12px 20px 0px #00000085;
     border-radius: 4px;
   }
 `;
@@ -46,8 +46,28 @@ export const TitleRing = styled.div`
       font-size: 45px;
       margin-top: 30px;
     }
+    @media (max-width: 750px) {
+      font-size: 45px;
+      margin: 30px 0px 0px 15px;
+    }
+    @media (max-width: 666px) {
+      font-size: 42px;
+      margin: 20px 0px 0px 15px;
+    }
+    @media (max-width: 666px) {
+      font-size: 38px;
+      margin: 15px 0px 0px 15px;
+    }
+    @media (max-width: 565px) {
+      font-size: 36px;
+      margin: 15px 0px 0px 15px;
+    }
+    @media (max-width: 515px) {
+      font-size: 34px;
+      margin: 10px 0px 0px 15px;
+    }
     @media (max-width: 480px) {
-      font-size: 35px;
+      font-size: 34px;
       margin: 5px 0px 0px 10px;
     }
     @media (max-width: 461px) {
@@ -97,6 +117,26 @@ export const TitleRing = styled.div`
     @media (max-width: 830px) {
       font-size: 25px;
       margin-top: 5px;
+    }
+    @media (max-width: 750px) {
+      font-size: 22px;
+      margin: 5px 0px 0px 15px;
+    }
+    @media (max-width: 666px) {
+      font-size: 20px;
+      margin: 5px 0px 0px 15px;
+    }
+    @media (max-width: 600px) {
+      font-size: 20px;
+      margin: 5px 0px 0px 15px;
+    }
+    @media (max-width: 565px) {
+      font-size: 18px;
+      margin: 5px 0px 0px 15px;
+    }
+    @media (max-width: 515px) {
+      font-size: 17px;
+      margin: 0px 0px 0px 15px;
     }
     @media (max-width: 480px) {
       font-size: 17px;
