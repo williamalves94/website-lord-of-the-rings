@@ -10,7 +10,7 @@ export const BalrogImageMain = styled.div`
   img {
     width: 100%;
     height: auto;
-    border-bottom: 2px solid #f2ca53;
+    box-shadow: 12px 12px 20px 0px #00000085;
   }
 `;
 
@@ -78,27 +78,30 @@ export const TitleBalrog = styled.div`
   }
 `;
 
+export const DivShadowBalrogOne = styled.div`
+  display: flex;
+  padding: 30px 28px 10px 28px;
+`;
+
 export const DivImgAndTextOne = styled.div`
   display: flex;
-  padding: 20px 20px 0 20px;
+  box-shadow: 12px 12px 20px 0px #00000085;
   @media (max-width: 480px) {
     flex-direction: column;
   }
 `;
 
 export const DivImageBalrogOne = styled.div`
-  border-radius: 4px;
   flex: 3;
   img {
     width: 100%;
-    height: auto;
-    border: 2px solid #f2ca53;
-    border-radius: 4px;
+    height: 100%;
+    border-radius: 3px 0px 0px 3px;
   }
 `;
 
 export const DivTextBalrogOne = styled.div`
-  border-radius: 4px;
+  border-radius: 3px;
   flex: 2;
   p {
     color: #f2ca53;
@@ -131,9 +134,14 @@ export const DivTextBalrogOne = styled.div`
   }
 `;
 
+export const DivShadowBalrogTwo = styled.div`
+  display: flex;
+  padding: 30px 28px 50px 28px;
+`;
+
 export const DivImgAndTextTwo = styled.div`
   display: flex;
-  padding: 15px 20px 30px 20px;
+  box-shadow: 12px 12px 20px 0px #00000085;
   @media (max-width: 480px) {
     flex-direction: column-reverse;
     padding: 15px 20px 0px 20px;
@@ -143,11 +151,11 @@ export const DivImgAndTextTwo = styled.div`
 export const DivImageBalrogTwo = styled.div`
   border-radius: 4px;
   flex: 3;
+
   img {
     width: 100%;
-    height: auto;
-    border: 2px solid #f2ca53;
-    border-radius: 4px;
+    height: 100%;
+    border-radius: 0px 3px 3px 0px;
   }
 `;
 
