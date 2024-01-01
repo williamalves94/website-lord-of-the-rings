@@ -3,9 +3,9 @@ import styled from "styled-components";
 export const Condado = styled.section`
   height: auto;
   background-color: #1d1d1d;
-  padding: 60px 60px 40px 60px;
+  padding: 20px 60px 40px 60px;
   .title-page {
-    text-shadow: 10px 5px 6px black;
+    text-shadow: 6px 5px 8px black;
   }
   p {
     color: #f2ca53;
@@ -31,7 +31,7 @@ export const Condado = styled.section`
 `;
 
 export const DivMain = styled.div`
-  margin-top: 40px;
+  margin-top: 15px;
   display: flex;
   height: auto;
   background-color: #1d1d1d; //0e0c0c
