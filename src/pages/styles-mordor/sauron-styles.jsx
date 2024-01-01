@@ -11,21 +11,26 @@ export const TitleSauron = styled.div`
   justify-content: center;
   p {
     color: #f2ca52;
+    text-shadow: 10px 5px 6px black;
     font-size: 100px;
     margin-top: 10px;
     margin-bottom: -20px;
   }
 `;
 
+export const DivShadowSauron = styled.div`
+  display: flex;
+  padding: 40px;
+`;
+
 export const DivImgAndTextSauron = styled.div`
   display: flex;
   background-color: #111111;
-  padding: 0px 20px 10px 20px;
+  box-shadow: 12px 12px 20px 0px #00000085;
   margin-top: 20px;
   @media (max-width: 480px) {
     flex-direction: column;
     padding: 0px;
-    border-top: 2px solid #f2ca52;
   }
 `;
 
@@ -34,14 +39,12 @@ export const DivImgSauron = styled.div`
   border-radius: 4px;
   img {
     width: 100%;
-    height: auto;
-    border: 2px solid #f2ca52;
-    border-radius: 4px;
+    height: 100%;
+    border-radius: 3px;
     @media (max-width: 480px) {
       flex-direction: column;
       padding: 0px;
       border: none;
-      border-bottom: 2px solid #f2ca52;
     }
   }
 `;
@@ -85,6 +88,7 @@ export const DivTextSauron = styled.div`
 export const DivThreeImgSauron = styled.div`
   display: flex;
   width: 100%;
+  padding: 0px 45px 10px 45px;
   .image-three {
     @media (max-width: 480px) {
       margin-bottom: 20px;
@@ -98,12 +102,13 @@ export const DivThreeImgSauron = styled.div`
 export const ImageSauron = styled.div`
   display: flex;
   background-color: #111111;
-  padding: 10px 20px 10px 20px;
+  padding: 0 23px 20px 23px;
+  //box-shadow: 12px 12px 20px 0px #00000085;
   border-radius: 4px;
   margin-bottom: 20px;
   img {
     width: 100%;
-    border: 2px solid #f2ca52;
+    box-shadow: 12px 12px 20px 0px #00000085;
     border-radius: 4px;
   }
 `;

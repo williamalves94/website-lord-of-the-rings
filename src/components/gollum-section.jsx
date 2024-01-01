@@ -6,10 +6,12 @@ import {
   DivImageGollum,
   DivTextGollum,
   DivTwoImgGollum,
-  ImagesGollum,
+  //ImagesGollum,
   DivCenterTextGollum,
   DivGollumShadow,
   DivTwoImageGollumShadow,
+  ImageGollumFisrt,
+  ImageGollumLast,
 } from "../styles/gollum-section-style";
 import GollumMain from "../assets/gollum/gollummain.jpg";
 import Gollum1 from "../assets/gollum/gollum1.jpg";
@@ -50,9 +52,9 @@ export const GollumSection = () => {
       </DivGollumShadow>
       <DivTwoImageGollumShadow>
         <DivTwoImgGollum>
-          <ImagesGollum>
+          <ImageGollumFisrt>
             <img src={Gollum2} />
-          </ImagesGollum>
+          </ImageGollumFisrt>
 
           <DivCenterTextGollum>
             <p>
@@ -68,9 +70,9 @@ export const GollumSection = () => {
             </p>
           </DivCenterTextGollum>
 
-          <ImagesGollum>
-            <img src={Gollum3} />
-          </ImagesGollum>
+          <ImageGollumLast>
+            <img className="teste" src={Gollum3} />
+          </ImageGollumLast>
         </DivTwoImgGollum>
       </DivTwoImageGollumShadow>
     </Gollum>

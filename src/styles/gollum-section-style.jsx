@@ -170,13 +170,12 @@ export const DivTwoImgGollum = styled.div`
     flex-direction: column-reverse;
     margin-top: 0px;
   }
-
   @media (max-width: 1200px) {
     flex-direction: column;
   }
 `;
 
-export const ImagesGollum = styled.div`
+export const ImageGollumFisrt = styled.div`
   flex: 1;
   img {
     width: 100%;
@@ -184,7 +183,14 @@ export const ImagesGollum = styled.div`
     border-radius: 3px;
   }
 `;
-
+export const ImageGollumLast = styled.div`
+  flex: 1;
+  border-radius: 3px;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+`;
 export const DivCenterTextGollum = styled.div`
   color: #9bb8cc;
   flex: 1;
