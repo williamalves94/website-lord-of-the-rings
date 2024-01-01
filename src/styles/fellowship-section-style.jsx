@@ -23,7 +23,6 @@ export const DivMainFellowship = styled.div`
   margin-bottom: 25px;
   @media (max-width: 480px) {
     flex-direction: column;
-    //padding: 0px 20px 0 20px; FICOU DAORA DESSE JEITO
   }
 `;
 

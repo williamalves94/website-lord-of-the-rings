@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const Ring = styled.section`
   height: auto;
-  border-top: 2px solid #f2ca53;
   background-color: #1d1d1d;
 `;
 
@@ -168,7 +167,6 @@ export const RingImages = styled.div`
   img {
     width: 100%;
     height: 100%;
-    //border: 2px solid #f2ca53;
     border-radius: 3px;
   }
 `;

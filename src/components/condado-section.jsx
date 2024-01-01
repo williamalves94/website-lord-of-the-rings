@@ -4,7 +4,11 @@ import {
   DivImg,
   DivText,
   //ImageIn,
-  DivCondadoImg,
+  //DivCondadoImg,
+  DivThreeImages,
+  ImageOne,
+  ImageTwo,
+  ImageThree,
 } from "../styles/condado-section-style";
 import CondadoMain from "../assets/condadoimgs/condadomain.jpg";
 import Condado1 from "../assets/condadoimgs/condado1.jpg";
@@ -30,13 +34,19 @@ export const CondadoSection = () => {
         </DivText>
       </DivMain>
 
-      <DivCondadoImg>
-        <img className="image-one" src={Condado1} />
+      <DivThreeImages>
+        <ImageOne>
+          <img src={Condado1} />
+        </ImageOne>
 
-        <img className="image-two" src={Condado2} />
+        <ImageTwo>
+          <img src={Condado2} />
+        </ImageTwo>
 
-        <img className="image-three" src={Condado3} />
-      </DivCondadoImg>
+        <ImageThree>
+          <img src={Condado3} />
+        </ImageThree>
+      </DivThreeImages>
     </Condado>
   );
 };

@@ -9,7 +9,6 @@ export const ImageGollumMain = styled.div`
   img {
     width: 100%;
     height: auto;
-    border-top: 2px solid #9bb8cc;
     box-shadow: 12px 12px 20px 0px #00000085;
   }
 `;
