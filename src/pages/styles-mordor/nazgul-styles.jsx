@@ -1,10 +1,9 @@
 import styled from "styled-components";
 
 export const Nazgul = styled.div`
-  background-color: #111111;
+  background-color: #1d1d1d;
   width: 100%;
   height: auto;
-  border-bottom: 2px solid gray;
 `;
 
 export const NazgulImageMain = styled.div`
@@ -13,7 +12,7 @@ export const NazgulImageMain = styled.div`
   img {
     width: 100%;
     height: auto;
-    border-bottom: 2px solid gray;
+    box-shadow: 12px 12px 20px 0px #00000085;
   }
 `;
 
@@ -94,8 +93,15 @@ export const TitleNasgul = styled.div`
   }
 `;
 
+export const DivShadowNazgulOne = styled.div`
+  display: flex;
+  padding: 30px 28px 25px 28px;
+`;
+
 export const DivImageAndTextNazgul = styled.div`
   display: flex;
+  box-shadow: 12px 12px 20px 0px #00000085;
+  border-radius: 3px;
   @media (max-width: 480px) {
     flex-direction: column;
   }
@@ -103,12 +109,10 @@ export const DivImageAndTextNazgul = styled.div`
 
 export const DivImageNazgul = styled.div`
   flex: 3;
-  padding: 20px 20px 0px 20px;
   img {
     width: 100%;
-    height: auto;
-    border: 2px solid gray;
-    border-radius: 4px;
+    height: 100%;
+    border-radius: 3px 0px 0px 3px;
   }
 `;
 export const DivTextNazgul = styled.div`
@@ -150,9 +154,15 @@ export const DivTextNazgul = styled.div`
   }
 `;
 
+export const DivShadowNazgulTwo = styled.div`
+  display: flex;
+  padding: 10px 28px 25px 28px;
+`;
+
 export const DivImageAndTextNazgulTwo = styled.div`
   display: flex;
-  padding: 20px 20px 10px 20px;
+  box-shadow: 12px 12px 20px 0px #00000085;
+  border-radius: 3px;
   @media (max-width: 480px) {
     flex-direction: column-reverse;
     margin-top: -20px;
@@ -163,9 +173,8 @@ export const DivImageNazgulTwo = styled.div`
   flex: 3;
   img {
     width: 100%;
-    height: auto;
-    border: 2px solid gray;
-    border-radius: 4px;
+    height: 100%;
+    border-radius: 3px 0px 0px 3px;
   }
 `;
 
@@ -211,9 +220,15 @@ export const DivTextNazgulTwo = styled.div`
   }
 `;
 
+export const DivShadowNazgulThree = styled.div`
+  display: flex;
+  padding: 10px 28px 25px 28px;
+`;
+
 export const DivImageAndTextNazgulThree = styled.div`
   display: flex;
-  padding: 20px 20px 0px 20px;
+  box-shadow: 12px 12px 20px 0px #00000085;
+  border-radius: 3px;
   @media (max-width: 480px) {
     flex-direction: column;
     margin-top: -40px;
@@ -224,9 +239,8 @@ export const DivImageNazgulThree = styled.div`
   flex: 3;
   img {
     width: 100%;
-    height: auto;
-    border: 2px solid gray;
-    border-radius: 4px;
+    height: 100%;
+    border-radius: 3px 0px 0px 3px;
   }
 `;
 
@@ -269,10 +283,15 @@ export const DivTextNazgulThree = styled.div`
   }
 `;
 
+export const DivShadowNazgulFour = styled.div`
+  display: flex;
+  padding: 10px 28px 50px 28px;
+`;
+
 export const DivImageAndTextNazgulFour = styled.div`
   display: flex;
-  padding: 20px 20px 0px 20px;
   flex-direction: column-reverse;
+  box-shadow: 12px 12px 20px 0px #00000085;
   @media (max-width: 480px) {
     margin-top: -30px;
   }
@@ -282,9 +301,8 @@ export const DivImageNazgulFour = styled.div`
   flex: 3;
   img {
     width: 100%;
-    height: auto;
-    border: 2px solid gray;
-    border-radius: 4px;
+    height: 100%;
+    border-radius: 3px;
   }
 `;
 
