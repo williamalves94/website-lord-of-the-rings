@@ -9,7 +9,7 @@ export const OrcsImageMain = styled.div`
   img {
     width: 100%;
     height: auto;
-    border-bottom: 2px solid #f2ca53;
+    box-shadow: 12px 12px 20px 0px #00000085;
   }
 `;
 
@@ -53,22 +53,34 @@ export const TitleOrcs = styled.div`
   }
 `;
 
+export const DivShadowOrcs = styled.div`
+  display: flex;
+  padding: 15px 28px 50px 28px;
+`;
+
 export const DivImagesOrcsAndTextOne = styled.div`
   flex: 1;
   display: flex;
   margin-top: 20px;
   background-color: #111111;
-  padding: 0px 20px 20px 20px;
+  box-shadow: 12px 12px 20px 0px #00000085;
   @media (max-width: 480px) {
     flex-direction: column;
   }
 `;
-export const ImgOrcs = styled.div`
+export const ImgOrcsFirst = styled.div`
   flex: 1;
   img {
     width: 100%;
-    border: 2px solid #f2ca53;
-    border-radius: 4px;
+    border-radius: 3px 3px 0 0;
+  }
+`;
+export const ImgOrcsLast = styled.div`
+  flex: 1;
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 0 3px 3px;
   }
 `;
 export const TextOrcs = styled.div`
