@@ -20,7 +20,7 @@ export const TitleSauron = styled.div`
 
 export const DivShadowSauron = styled.div`
   display: flex;
-  padding: 10px 30px 20px 30px;
+  padding: 10px 28px 28px 28px;
 `;
 
 export const DivImgAndTextSauron = styled.div`
@@ -87,7 +87,7 @@ export const DivTextSauron = styled.div`
 export const DivThreeImgSauron = styled.div`
   display: flex;
   width: 100%;
-  padding: 0px 20px 10px 20px;
+  padding: 5px 5px 10px 5px;
   .image-three {
     @media (max-width: 480px) {
       margin-bottom: 20px;
