@@ -82,12 +82,7 @@ export const TitleMordor = styled.div`
 
 export const DivShadowOne = styled.div`
   display: flex;
-  padding: 20px 40px 40px 40px;
-`;
-
-export const DivShadowThree = styled.div`
-  display: flex;
-  padding: 20px 40px 40px 40px;
+  padding: 10px 25px 20px 25px;
 `;
 
 export const DivImgAndTextMordorOne = styled.div`
@@ -153,7 +148,7 @@ export const DivTextOne = styled.div`
 
 export const DivShadowTwo = styled.div`
   display: flex;
-  padding: 20px 40px 40px 40px;
+  padding: 10px 25px 20px 25px;
 `;
 
 export const DivImgAndTextMordorTwo = styled.div`
@@ -215,7 +210,7 @@ export const DivTextTwo = styled.div`
 
 export const DivMountainShadow = styled.div`
   display: flex;
-  padding: 20px 40px 40px 40px;
+  padding: 10px 25px 20px 25px;
 `;
 
 export const Mountain = styled.div`
