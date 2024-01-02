@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Condado = styled.section`
   height: auto;
-  background-color: #1d1d1d;
+  background-color: yellow;
   padding: 20px 60px 40px 60px;
   .title-page {
     text-shadow: 6px 5px 8px black;

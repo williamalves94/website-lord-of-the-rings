@@ -157,12 +157,16 @@ export const DivTextGollum = styled.div`
 
 export const DivTwoImageGollumShadow = styled.div`
   padding: 0 80px 50px 80px;
+  border: 2px solid yellow;
+  @media (max-width: 480px) {
+    padding: 0 0px 0px 0px;
+  }
 `;
 
 export const DivTwoImgGollum = styled.div`
   flex: 1;
   display: flex;
-  margin-top: 20px;
+  //margin-top: 20px;
   background-color: #1d1d1d;
   box-shadow: 12px 12px 20px 0px #00000086;
   @media (max-width: 480px) {
@@ -188,6 +192,9 @@ export const ImageGollumLast = styled.div`
   img {
     width: 100%;
     height: 100%;
+    @media (max-width: 1200px) {
+      height: 100%;
+    }
   }
 `;
 export const DivCenterTextGollum = styled.div`
