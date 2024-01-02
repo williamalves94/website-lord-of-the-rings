@@ -10,7 +10,7 @@ import {
 } from "../styles-mordor/sauron-styles";
 import SauronMain from "../../assets/sauron/sauronmain.jpg";
 import Sauron1 from "../../assets/sauron/sauron1.png";
-import SauronTeste from "../../assets/sauron/sauronteste.jpg";
+import Sauron2 from "../../assets/sauron/sauronteste.jpg";
 import Sauron3 from "../../assets/sauron/sauron3.jpg";
 
 export const SauronSection = () => {
@@ -40,12 +40,12 @@ export const SauronSection = () => {
       </DivShadowSauron>
 
       <DivThreeImgSauron>
-        <ImageSauron>
+        <ImageSauron className="image-one">
           <img src={Sauron1} />
         </ImageSauron>
 
-        <ImageSauron>
-          <img src={SauronTeste} />
+        <ImageSauron className="image-two">
+          <img src={Sauron2} />
         </ImageSauron>
 
         <ImageSauron className="image-three">

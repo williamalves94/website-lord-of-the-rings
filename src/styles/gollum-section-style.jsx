@@ -86,7 +86,7 @@ export const TitleGollum = styled.div`
 `;
 
 export const DivGollumShadow = styled.div`
-  padding: 20px 25px 40px 25px;
+  padding: 20px 60px 40px 60px;
 `;
 
 export const DivImageAndTextgollum = styled.div`
@@ -156,7 +156,7 @@ export const DivTextGollum = styled.div`
 `;
 
 export const DivTwoImageGollumShadow = styled.div`
-  padding: 0 35px 40px 35px;
+  padding: 0 80px 50px 80px;
 `;
 
 export const DivTwoImgGollum = styled.div`

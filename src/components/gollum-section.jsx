@@ -50,6 +50,7 @@ export const GollumSection = () => {
           </DivTextGollum>
         </DivImageAndTextgollum>
       </DivGollumShadow>
+
       <DivTwoImageGollumShadow>
         <DivTwoImgGollum>
           <ImageGollumFisrt>

@@ -2,13 +2,11 @@ import styled from "styled-components";
 
 export const MordorImageMain = styled.div`
   background-color: #1d1d1d;
-  border-bottom: 2px solid #f2ca53;
   margin-top: -8px;
   img {
     width: 100%;
     //height: 100vh;
     border-radius: 4px;
-    //border-bottom: 2px solid #f2ca53;
   }
 `;
 
@@ -16,7 +14,7 @@ export const MainImageEagle = styled.div`
   img {
     width: 100%;
     height: auto;
-    box-shadow: 12px 12px 20px 0px #00000085;
+    box-shadow: 12px 12px 20px 0px #00000086;
     @media (max-width: 480px) {
       margin-top: 90px;
     }
@@ -82,7 +80,7 @@ export const TitleMordor = styled.div`
 
 export const DivShadowOne = styled.div`
   display: flex;
-  padding: 15px 28px 20px 28px;
+  padding: 20px 60px 30px 60px;
 `;
 
 export const DivImgAndTextMordorOne = styled.div`
@@ -148,7 +146,7 @@ export const DivTextOne = styled.div`
 
 export const DivShadowTwo = styled.div`
   display: flex;
-  padding: 10px 28px 20px 28px;
+  padding: 20px 60px 30px 60px;
 `;
 
 export const DivImgAndTextMordorTwo = styled.div`
@@ -209,7 +207,7 @@ export const DivTextTwo = styled.div`
 
 export const DivMountainShadow = styled.div`
   display: flex;
-  padding: 10px 28px 40px 28px;
+  padding: 20px 60px 40px 60px;
 `;
 
 export const Mountain = styled.div`

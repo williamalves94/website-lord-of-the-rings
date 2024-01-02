@@ -39,7 +39,6 @@ export const DivMain = styled.div`
   //border: 2px solid #f2ca53;
   box-shadow: 12px 12px 20px 0px #00000086;
   border-radius: 3px 3px 0px 0px;
-
   @media (max-width: 930px) {
     grid-template-columns: repeat(2, 1fr);
     flex-direction: column;
@@ -131,8 +130,6 @@ export const ImageOne = styled.div`
   display: flex;
   flex: 1 1 1;
   background-color: #1d1d1d;
-
-  //margin: 15px 0 15px 0;
   //@media (max-width: 480px) {
   //  margin: 15px 15px 15px 15px;
   //}
@@ -150,9 +147,9 @@ export const ImageTwo = styled.div`
   @media (max-width: 930px) {
     margin: 40px 0 40px 0;
   }
-  @media (max-width: 480px) {
-    margin: 15px 15px 15px 15px;
-  }
+  //  @media (max-width: 480px) {
+  //    margin: 15px 15px 15px 15px;
+  //  }
   img {
     width: 100%;
     border-radius: 3px;
@@ -163,10 +160,9 @@ export const ImageThree = styled.div`
   display: flex;
   flex: 1 1 1;
   background-color: #1d1d1d;
-  //margin: 15px 0 15px 0;
-  @media (max-width: 480px) {
-    margin: 15px 15px 15px 15px;
-  }
+  //  @media (max-width: 480px) {
+  //    margin: 15px 15px 15px 15px;
+  //  }
   img {
     width: 100%;
     border-radius: 3px;
