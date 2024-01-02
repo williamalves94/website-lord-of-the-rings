@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const Balrog = styled.section`
   width: 100%;
   background-color: #111111;
-  border-bottom: 2px solid #f2ca53;
 `;
 
 export const BalrogImageMain = styled.div`
@@ -141,7 +140,7 @@ export const DivShadowBalrogTwo = styled.div`
 
 export const DivImgAndTextTwo = styled.div`
   display: flex;
-  box-shadow: 12px 12px 20px 0px #00000085;
+  box-shadow: 12px 12px 20px 0px #00000086;
   @media (max-width: 480px) {
     flex-direction: column-reverse;
   }
