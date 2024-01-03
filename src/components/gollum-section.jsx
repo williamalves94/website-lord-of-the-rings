@@ -6,7 +6,6 @@ import {
   DivImageGollum,
   DivTextGollum,
   DivTwoImgGollum,
-  //ImagesGollum,
   DivCenterTextGollum,
   DivGollumShadow,
   DivTwoImageGollumShadow,

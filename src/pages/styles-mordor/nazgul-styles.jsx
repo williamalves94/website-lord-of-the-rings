@@ -95,7 +95,7 @@ export const TitleNasgul = styled.div`
 
 export const DivShadowNazgulOne = styled.div`
   display: flex;
-  padding: 30px 28px 25px 28px;
+  padding: 30px 30px 25px 30px;
 `;
 
 export const DivImageAndTextNazgul = styled.div`
@@ -156,7 +156,7 @@ export const DivTextNazgul = styled.div`
 
 export const DivShadowNazgulTwo = styled.div`
   display: flex;
-  padding: 5px 28px 25px 28px;
+  padding: 5px 30px 25px 30px;
 `;
 
 export const DivImageAndTextNazgulTwo = styled.div`
@@ -221,7 +221,7 @@ export const DivTextNazgulTwo = styled.div`
 
 export const DivShadowNazgulThree = styled.div`
   display: flex;
-  padding: 5px 28px 25px 28px;
+  padding: 5px 30px 25px 30px;
 `;
 
 export const DivImageAndTextNazgulThree = styled.div`
@@ -283,7 +283,7 @@ export const DivTextNazgulThree = styled.div`
 
 export const DivShadowNazgulFour = styled.div`
   display: flex;
-  padding: 5px 28px 50px 28px;
+  padding: 5px 30px 50px 30px;
 `;
 
 export const DivImageAndTextNazgulFour = styled.div`
