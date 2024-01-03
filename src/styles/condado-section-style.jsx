@@ -122,7 +122,7 @@ export const DivThreeImages = styled.div`
     flex-direction: column;
   }
   @media (max-width: 480px) {
-    padding: 35px 0px 40px 0px;
+    padding: 40px 0px 40px 0px;
   }
 `;
 
