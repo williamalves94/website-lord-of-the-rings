@@ -9,7 +9,7 @@ export const ImageGollumMain = styled.div`
   img {
     width: 100%;
     height: auto;
-    box-shadow: 12px 12px 20px 0px #00000085;
+    box-shadow: 12px 12px 20px 0px #00000086;
   }
 `;
 
@@ -159,7 +159,7 @@ export const DivTextGollum = styled.div`
 export const DivTwoImageGollumShadow = styled.div`
   padding: 0 80px 50px 80px;
   @media (max-width: 480px) {
-    padding: 0 35px 30px 35px;
+    padding: 0 31.6px 50px 31.6px;
   }
 `;
 
