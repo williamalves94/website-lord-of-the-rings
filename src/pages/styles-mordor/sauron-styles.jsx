@@ -20,7 +20,7 @@ export const TitleSauron = styled.div`
 
 export const DivShadowSauron = styled.div`
   display: flex;
-  padding: 25px 30px 30px 30px;
+  padding: 10px 60px 30px 60px;
 `;
 
 export const DivImgAndTextSauron = styled.div`
@@ -87,7 +87,7 @@ export const DivTextSauron = styled.div`
 export const DivThreeImgSauron = styled.div`
   display: flex;
   width: auto;
-  padding: 0 30px 50px 30px;
+  padding: 10px 60px 50px 60px;
   @media (max-width: 480px) {
     flex-direction: column;
   }

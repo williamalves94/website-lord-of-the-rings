@@ -95,7 +95,7 @@ export const TitleNasgul = styled.div`
 
 export const DivShadowNazgulOne = styled.div`
   display: flex;
-  padding: 30px 30px 25px 30px;
+  padding: 45px 60px 0px 60px;
 `;
 
 export const DivImageAndTextNazgul = styled.div`
@@ -156,12 +156,12 @@ export const DivTextNazgul = styled.div`
 
 export const DivShadowNazgulTwo = styled.div`
   display: flex;
-  padding: 5px 30px 25px 30px;
+  padding: 45px 60px 0 60px;
 `;
 
 export const DivImageAndTextNazgulTwo = styled.div`
   display: flex;
-  box-shadow: 12px 12px 20px 0px #00000085;
+  box-shadow: 12px 12px 20px 0px #00000086;
   border-radius: 3px;
   @media (max-width: 480px) {
     flex-direction: column-reverse;
@@ -221,7 +221,7 @@ export const DivTextNazgulTwo = styled.div`
 
 export const DivShadowNazgulThree = styled.div`
   display: flex;
-  padding: 5px 30px 25px 30px;
+  padding: 45px 60px 0px 60px;
 `;
 
 export const DivImageAndTextNazgulThree = styled.div`
@@ -283,7 +283,7 @@ export const DivTextNazgulThree = styled.div`
 
 export const DivShadowNazgulFour = styled.div`
   display: flex;
-  padding: 5px 30px 50px 30px;
+  padding: 45px 60px 60px 60px;
 `;
 
 export const DivImageAndTextNazgulFour = styled.div`
