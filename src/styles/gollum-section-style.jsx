@@ -81,6 +81,7 @@ export const TitleGollum = styled.div`
     @media (max-width: 480px) {
       font-size: 17px;
       margin: 0px 0px 0px 10px;
+      word-break: break-all;
     }
   }
 `;

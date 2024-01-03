@@ -26,8 +26,8 @@ export const GollumSection = () => {
           <p className="text-gollum">
             Gollum, originalmente chamado de Smeagol (ou Trahald), <br></br>foi
             a princípio um Grado, um dos três primeiros tipos de Hobbit.{" "}
-            <br></br>O nome Gollum foi derivado do som de sua tosse borbulhante
-            e sufocante.
+            <br></br>O nome Gollum foi derivado do som de sua tosse<br></br>
+            borbulhante e sufocante.
           </p>
         </TitleGollum>
         <img src={GollumMain} />
