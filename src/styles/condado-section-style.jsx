@@ -26,7 +26,7 @@ export const Condado = styled.section`
   @media (max-width: 480px) {
     font-size: 45px;
     margin-top: 0px;
-    padding: 5px 27px 10px 27px;
+    padding: 5px 35px 10px 35px;
   }
 `;
 
@@ -122,7 +122,7 @@ export const DivThreeImages = styled.div`
     flex-direction: column;
   }
   @media (max-width: 480px) {
-    padding: 35px 0px 0px 0px;
+    padding: 35px 0px 40px 0px;
   }
 `;
 
