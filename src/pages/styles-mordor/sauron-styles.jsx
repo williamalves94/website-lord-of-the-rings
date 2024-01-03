@@ -20,14 +20,14 @@ export const TitleSauron = styled.div`
 
 export const DivShadowSauron = styled.div`
   display: flex;
-  padding: 20px 50px 40px 50px;
+  padding: 25px 30px 30px 30px;
 `;
 
 export const DivImgAndTextSauron = styled.div`
   display: flex;
   background-color: #111111;
   box-shadow: 12px 12px 20px 0px #00000086;
-  margin-top: 20px;
+  //margin-top: 20px;
   @media (max-width: 480px) {
     flex-direction: column;
   }
@@ -87,7 +87,7 @@ export const DivTextSauron = styled.div`
 export const DivThreeImgSauron = styled.div`
   display: flex;
   width: auto;
-  padding: 0 60px 50px 60px;
+  padding: 0 40px 50px 40px;
   @media (max-width: 480px) {
     flex-direction: column;
   }

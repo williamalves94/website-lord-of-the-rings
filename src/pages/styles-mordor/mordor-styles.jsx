@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const MordorImageMain = styled.div`
   background-color: #1d1d1d;
   margin-top: -8px;
+  border-bottom: 2px solid #f2ca53;
   img {
     width: 100%;
     //height: 100vh;
@@ -80,7 +81,7 @@ export const TitleMordor = styled.div`
 
 export const DivShadowOne = styled.div`
   display: flex;
-  padding: 20px 60px 30px 60px;
+  padding: 15px 30px 15px 30px;
 `;
 
 export const DivImgAndTextMordorOne = styled.div`
@@ -146,7 +147,7 @@ export const DivTextOne = styled.div`
 
 export const DivShadowTwo = styled.div`
   display: flex;
-  padding: 20px 60px 30px 60px;
+  padding: 17px 30px 17px 30px;
 `;
 
 export const DivImgAndTextMordorTwo = styled.div`
@@ -207,7 +208,7 @@ export const DivTextTwo = styled.div`
 
 export const DivMountainShadow = styled.div`
   display: flex;
-  padding: 20px 60px 40px 60px;
+  padding: 15px 30px 40px 30px;
 `;
 
 export const Mountain = styled.div`
