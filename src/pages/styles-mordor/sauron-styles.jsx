@@ -87,7 +87,7 @@ export const DivTextSauron = styled.div`
 export const DivThreeImgSauron = styled.div`
   display: flex;
   width: auto;
-  padding: 0 40px 50px 40px;
+  padding: 0 30px 50px 30px;
   @media (max-width: 480px) {
     flex-direction: column;
   }

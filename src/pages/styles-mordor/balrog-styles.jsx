@@ -79,7 +79,7 @@ export const TitleBalrog = styled.div`
 
 export const DivShadowBalrogOne = styled.div`
   display: flex;
-  padding: 30px 28px 10px 28px;
+  padding: 25px 30px 0px 30px;
 `;
 
 export const DivImgAndTextOne = styled.div`
@@ -135,7 +135,7 @@ export const DivTextBalrogOne = styled.div`
 
 export const DivShadowBalrogTwo = styled.div`
   display: flex;
-  padding: 30px 28px 50px 28px;
+  padding: 30px 30px 50px 30px;
 `;
 
 export const DivImgAndTextTwo = styled.div`

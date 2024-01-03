@@ -55,7 +55,7 @@ export const TitleOrcs = styled.div`
 
 export const DivShadowOrcs = styled.div`
   display: flex;
-  padding: 15px 40px 50px 40px;
+  padding: 10px 30px 50px 30px;
 `;
 
 export const DivImagesOrcsAndTextOne = styled.div`
