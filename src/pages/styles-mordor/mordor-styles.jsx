@@ -83,7 +83,7 @@ export const DivShadowOne = styled.div`
   display: flex;
   padding: 25px 60px 15px 60px;
   @media (max-width: 480px) {
-    padding: 17px 30px 0 30px;
+    padding: 20px 30px 0 30px;
   }
 `;
 
@@ -152,7 +152,7 @@ export const DivShadowTwo = styled.div`
   display: flex;
   padding: 25px 60px 17px 60px;
   @media (max-width: 480px) {
-    padding: 30px 30px 0 30px;
+    padding: 35px 30px 0 30px;
   }
 `;
 
@@ -216,7 +216,7 @@ export const DivMountainShadow = styled.div`
   display: flex;
   padding: 20px 60px 60px 60px;
   @media (max-width: 480px) {
-    padding: 30px 30px 50px 30px;
+    padding: 35px 30px 60px 30px;
   }
 `;
 
