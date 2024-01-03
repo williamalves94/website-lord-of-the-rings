@@ -79,7 +79,7 @@ export const TitleGollum = styled.div`
       margin-top: 5px;
     }
     @media (max-width: 480px) {
-      font-size: 20px;
+      font-size: 17px;
       margin: 0px 0px 0px 10px;
     }
   }
