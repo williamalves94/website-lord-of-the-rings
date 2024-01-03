@@ -81,7 +81,10 @@ export const TitleMordor = styled.div`
 
 export const DivShadowOne = styled.div`
   display: flex;
-  padding: 15px 30px 15px 30px;
+  padding: 25px 60px 15px 60px;
+  @media (max-width: 480px) {
+    padding: 17px 30px 0 30px;
+  }
 `;
 
 export const DivImgAndTextMordorOne = styled.div`
@@ -147,7 +150,10 @@ export const DivTextOne = styled.div`
 
 export const DivShadowTwo = styled.div`
   display: flex;
-  padding: 17px 30px 17px 30px;
+  padding: 25px 60px 17px 60px;
+  @media (max-width: 480px) {
+    padding: 30px 30px 0 30px;
+  }
 `;
 
 export const DivImgAndTextMordorTwo = styled.div`
@@ -208,7 +214,10 @@ export const DivTextTwo = styled.div`
 
 export const DivMountainShadow = styled.div`
   display: flex;
-  padding: 15px 30px 40px 30px;
+  padding: 20px 60px 60px 60px;
+  @media (max-width: 480px) {
+    padding: 30px 30px 50px 30px;
+  }
 `;
 
 export const Mountain = styled.div`
@@ -232,7 +241,7 @@ export const ImgMountain = styled.div`
 export const TextMountain = styled.div`
   display: flex;
   align-items: center;
-  padding: 20px 30px 20px 30px;
+  padding: 20px 60px 20px 60px;
   background-color: #111111;
   flex: 1;
   p {
