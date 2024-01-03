@@ -89,7 +89,7 @@ export const TitleGollum = styled.div`
 export const DivGollumShadow = styled.div`
   padding: 20px 60px 40px 60px;
   @media (max-width: 480px) {
-    padding: 20px 25px 30px 25px;
+    padding: 20px 32px 35px 32px;
   }
 `;
 
