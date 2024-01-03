@@ -8,7 +8,7 @@ export const Fellowship = styled.section`
 
   @media (max-width: 480px) {
     flex-direction: column;
-    padding: 15px 27px 0px 27px;
+    padding: 15px 32px 0px 32px;
   }
 `;
 
@@ -148,9 +148,17 @@ export const DivTextFellowship = styled.div`
   }
 `;
 
-export const DivFellowshipImg = styled.div`
+export const DivFellowshipImgOne = styled.div`
   display: flex;
-  margin-top: 20px;
+  margin-top: 0px;
+  @media (max-width: 480px) {
+    flex-direction: column;
+    grid-template-columns: repeat(2, 1fr);
+  }
+`;
+export const DivFellowshipImgTwo = styled.div`
+  display: flex;
+  margin-top: 0px;
   @media (max-width: 480px) {
     flex-direction: column;
     grid-template-columns: repeat(2, 1fr);
@@ -160,15 +168,15 @@ export const DivFellowshipImg = styled.div`
 export const ImgFellowship = styled.div`
   display: flex;
   flex: 1 1 1;
-  padding: 10px;
+  padding: 10px 10px 10px 10px;
   background-color: #1d1d1d;
   margin: 10px;
   @media (max-width: 480px) {
-    margin: 7px 0px 7px 0px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0 40px 0;
   }
   img {
     width: 100%;
-    //border: 2px solid #f2ca53;
     border-radius: 3px;
     box-shadow: 12px 12px 20px 0px #00000086;
   }

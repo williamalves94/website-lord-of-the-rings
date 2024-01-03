@@ -3,7 +3,8 @@ import {
   ImageFellowship,
   DivMainFellowship,
   DivTextFellowship,
-  DivFellowshipImg,
+  DivFellowshipImgOne,
+  DivFellowshipImgTwo,
   ImgFellowship,
 } from "../styles/fellowship-section-style";
 import FellowshipImagemMain from "../assets/fellowshipsimgs/fellowshipmain.jpg";
@@ -36,7 +37,7 @@ export const FellowshipSection = () => {
         </DivTextFellowship>
       </DivMainFellowship>
 
-      <DivFellowshipImg>
+      <DivFellowshipImgOne>
         <ImgFellowship>
           <img src={FrodoBolseiro} />
         </ImgFellowship>
@@ -48,9 +49,9 @@ export const FellowshipSection = () => {
         <ImgFellowship>
           <img src={Gandalf} />
         </ImgFellowship>
-      </DivFellowshipImg>
+      </DivFellowshipImgOne>
 
-      <DivFellowshipImg>
+      <DivFellowshipImgTwo>
         <ImgFellowship>
           <img src={Aragorn} />
         </ImgFellowship>
@@ -62,7 +63,7 @@ export const FellowshipSection = () => {
         <ImgFellowship>
           <img src={Legolas} />
         </ImgFellowship>
-      </DivFellowshipImg>
+      </DivFellowshipImgTwo>
     </Fellowship>
   );
 };
