@@ -121,9 +121,9 @@ export const DivThreeImages = styled.div`
     font-size: 20px;
     flex-direction: column;
   }
-  //@media (max-width: 480px) {
-  //  padding: 0px 10px 0px 10px;
-  //}
+  @media (max-width: 480px) {
+    padding: 35px 0px 0px 0px;
+  }
 `;
 
 export const ImageOne = styled.div`
