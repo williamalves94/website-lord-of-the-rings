@@ -150,7 +150,7 @@ export const DivTextFellowship = styled.div`
 
 export const DivFellowshipImgOne = styled.div`
   display: flex;
-  margin-top: 0px;
+  margin-top: 35px;
   @media (max-width: 480px) {
     flex-direction: column;
     grid-template-columns: repeat(2, 1fr);
