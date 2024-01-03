@@ -66,6 +66,7 @@ export const RingSection = () => {
               assistência do próprio Sauron.
             </p>
           </DivGloveRingText>
+
           <DivGloveRing>
             <img src={Ring2} />
           </DivGloveRing>

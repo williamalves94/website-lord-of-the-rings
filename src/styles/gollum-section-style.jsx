@@ -87,6 +87,9 @@ export const TitleGollum = styled.div`
 
 export const DivGollumShadow = styled.div`
   padding: 20px 60px 40px 60px;
+  @media (max-width: 480px) {
+    padding: 25px 25px 30px 25px;
+  }
 `;
 
 export const DivImageAndTextgollum = styled.div`
@@ -102,9 +105,6 @@ export const DivImageAndTextgollum = styled.div`
 
 export const DivImageGollum = styled.div`
   flex: 1;
-  @media (max-width: 480px) {
-    padding: 0px;
-  }
   img {
     width: 100%;
     height: 100%;
@@ -157,25 +157,26 @@ export const DivTextGollum = styled.div`
 
 export const DivTwoImageGollumShadow = styled.div`
   padding: 0 80px 50px 80px;
-  border: 2px solid yellow;
   @media (max-width: 480px) {
-    padding: 0 0px 0px 0px;
+    padding: 0 35px 30px 35px;
   }
 `;
 
 export const DivTwoImgGollum = styled.div`
-  flex: 1;
+  //flex: 1;
   display: flex;
+  width: 100%;
+  height: 100%;
   //margin-top: 20px;
   background-color: #1d1d1d;
   box-shadow: 12px 12px 20px 0px #00000086;
   @media (max-width: 480px) {
     flex-direction: column-reverse;
-    margin-top: 0px;
+    //margin-top: 0px;
   }
-  @media (max-width: 1200px) {
-    flex-direction: column;
-  }
+  //@media (max-width: 1200px) {
+  //  flex-direction: column;
+  //}
 `;
 
 export const ImageGollumFisrt = styled.div`
@@ -192,21 +193,44 @@ export const ImageGollumLast = styled.div`
   img {
     width: 100%;
     height: 100%;
-    @media (max-width: 1200px) {
-      height: 100%;
-    }
   }
 `;
 export const DivCenterTextGollum = styled.div`
-  color: #9bb8cc;
   flex: 1;
-  display: flex;
-  align-items: center;
-  font-size: 30px;
-  padding: 0 15px 0px 15px;
+  padding: 10px 15px 10px 15px;
   background-color: #1d1d1d;
-
-  @media (max-width: 480px) {
-    font-size: 20px;
+  p {
+    color: #9bb8cc;
+    font-size: 30px;
+    @media (max-width: 1850px) {
+      font-size: 28px;
+    }
+    @media (max-width: 1750px) {
+      font-size: 26px;
+    }
+    @media (max-width: 1650px) {
+      font-size: 23px;
+    }
+    @media (max-width: 1590px) {
+      font-size: 20px;
+    }
+    @media (max-width: 1450px) {
+      font-size: 18px;
+    }
+    @media (max-width: 1350px) {
+      font-size: 17px;
+    }
+    @media (max-width: 1250px) {
+      font-size: 16px;
+    }
+    @media (max-width: 1170px) {
+      font-size: 14px;
+    }
+    @media (max-width: 1050px) {
+      font-size: 12px;
+    }
+    @media (max-width: 930px) {
+      font-size: 10px;
+    }
   }
 `;

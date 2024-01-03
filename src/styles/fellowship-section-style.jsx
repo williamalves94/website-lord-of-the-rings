@@ -29,7 +29,6 @@ export const DivMainFellowship = styled.div`
 export const ImageFellowship = styled.div`
   flex: 1;
   background-color: #1d1d1d;
-
   img {
     width: 100%;
     height: 100%;

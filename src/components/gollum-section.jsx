@@ -72,7 +72,7 @@ export const GollumSection = () => {
           </DivCenterTextGollum>
 
           <ImageGollumLast>
-            <img className="teste" src={Gollum3} />
+            <img src={Gollum3} />
           </ImageGollumLast>
         </DivTwoImgGollum>
       </DivTwoImageGollumShadow>
