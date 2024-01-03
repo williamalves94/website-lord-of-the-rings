@@ -32,6 +32,7 @@ export const GollumSection = () => {
         </TitleGollum>
         <img src={GollumMain} />
       </ImageGollumMain>
+
       <DivGollumShadow>
         <DivImageAndTextgollum>
           <DivImageGollum>
