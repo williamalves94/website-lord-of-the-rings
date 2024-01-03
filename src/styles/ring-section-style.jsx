@@ -293,7 +293,7 @@ export const DivGloveRingText = styled.div`
 export const DivRingShadow = styled.div`
   padding: 40px 60px 0px 60px;
   @media (max-width: 480px) {
-    padding: 25px 32px 15px 32px;
+    padding: 40px 32px 15px 32px;
   }
 `;
 export const DivGloveShadow = styled.div`
