@@ -8,7 +8,7 @@ export const Fellowship = styled.section`
 
   @media (max-width: 480px) {
     flex-direction: column;
-    padding: 15px 25px 15px 25px;
+    padding: 15px 27px 0px 27px;
   }
 `;
 

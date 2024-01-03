@@ -9,7 +9,7 @@ export const OrcsImageMain = styled.div`
   img {
     width: 100%;
     height: auto;
-    box-shadow: 12px 12px 20px 0px #00000085;
+    box-shadow: 12px 12px 20px 0px #00000086;
   }
 `;
 
@@ -55,7 +55,7 @@ export const TitleOrcs = styled.div`
 
 export const DivShadowOrcs = styled.div`
   display: flex;
-  padding: 10px 30px 50px 30px;
+  padding: 20px 60px 60px 60px;
 `;
 
 export const DivImagesOrcsAndTextOne = styled.div`

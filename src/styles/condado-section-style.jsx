@@ -19,19 +19,19 @@ export const Condado = styled.section`
       margin-top: 0px;
     }
     @media (max-width: 480px) {
-      font-size: 70px;
+      font-size: 60px;
       margin-top: 25px;
     }
   }
   @media (max-width: 480px) {
     font-size: 45px;
     margin-top: 0px;
-    padding: 10px 25px 10px 25px;
+    padding: 5px 27px 10px 27px;
   }
 `;
 
 export const DivMain = styled.div`
-  margin-top: 15px;
+  margin-top: 10px;
   display: flex;
   height: auto;
   background-color: #1d1d1d; //0e0c0c
@@ -114,7 +114,7 @@ export const DivText = styled.div`
 
 export const DivThreeImages = styled.div`
   display: flex;
-  padding: 40px 20px 0 20px;
+  padding: 40px 17px 35px 17px;
   width: auto;
   height: auto;
   @media (max-width: 930px) {
@@ -160,9 +160,6 @@ export const ImageThree = styled.div`
   display: flex;
   flex: 1 1 1;
   background-color: #1d1d1d;
-  //  @media (max-width: 480px) {
-  //    margin: 15px 15px 15px 15px;
-  //  }
   img {
     width: 100%;
     border-radius: 3px;

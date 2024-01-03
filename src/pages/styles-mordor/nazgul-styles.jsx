@@ -12,7 +12,7 @@ export const NazgulImageMain = styled.div`
   img {
     width: 100%;
     height: auto;
-    box-shadow: 12px 12px 20px 0px #00000085;
+    box-shadow: 12px 12px 20px 0px #00000086;
   }
 `;
 
@@ -100,7 +100,7 @@ export const DivShadowNazgulOne = styled.div`
 
 export const DivImageAndTextNazgul = styled.div`
   display: flex;
-  box-shadow: 12px 12px 20px 0px #00000085;
+  box-shadow: 12px 12px 20px 0px #00000086;
   border-radius: 3px;
   @media (max-width: 480px) {
     flex-direction: column;
@@ -289,7 +289,7 @@ export const DivShadowNazgulFour = styled.div`
 export const DivImageAndTextNazgulFour = styled.div`
   display: flex;
   flex-direction: column-reverse;
-  box-shadow: 12px 12px 20px 0px #00000085;
+  box-shadow: 12px 12px 20px 0px #00000086;
 `;
 
 export const DivImageNazgulFour = styled.div`

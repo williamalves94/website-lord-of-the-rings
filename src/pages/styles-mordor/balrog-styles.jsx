@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Balrog = styled.section`
   width: 100%;
-  background-color: #111111;
+  background-color: #1d1d1d;
 `;
 
 export const BalrogImageMain = styled.div`
@@ -79,12 +79,13 @@ export const TitleBalrog = styled.div`
 
 export const DivShadowBalrogOne = styled.div`
   display: flex;
-  padding: 25px 30px 0px 30px;
+  padding: 45px 60px 0px 60px;
 `;
 
 export const DivImgAndTextOne = styled.div`
   display: flex;
-  box-shadow: 12px 12px 20px 0px #00000085;
+  box-shadow: 12px 12px 20px 0px #00000086;
+  background-color: #111111;
   @media (max-width: 480px) {
     flex-direction: column;
   }
@@ -135,12 +136,13 @@ export const DivTextBalrogOne = styled.div`
 
 export const DivShadowBalrogTwo = styled.div`
   display: flex;
-  padding: 30px 30px 50px 30px;
+  padding: 45px 60px 60px 60px;
 `;
 
 export const DivImgAndTextTwo = styled.div`
   display: flex;
   box-shadow: 12px 12px 20px 0px #00000086;
+  background-color: #111111;
   @media (max-width: 480px) {
     flex-direction: column-reverse;
   }
