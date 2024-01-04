@@ -21,6 +21,9 @@ export const TitleSauron = styled.div`
 export const DivShadowSauron = styled.div`
   display: flex;
   padding: 10px 60px 30px 60px;
+  @media (max-width: 480px) {
+    padding: 10px 30px 30px 30px;
+  }
 `;
 
 export const DivImgAndTextSauron = styled.div`
@@ -90,21 +93,23 @@ export const DivThreeImgSauron = styled.div`
   padding: 10px 60px 50px 60px;
   @media (max-width: 480px) {
     flex-direction: column;
+    padding: 10px 30px 30px 30px;
   }
 
   .image-one {
     @media (max-width: 480px) {
-      margin: 0 0 25px 0;
+      margin: 0 0 32px 0;
     }
   }
   .image-two {
     margin: 0 30px 0 30px;
     @media (max-width: 480px) {
-      margin: 0 0 25px 0;
+      margin: 0 0 32px 0;
     }
   }
   .image-three {
     @media (max-width: 480px) {
+      margin: 0 0 25px 0;
     }
   }
 `;
