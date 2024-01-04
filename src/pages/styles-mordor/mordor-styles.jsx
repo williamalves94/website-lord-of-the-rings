@@ -91,7 +91,7 @@ export const DivImgAndTextMordorOne = styled.div`
   display: flex;
   background-color: #111111;
   margin: 20px 0 0 0;
-  box-shadow: 12px 12px 20px 0px #00000085;
+  box-shadow: 12px 12px 20px 0px #00000086;
   @media (max-width: 480px) {
     flex-direction: column;
   }
@@ -159,7 +159,7 @@ export const DivShadowTwo = styled.div`
 export const DivImgAndTextMordorTwo = styled.div`
   display: flex;
   background-color: #111111;
-  box-shadow: 12px 12px 20px 0px #00000085;
+  box-shadow: 12px 12px 20px 0px #00000086;
   @media (max-width: 480px) {
     flex-direction: column;
   }
@@ -223,7 +223,7 @@ export const DivMountainShadow = styled.div`
 export const Mountain = styled.div`
   display: flex;
   background-color: #111111;
-  box-shadow: 12px 12px 20px 0px #00000085;
+  box-shadow: 12px 12px 20px 0px #00000086;
   @media (max-width: 480px) {
     flex-direction: column;
   }

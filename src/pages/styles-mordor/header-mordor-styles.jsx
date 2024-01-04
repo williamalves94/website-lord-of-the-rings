@@ -6,7 +6,7 @@ export const HeaderMordor = styled.header`
   border-bottom: 2px solid #f2ca53;
   z-index: 999;
   position: fixed;
-  background-color: black; //1f242d
+  background-color: #1d1d1d; //1f242d
   color: white;
   display: flex;
   align-items: center;

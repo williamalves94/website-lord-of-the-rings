@@ -109,7 +109,7 @@ export const CloseButton = styled.div`
 `;
 
 export const DivShadowModal = styled.div`
-  box-shadow: 12px 12px 20px 0px #00000085;
+  box-shadow: 12px 12px 20px 0px #00000086;
   img {
     height: 100%;
   }

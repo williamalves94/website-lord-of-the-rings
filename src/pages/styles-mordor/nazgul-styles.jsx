@@ -235,7 +235,7 @@ export const DivShadowNazgulThree = styled.div`
 
 export const DivImageAndTextNazgulThree = styled.div`
   display: flex;
-  box-shadow: 12px 12px 20px 0px #00000085;
+  box-shadow: 12px 12px 20px 0px #00000086;
   border-radius: 3px;
   @media (max-width: 480px) {
     flex-direction: column;
