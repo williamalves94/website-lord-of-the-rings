@@ -294,7 +294,7 @@ export const DivShadowNazgulFour = styled.div`
   display: flex;
   padding: 45px 60px 60px 60px;
   @media (max-width: 480px) {
-    padding: 37px 30px 50px 30px;
+    padding: 37px 30px 60px 30px;
   }
 `;
 
