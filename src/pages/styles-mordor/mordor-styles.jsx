@@ -109,7 +109,7 @@ export const ImageMordorOne = styled.div`
 export const DivTextOne = styled.div`
   display: flex;
   align-items: center;
-  padding: 20px 30px 20px 30px;
+  padding: 20px 20px 20px 20px;
   background-color: #111111;
   flex: 1;
   p {
@@ -176,7 +176,7 @@ export const ImageMordorTwo = styled.div`
 export const DivTextTwo = styled.div`
   display: flex;
   align-items: center;
-  padding: 20px 30px 20px 30px;
+  padding: 20px 20px 20px 20px;
   background-color: #111111;
   flex: 1;
   p {
@@ -241,7 +241,7 @@ export const ImgMountain = styled.div`
 export const TextMountain = styled.div`
   display: flex;
   align-items: center;
-  padding: 20px 60px 20px 60px;
+  padding: 10px 20px 0px 20px;
   background-color: #111111;
   flex: 1;
   p {
