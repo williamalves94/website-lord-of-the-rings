@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Orcs = styled.section`
   width: 100%;
-  background-color: #111111;
+  background-color: #1d1d1d;
 `;
 
 export const OrcsImageMain = styled.div`
@@ -56,14 +56,17 @@ export const TitleOrcs = styled.div`
 export const DivShadowOrcs = styled.div`
   display: flex;
   padding: 20px 60px 60px 60px;
+  @media (max-width: 480px) {
+    padding: 18px 30px 60px 30px;
+  }
 `;
 
 export const DivImagesOrcsAndTextOne = styled.div`
   flex: 1;
   display: flex;
   margin-top: 20px;
-  background-color: #111111;
-  box-shadow: 12px 12px 20px 0px #00000085;
+  background-color: #1d1d1d;
+  box-shadow: 12px 12px 20px 0px #00000086;
   @media (max-width: 480px) {
     flex-direction: column;
   }
@@ -90,7 +93,7 @@ export const TextOrcs = styled.div`
   align-items: center;
   font-size: 36px;
   padding: 10px 20px 20px 20px;
-  background-color: #111111;
+  background-color: #1d1d1d;
   p {
     @media (max-width: 1812px) {
       font-size: 32px;
