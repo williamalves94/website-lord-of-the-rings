@@ -229,7 +229,7 @@ export const DivShadowNazgulThree = styled.div`
   display: flex;
   padding: 45px 60px 0px 60px;
   @media (max-width: 480px) {
-    padding: 35px 30px 0px 30px;
+    padding: 38px 30px 0px 30px;
   }
 `;
 
