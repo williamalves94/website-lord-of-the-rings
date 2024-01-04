@@ -104,12 +104,12 @@ export const DivThreeImgSauron = styled.div`
   .image-two {
     margin: 0 30px 0 30px;
     @media (max-width: 480px) {
-      margin: 0 0 34px 0;
+      margin: 0 0 36px 0;
     }
   }
   .image-three {
     @media (max-width: 480px) {
-      margin: 0 0 25px 0;
+      margin: 0 0 30px 0;
     }
   }
 `;
