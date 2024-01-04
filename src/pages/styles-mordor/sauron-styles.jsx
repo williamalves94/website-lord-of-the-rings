@@ -104,7 +104,7 @@ export const DivThreeImgSauron = styled.div`
   .image-two {
     margin: 0 30px 0 30px;
     @media (max-width: 480px) {
-      margin: 0 0 37px 0;
+      margin: 0 0 38px 0;
     }
   }
   .image-three {
