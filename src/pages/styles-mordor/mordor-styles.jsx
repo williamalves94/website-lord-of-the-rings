@@ -215,7 +215,7 @@ export const DivMountainShadow = styled.div`
   display: flex;
   padding: 20px 60px 60px 60px;
   @media (max-width: 480px) {
-    padding: 35px 30px 60px 30px;
+    padding: 35px 30px 40px 30px;
   }
 `;
 
