@@ -57,8 +57,11 @@ export const DivImg = styled.div`
 export const DivText = styled.div`
   width: auto;
   align-self: flex-start;
-  padding: 0px;
+  padding: 10px;
   flex: 1;
+  //@media (max-width: 480px) {
+  //  margin-top: -40px;
+  //}
   .title {
     justify-content: flex-start;
     color: #f2ca53;
@@ -76,6 +79,7 @@ export const DivText = styled.div`
     }
     @media (max-width: 480px) {
       font-size: 36px;
+      margin-bottom: 15px;
     }
   }
 
@@ -111,6 +115,9 @@ export const DivText = styled.div`
 
     @media (max-width: 1024px) {
       font-size: 20px;
+    }
+    @media (max-width: 480px) {
+      margin-top: -10px;
     }
   }
 `;

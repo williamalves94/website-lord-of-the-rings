@@ -37,7 +37,7 @@ export const TitleSauron = styled.div`
 
 export const DivShadowSauron = styled.div`
   display: flex;
-  padding: 10px 60px 30px 60px;
+  padding: 0px 60px 30px 60px;
   @media (max-width: 480px) {
     padding: 10px 30px 28px 30px;
   }
