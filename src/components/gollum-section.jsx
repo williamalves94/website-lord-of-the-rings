@@ -24,10 +24,10 @@ export const GollumSection = () => {
         <TitleGollum>
           <p className="title-gollum">Gollum</p>
           <p className="text-gollum">
-            Gollum, originalmente chamado de Smeagol (ou Trahald), <br></br>foi
-            a princípio um Grado, um dos três primeiros tipos de Hobbit.{" "}
-            <br></br>O nome Gollum foi derivado do som de sua tosse<br></br>
-            borbulhante e sufocante.
+            Gollum, originalmente chamado de Smeagol, foi a<br></br>
+            princípio um Grado, um dos três primeiros tipos <br></br>de Hobbit.
+            O nome Gollum foi derivado do som <br></br>de sua tosse borbulhante
+            e sufocante.
           </p>
         </TitleGollum>
         <img src={GollumMain} />
