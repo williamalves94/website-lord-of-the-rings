@@ -224,6 +224,7 @@ export const DivTextNazgulTwo = styled.div`
       font-size: 12px;
     }
     @media (max-width: 480px) {
+      font-size: 14px;
       margin-top: -30px;
       padding: 40px 20px 20px 20px;
     }
