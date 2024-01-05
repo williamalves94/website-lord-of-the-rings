@@ -17,7 +17,7 @@ export const HeaderMordor = styled.header`
     height: 100px;
     border-bottom: 2px solid #f2ca53;
     //z-index: 100;
-    background-color: black; //1f242d
+    background-color: #111111; //1f242d
     color: white;
     display: flex;
     align-items: center;
