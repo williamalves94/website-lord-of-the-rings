@@ -59,7 +59,7 @@ export const LogoImg = styled.div`
     }
 
     @media (max-width: 480px) {
-      width: 230px;
+      width: 220px;
       align-items: center;
       margin-left: 20px;
       display: flex;
