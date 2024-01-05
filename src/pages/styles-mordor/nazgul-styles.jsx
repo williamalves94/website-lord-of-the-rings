@@ -154,6 +154,10 @@ export const DivTextNazgul = styled.div`
     @media (max-width: 769px) {
       font-size: 13px;
     }
+    @media (max-width: 769px) {
+      font-size: 13px;
+      padding: 40px 20px 20px 20px;
+    }
   }
 `;
 
@@ -221,6 +225,7 @@ export const DivTextNazgulTwo = styled.div`
     }
     @media (max-width: 480px) {
       margin-top: -30px;
+      padding: 40px 20px 20px 20px;
     }
   }
 `;
@@ -286,6 +291,7 @@ export const DivTextNazgulThree = styled.div`
     }
     @media (max-width: 480px) {
       margin-top: -30px;
+      padding: 40px 20px 20px 20px;
     }
   }
 `;
