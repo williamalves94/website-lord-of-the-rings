@@ -8,13 +8,26 @@ export const Sauron = styled.section`
 
 export const TitleSauron = styled.div`
   display: flex;
-  justify-content: center;
-  p {
+  .title-main-sauron {
     color: #f2ca52;
-    text-shadow: 10px 5px 6px black;
-    font-size: 100px;
+    font-size: 70px;
     margin-top: 10px;
-    margin-bottom: -20px;
+    @media (max-width: 1300px) {
+      font-size: 50px;
+      margin-top: 0px;
+    }
+    @media (max-width: 1100px) {
+      font-size: 45px;
+      margin-top: 0px;
+    }
+    @media (max-width: 1000px) {
+      font-size: 40px;
+      margin-top: 0px;
+    }
+    @media (max-width: 840px) {
+      font-size: 35px;
+      margin-top: 0px;
+    }
   }
 `;
 
@@ -76,9 +89,9 @@ export const DivTextSauron = styled.div`
       font-size: 18px;
     }
     @media (max-width: 890px) {
-      font-size: 14px;
+      font-size: 15px;
     }
-    @media (max-width: 750px) {
+    @media (max-width: 800px) {
       font-size: 14px;
     }
     @media (max-width: 480px) {

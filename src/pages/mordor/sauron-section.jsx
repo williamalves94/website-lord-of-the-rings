@@ -16,9 +16,6 @@ import Sauron3 from "../../assets/sauron/sauron3.jpg";
 export const SauronSection = () => {
   return (
     <Sauron>
-      <TitleSauron>
-        <p>Sauron</p>
-      </TitleSauron>
       <DivShadowSauron>
         <DivImgAndTextSauron>
           <DivImgSauron>
@@ -26,6 +23,9 @@ export const SauronSection = () => {
           </DivImgSauron>
 
           <DivTextSauron>
+            <TitleSauron>
+              <p className="title-main-sauron">Sauron</p>
+            </TitleSauron>
             <p>
               Sauron, também conhecido como Senhor do Escuro de Mordor ou Senhor
               Sombrio, por vezes referido como Inimigo do Mundo, é um Maia que
