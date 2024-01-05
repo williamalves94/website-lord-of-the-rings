@@ -74,12 +74,15 @@ export const DivText = styled.div`
     @media (max-width: 1100px) {
       font-size: 36px;
     }
+    @media (max-width: 480px) {
+      font-size: 36px;
+    }
   }
 
   p {
     color: #f2ca53;
     font-size: 40px;
-    padding: 0 30px 0 30px;
+    padding: 0 20px 0 20px;
     font-family: "Beau Rivage";
     letter-spacing: 1px;
 

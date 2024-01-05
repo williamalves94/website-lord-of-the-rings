@@ -126,7 +126,7 @@ export const DivTextNazgul = styled.div`
   p {
     color: gray;
     font-size: 36px;
-    padding: 40px 40px 10px 40px;
+    padding: 20px 20px 20px 20px;
     @media (max-width: 1840px) {
       font-size: 30px;
     }
@@ -188,7 +188,7 @@ export const DivTextNazgulTwo = styled.div`
   p {
     color: gray;
     font-size: 36px;
-    padding: 40px 20px 20px 20px;
+    padding: 30px 20px 20px 20px;
     @media (max-width: 1840px) {
       font-size: 30px;
     }
@@ -256,7 +256,7 @@ export const DivTextNazgulThree = styled.div`
   p {
     color: gray;
     font-size: 36px;
-    padding: 40px 20px 20px 20px;
+    padding: 30px 20px 20px 20px;
     @media (max-width: 1655px) {
       font-size: 32px;
     }
