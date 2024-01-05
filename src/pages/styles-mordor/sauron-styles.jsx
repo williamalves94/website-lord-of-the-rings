@@ -25,7 +25,11 @@ export const TitleSauron = styled.div`
       margin-top: 0px;
     }
     @media (max-width: 840px) {
-      font-size: 35px;
+      font-size: 36px;
+      margin-top: 0px;
+    }
+    @media (max-width: 840px) {
+      font-size: 36px;
       margin-top: 0px;
     }
   }
