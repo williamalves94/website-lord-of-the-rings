@@ -43,6 +43,9 @@ export const TitleGollum = styled.div`
       font-size: 35px;
       margin: 60px 0px 0px 15px;
     }
+    @media (max-width: 400px) {
+      margin: 40px 0px 0px 10px;
+    }
   }
   .text-gollum {
     color: #9bb8cc;
@@ -81,6 +84,9 @@ export const TitleGollum = styled.div`
     @media (max-width: 480px) {
       font-size: 17px;
       margin: 0px 0px 0px 15px;
+    }
+    @media (max-width: 400px) {
+      margin: 0px 0px 0px 10px;
     }
   }
 `;
