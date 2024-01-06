@@ -12,7 +12,7 @@ export const HeaderSection = ({ handleOpenModal }) => {
   return (
     <Head>
       <LogoImg>
-        <img src={LogoMain} href="#" />
+        <img src={LogoMain} />
       </LogoImg>
       <MenuIcon>
         <BiMenu onClick={showSidebar} />
@@ -21,7 +21,7 @@ export const HeaderSection = ({ handleOpenModal }) => {
 
       <NavHeader>
         <Link to="/">
-          <a>Terra Média</a>
+          <a href="#home">Terra Média</a>
         </Link>
         <p onClick={handleOpenModal} className="mapa">
           Mapa

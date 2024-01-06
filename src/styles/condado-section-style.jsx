@@ -38,10 +38,11 @@ export const DivMain = styled.div`
   flex-wrap: wrap;
   //border: 2px solid #f2ca53;
   box-shadow: 12px 12px 20px 0px #00000086;
-  border-radius: 3px 3px 0px 0px;
+  border-radius: 0px 3px 3px 0px;
   @media (max-width: 930px) {
     grid-template-columns: repeat(2, 1fr);
     flex-direction: column;
+    border-radius: 0px 33px 3px 0px;
   }
 `;
 
@@ -50,7 +51,10 @@ export const DivImg = styled.div`
   img {
     width: 100%;
     height: 100%;
-    border-radius: 3px 3px 0px 0px;
+    border-radius: 3px 0px 0px 3px;
+    @media (max-width: 930px) {
+      border-radius: 3px 3px 0px 0px;
+    }
   }
 `;
 

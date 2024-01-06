@@ -3,7 +3,7 @@ import MainImage from "../assets/imagemain.jpg";
 
 export const HomeMain = () => {
   return (
-    <Home>
+    <Home id="home">
       <img src={MainImage} />
     </Home>
   );
