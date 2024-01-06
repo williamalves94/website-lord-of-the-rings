@@ -31,7 +31,7 @@ export const Condado = styled.section`
 `;
 
 export const DivMain = styled.div`
-  margin-top: 10px;
+  margin-top: 15px;
   display: flex;
   height: auto;
   background-color: #1d1d1d; //0e0c0c

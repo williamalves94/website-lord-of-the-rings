@@ -19,7 +19,6 @@ export const DivMainFellowship = styled.div`
   display: flex;
   //border: 2px solid #f2ca53;
   box-shadow: 12px 12px 20px 0px #00000086;
-  border-radius: 3px 3px 0px 0px;
   margin-bottom: 25px;
   @media (max-width: 480px) {
     flex-direction: column;
@@ -32,7 +31,10 @@ export const ImageFellowship = styled.div`
   img {
     width: 100%;
     height: 100%;
-    border-radius: 3px 0px 0px 0px;
+    border-radius: 3px 0px 0px 3px;
+    @media (max-width: 480px) {
+      border-radius: 3px 3px 0px 0px;
+    }
   }
 `;
 
