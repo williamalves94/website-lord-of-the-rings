@@ -16,7 +16,7 @@ export const Home = styled.section`
   img {
     width: 100%;
     height: auto;
-    border-bottom: 2px solid #f2ca53;
+    //border-bottom: 2px solid #f2ca53;
     box-shadow: 12px 12px 20px 0px #00000086;
     margin-top: 100px;
   }
