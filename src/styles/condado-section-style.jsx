@@ -43,6 +43,7 @@ export const DivMain = styled.div`
     grid-template-columns: repeat(2, 1fr);
     flex-direction: column;
     border-radius: 0px 33px 3px 0px;
+    margin-top: 27px;
   }
 `;
 
