@@ -41,7 +41,7 @@ export const TitleGollum = styled.div`
     }
     @media (max-width: 480px) {
       font-size: 35px;
-      margin: 50px 0px 0px 10px;
+      margin: 60px 0px 0px 15px;
     }
   }
   .text-gollum {
@@ -80,7 +80,7 @@ export const TitleGollum = styled.div`
     }
     @media (max-width: 480px) {
       font-size: 17px;
-      margin: 0px 0px 0px 10px;
+      margin: 0px 0px 0px 15px;
     }
   }
 `;
@@ -96,6 +96,7 @@ export const DivImageAndTextgollum = styled.div`
   display: flex;
   background-color: #1d1d1d;
   margin-top: 10px;
+  border-radius: 3px 3px 3px 3px;
   box-shadow: 12px 12px 20px 0px #00000086;
   @media (max-width: 480px) {
     flex-direction: column;
@@ -108,7 +109,7 @@ export const DivImageGollum = styled.div`
   img {
     width: 100%;
     height: 100%;
-    border-radius: 3px 3px 0 0;
+    border-radius: 3px 0 0 3px;
   }
 `;
 
@@ -117,7 +118,7 @@ export const DivTextGollum = styled.div`
   align-items: center;
   flex: 1;
   font-size: 42px;
-  padding: 25px;
+  padding: 0 20px 0px 20px;
   color: #9bb8cc;
   @media (max-width: 1200px) {
     //margin-top: -40px;
@@ -185,13 +186,13 @@ export const ImageGollumFisrt = styled.div`
 `;
 export const ImageGollumLast = styled.div`
   flex: 1;
+  display: flex;
   border-radius: 3px;
   img {
     width: 100%;
     height: 100%;
     @media (max-width: 480px) {
       margin-bottom: 0;
-      border: 2px solid yellow;
     }
   }
 `;
@@ -231,6 +232,9 @@ export const DivCenterTextGollum = styled.div`
     }
     @media (max-width: 930px) {
       font-size: 10px;
+    }
+    @media (max-width: 480px) {
+      font-size: 17px;
     }
   }
 `;
