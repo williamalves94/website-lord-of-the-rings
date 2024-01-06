@@ -12,16 +12,17 @@ export const Head = styled.header`
   align-items: center;
   justify-content: space-between;
 
-  @media (max-width: 1250px) {
-    width: 100%;
-    height: 100px;
-    border-bottom: 2px solid #f2ca53;
-    //z-index: 100;
-    background-color: black; //1f242d
-    color: white;
-    display: flex;
-    align-items: center;
-  }
+  //@media (max-width: 1250px) {
+  //width: 100%;
+  //height: 100px;
+  ///border-bottom: 2px solid #f2ca53;
+  //z-index: 100;
+  //background-color: black; //1f242d
+  //color: white;
+  //display: flex;
+  //align-items: center;
+  //}
+  //
 `;
 
 export const MenuIcon = styled.menu`
@@ -49,9 +50,13 @@ export const NavHeader = styled.header`
     transition: all.3s;
     text-decoration: none;
 
-    @media (max-width: 1250px) {
-      font-size: 38px;
+    @media (max-width: 1400px) {
+      font-size: 40px;
     }
+    @media (max-width: 1300px) {
+      font-size: 37px;
+    }
+
     @media (max-width: 1100px) {
       font-size: 35px;
     }
@@ -76,9 +81,14 @@ export const NavHeader = styled.header`
     text-decoration: none;
     cursor: pointer;
 
-    @media (max-width: 1250px) {
+    @media (max-width: 1400px) {
+      font-size: 40px;
+      margin-right: 40px;
+      margin-left: 40px;
+    }
+    @media (max-width: 1300px) {
       justify-content: space-around;
-      font-size: 38px;
+      font-size: 37px;
       margin-right: 40px;
       margin-left: 40px;
     }
@@ -109,8 +119,7 @@ export const NavHeader = styled.header`
   }
 
   @media (max-width: 1250px) {
-    margin-right: 60px;
-    font-size: 44px;
+    margin-right: 50px;
     display: flex;
     align-items: center;
   }

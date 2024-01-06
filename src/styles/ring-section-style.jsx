@@ -10,7 +10,6 @@ export const ImageRingMain = styled.div`
     width: 100%;
     height: auto;
     box-shadow: 12px 12px 20px 0px #00000086;
-    border-radius: 3px;
   }
 `;
 
@@ -157,6 +156,7 @@ export const DivImgAndTextRing = styled.div`
   display: flex;
   background-color: #1d1d1d;
   box-shadow: 12px 12px 20px 0px #00000086;
+  border-radius: 0px 3px 3px 0px;
   @media (max-width: 480px) {
     flex-direction: column;
   }
@@ -164,10 +164,11 @@ export const DivImgAndTextRing = styled.div`
 
 export const RingImages = styled.div`
   flex: 1;
+  border-radius: 3px 0 0 3px;
   img {
     width: 100%;
     height: 100%;
-    border-radius: 3px;
+    border-radius: 3px 0 0 3px;
   }
 `;
 export const RingText = styled.div`
@@ -220,7 +221,7 @@ export const DivSecondImgAndText = styled.div`
   display: flex;
   background-color: #1d1d1d;
   box-shadow: 12px 12px 20px 0px #00000086;
-  //padding: 30px 30px 60px 30px;
+  border-radius: 3px 3px 3px 3px;
   @media (max-width: 480px) {
     flex-direction: column-reverse;
   }
@@ -231,7 +232,7 @@ export const DivGloveRing = styled.div`
   img {
     width: 100%;
     height: 100%;
-    border-radius: 3px;
+    border-radius: 0px 3px 3px 0px;
   }
 `;
 
