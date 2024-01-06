@@ -201,7 +201,7 @@ export const DivCenterTextGollum = styled.div`
   background-color: #1d1d1d;
   p {
     color: #9bb8cc;
-    font-size: 30px;
+    font-size: 28px;
     @media (max-width: 1850px) {
       font-size: 28px;
     }
