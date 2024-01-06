@@ -100,7 +100,8 @@ export const DivImageAndTextgollum = styled.div`
   box-shadow: 12px 12px 20px 0px #00000086;
   @media (max-width: 480px) {
     flex-direction: column;
-    height: 100%;
+    //height: 100%;
+    border-radius: 3px;
   }
 `;
 
@@ -110,6 +111,9 @@ export const DivImageGollum = styled.div`
     width: 100%;
     height: 100%;
     border-radius: 3px 0 0 3px;
+    @media (max-width: 480px) {
+      border-radius: 3px 3px 0 0;
+    }
   }
 `;
 
@@ -171,6 +175,7 @@ export const DivTwoImgGollum = styled.div`
   //margin-top: 20px;
   background-color: #1d1d1d;
   box-shadow: 12px 12px 20px 0px #00000086;
+  border-radius: 3px;
   @media (max-width: 480px) {
     flex-direction: column;
     //margin-top: 0px;
@@ -182,17 +187,22 @@ export const ImageGollumFisrt = styled.div`
   img {
     width: 100%;
     height: 100%;
+    border-radius: 3px 0 0 3px;
+    @media (max-width: 480px) {
+      border-radius: 3px 3px 0 0;
+    }
   }
 `;
 export const ImageGollumLast = styled.div`
   flex: 1;
   display: flex;
-  border-radius: 3px;
   img {
     width: 100%;
     height: 100%;
+    border-radius: 0 3px 3px 0;
     @media (max-width: 480px) {
       margin-bottom: 0;
+      border-radius: 0px 0px 3px 3px;
     }
   }
 `;

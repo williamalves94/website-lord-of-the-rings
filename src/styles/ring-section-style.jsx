@@ -159,6 +159,7 @@ export const DivImgAndTextRing = styled.div`
   border-radius: 0px 3px 3px 0px;
   @media (max-width: 480px) {
     flex-direction: column;
+    border-radius: 3px;
   }
 `;
 
@@ -169,6 +170,9 @@ export const RingImages = styled.div`
     width: 100%;
     height: 100%;
     border-radius: 3px 0 0 3px;
+    @media (max-width: 480px) {
+      border-radius: 3px 3px 0 0;
+    }
   }
 `;
 export const RingText = styled.div`
@@ -224,6 +228,7 @@ export const DivSecondImgAndText = styled.div`
   border-radius: 3px 3px 3px 3px;
   @media (max-width: 480px) {
     flex-direction: column-reverse;
+    border-radius: 3px;
   }
 `;
 
@@ -233,6 +238,10 @@ export const DivGloveRing = styled.div`
     width: 100%;
     height: 100%;
     border-radius: 0px 3px 3px 0px;
+    @media (max-width: 480px) {
+      flex-direction: column-reverse;
+      border-radius: 3px 3px 0 0;
+    }
   }
 `;
 
