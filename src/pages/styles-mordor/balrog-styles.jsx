@@ -100,12 +100,16 @@ export const DivImageBalrogOne = styled.div`
     width: 100%;
     height: 100%;
     border-radius: 3px 0px 0px 3px;
+    @media (max-width: 480px) {
+      border-radius: 3px 3px 0 0;
+    }
   }
 `;
 
 export const DivTextBalrogOne = styled.div`
-  border-radius: 3px;
   flex: 2;
+  display: flex;
+  align-items: center;
   p {
     color: #f2ca53;
     font-size: 36px;
@@ -149,23 +153,28 @@ export const DivImgAndTextTwo = styled.div`
   display: flex;
   box-shadow: 12px 12px 20px 0px #00000086;
   background-color: #111111;
+  border-radius: 3px;
   @media (max-width: 480px) {
     flex-direction: column-reverse;
   }
 `;
 
 export const DivImageBalrogTwo = styled.div`
-  border-radius: 4px;
   flex: 3;
   img {
     width: 100%;
     height: 100%;
     border-radius: 0px 3px 3px 0px;
+    @media (max-width: 480px) {
+      border-radius: 3px 3px 0 0;
+    }
   }
 `;
 
 export const DivTextBalrogTwo = styled.div`
   flex: 2;
+  display: flex;
+  align-items: center;
   p {
     color: #f2ca53;
     font-size: 36px;

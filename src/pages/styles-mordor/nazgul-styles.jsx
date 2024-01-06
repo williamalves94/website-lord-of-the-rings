@@ -116,6 +116,9 @@ export const DivImageNazgul = styled.div`
     width: 100%;
     height: 100%;
     border-radius: 3px 0px 0px 3px;
+    @media (max-width: 480px) {
+      border-radius: 3px 3px 0 0;
+    }
   }
 `;
 export const DivTextNazgul = styled.div`
@@ -172,7 +175,6 @@ export const DivShadowNazgulTwo = styled.div`
 export const DivImageAndTextNazgulTwo = styled.div`
   display: flex;
   box-shadow: 12px 12px 20px 0px #00000086;
-  border-radius: 3px;
   @media (max-width: 480px) {
     flex-direction: column-reverse;
   }
@@ -183,7 +185,10 @@ export const DivImageNazgulTwo = styled.div`
   img {
     width: 100%;
     height: 100%;
-    border-radius: 3px 0px 0px 3px;
+    border-radius: 0 3px 3px 0;
+    @media (max-width: 480px) {
+      border-radius: 3px 3px 0 0;
+    }
   }
 `;
 
@@ -254,6 +259,9 @@ export const DivImageNazgulThree = styled.div`
     width: 100%;
     height: 100%;
     border-radius: 3px 0px 0px 3px;
+    @media (max-width: 480px) {
+      border-radius: 3px 3px 0 0;
+    }
   }
 `;
 
@@ -309,6 +317,7 @@ export const DivImageAndTextNazgulFour = styled.div`
   display: flex;
   flex-direction: column-reverse;
   box-shadow: 12px 12px 20px 0px #00000086;
+  border-radius: 3px;
 `;
 
 export const DivImageNazgulFour = styled.div`
@@ -316,7 +325,10 @@ export const DivImageNazgulFour = styled.div`
   img {
     width: 100%;
     height: 100%;
-    border-radius: 3px;
+    border-radius: 3px 3px 0 0;
+    @media (max-width: 480px) {
+      border-radius: 3px 3px 0 0;
+    }
   }
 `;
 

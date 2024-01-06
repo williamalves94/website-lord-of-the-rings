@@ -76,7 +76,10 @@ export const ImgOrcsFirst = styled.div`
   img {
     width: 100%;
     height: 100%;
-    border-radius: 3px 3px 0 0;
+    border-radius: 3px 0 0 3px;
+    @media (max-width: 480px) {
+      border-radius: 3px 3px 0 0;
+    }
   }
 `;
 export const ImgOrcsLast = styled.div`
@@ -84,7 +87,10 @@ export const ImgOrcsLast = styled.div`
   img {
     width: 100%;
     height: 100%;
-    border-radius: 0 0 3px 3px;
+    border-radius: 0 3px 3px 0;
+    @media (max-width: 480px) {
+      border-radius: 0 0 3px 3px;
+    }
   }
 `;
 export const TextOrcs = styled.div`

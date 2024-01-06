@@ -103,6 +103,10 @@ export const ImageMordorOne = styled.div`
   img {
     width: 100%;
     height: 100%;
+    border-radius: 3px 0 0 3px;
+    @media (max-width: 480px) {
+      border-radius: 3px 3px 0 0;
+    }
   }
 `;
 export const DivTextOne = styled.div`
@@ -170,6 +174,10 @@ export const ImageMordorTwo = styled.div`
   img {
     width: 100%;
     height: 100%;
+    border-radius: 3px 0 0 3px;
+    @media (max-width: 480px) {
+      border-radius: 3px 3px 0 0;
+    }
   }
 `;
 export const DivTextTwo = styled.div`
@@ -234,6 +242,10 @@ export const ImgMountain = styled.div`
   img {
     width: 100%;
     height: 100%;
+    border-radius: 3px 0 0 3px;
+    @media (max-width: 480px) {
+      border-radius: 3px 3px 0 0;
+    }
   }
 `;
 

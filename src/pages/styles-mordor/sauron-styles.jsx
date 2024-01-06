@@ -47,6 +47,7 @@ export const DivImgAndTextSauron = styled.div`
   display: flex;
   background-color: #111111;
   box-shadow: 12px 12px 20px 0px #00000086;
+  border-radius: 3px;
   //margin-top: 20px;
   @media (max-width: 480px) {
     flex-direction: column;
@@ -55,15 +56,14 @@ export const DivImgAndTextSauron = styled.div`
 
 export const DivImgSauron = styled.div`
   flex: 2;
-  border-radius: 3px;
   img {
     width: 100%;
     height: 100%;
-    border-radius: 3px;
+    border-radius: 3px 0 0 3px;
     @media (max-width: 480px) {
       flex-direction: column;
       padding: 0px;
-      border: none;
+      border-radius: 3px 3px 0 0;
     }
   }
 `;
