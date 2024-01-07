@@ -77,33 +77,25 @@ export const CloseButton = styled.div`
   p {
     //height: auto;
     color: #2c2315;
-    font-size: 30px;
+    font-size: 25px;
     margin: 5px 12px 0 0;
     font-weight: 600;
     cursor: pointer;
-    @media (max-width: 2000px) {
-    }
-    @media (max-width: 1700px) {
-    }
-    @media (max-width: 1500px) {
-    }
-    @media (max-width: 1400px) {
-    }
-    @media (max-width: 1300px) {
-    }
-    @media (max-width: 1200px) {
-    }
-    @media (max-width: 1100px) {
-    }
+
     @media (max-width: 1000px) {
-    }
-    @media (max-width: 950px) {
-    }
-    @media (max-width: 900px) {
+      font-size: 20px;
     }
     @media (max-width: 900px) {
+      font-size: 18px;
+      margin: 3px 8px 0 0;
+    }
+    @media (max-width: 769px) {
+      font-size: 18px;
+      margin: 3px 8px 0 0;
     }
     @media (max-width: 480px) {
+      font-size: 10px;
+      margin: 3px 6px 0 0;
     }
   }
 `;
