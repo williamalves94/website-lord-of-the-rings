@@ -104,6 +104,11 @@ export const DivImageAndTextgollum = styled.div`
   margin-top: 10px;
   border-radius: 3px 3px 3px 3px;
   box-shadow: 12px 12px 20px 0px #00000086;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    //height: 100%;
+    border-radius: 3px;
+  }
   @media (max-width: 480px) {
     flex-direction: column;
     //height: 100%;
@@ -182,6 +187,9 @@ export const DivTwoImgGollum = styled.div`
   background-color: #1d1d1d;
   box-shadow: 12px 12px 20px 0px #00000086;
   border-radius: 3px;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
   @media (max-width: 480px) {
     flex-direction: column;
     //margin-top: 0px;
@@ -248,6 +256,9 @@ export const DivCenterTextGollum = styled.div`
     }
     @media (max-width: 930px) {
       font-size: 10px;
+    }
+    @media (max-width: 768px) {
+      font-size: 20px;
     }
     @media (max-width: 480px) {
       font-size: 17px;

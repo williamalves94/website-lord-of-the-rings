@@ -20,6 +20,9 @@ export const DivMainFellowship = styled.div`
   //border: 2px solid #f2ca53;
   box-shadow: 12px 12px 20px 0px #00000086;
   margin-bottom: 25px;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
   @media (max-width: 480px) {
     flex-direction: column;
   }
@@ -153,6 +156,10 @@ export const DivTextFellowship = styled.div`
 export const DivFellowshipImgOne = styled.div`
   display: flex;
   margin-top: 37px;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    grid-template-columns: repeat(2, 1fr);
+  }
   @media (max-width: 480px) {
     flex-direction: column;
     grid-template-columns: repeat(2, 1fr);
@@ -161,6 +168,10 @@ export const DivFellowshipImgOne = styled.div`
 export const DivFellowshipImgTwo = styled.div`
   display: flex;
   margin-top: 0px;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    grid-template-columns: repeat(2, 1fr);
+  }
   @media (max-width: 480px) {
     flex-direction: column;
     grid-template-columns: repeat(2, 1fr);

@@ -135,6 +135,7 @@ export const DivThreeImages = styled.div`
   @media (max-width: 930px) {
     font-size: 20px;
     flex-direction: column;
+    padding: 40px 0 0 0;
   }
   @media (max-width: 480px) {
     padding: 40px 0px 40px 0px;
