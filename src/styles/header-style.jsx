@@ -36,8 +36,12 @@ export const MenuIcon = styled.menu`
     color: #d4af37;
     transition: all.3s;
   }
+  @media (max-width: 768px) {
+    display: flex;
+  }
   @media (max-width: 480px) {
     display: flex;
+    font-size: 34px;
   }
 `;
 
@@ -128,6 +132,10 @@ export const NavHeader = styled.header`
     margin-right: 50px;
   }
 
+  @media (max-width: 768px) {
+    display: none;
+  }
+
   @media (max-width: 480px) {
     display: none;
   }
@@ -167,11 +175,22 @@ export const LogoImg = styled.div`
       align-items: center;
       display: flex;
     }
-
-    @media (max-width: 480px) {
+    @media (max-width: 768px) {
       width: 220px;
       align-items: center;
       margin-left: 20px;
+      display: flex;
+    }
+    @media (max-width: 500px) {
+      width: 200px;
+      align-items: center;
+      margin-left: 20px;
+      display: flex;
+    }
+    @media (max-width: 480px) {
+      width: 190px;
+      align-items: center;
+      margin-left: 15px;
       display: flex;
     }
   }
