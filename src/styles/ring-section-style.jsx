@@ -18,7 +18,7 @@ export const TitleRing = styled.div`
   .title-ring {
     font-size: 70px;
     color: #f2ca53;
-    margin: 100px 0 0 70px;
+    margin: 100px 0 0 50px;
 
     @media (max-width: 1350px) {
       font-size: 65px;
@@ -81,7 +81,7 @@ export const TitleRing = styled.div`
   .text-ring {
     color: #f2ca53;
     font-size: 42px;
-    margin: 20px 0 0 70px;
+    margin: 20px 0 0 50px;
 
     @media (max-width: 1450px) {
       font-size: 40px;
@@ -95,7 +95,7 @@ export const TitleRing = styled.div`
       font-size: 36px;
     }
 
-    @media (max-width: 1250px) {
+    @media (max-width: 1200px) {
       font-size: 36px;
     }
 

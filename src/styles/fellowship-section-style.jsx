@@ -4,11 +4,11 @@ export const Fellowship = styled.section`
   height: auto;
   justify-content: center;
   background-color: #1d1d1d;
-  padding: 60px 60px 40px 60px;
+  padding: 0px 60px 40px 60px;
 
   @media (max-width: 480px) {
     flex-direction: column;
-    padding: 15px 32px 0px 32px;
+    padding: 0px 32px 0px 32px;
   }
 `;
 
