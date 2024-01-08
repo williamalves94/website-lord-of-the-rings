@@ -9,7 +9,9 @@ export const SidebarSection = ({ active }) => {
         <Link to="/">
           <a>Terra Média</a>
         </Link>
-        <p href="">Mapa</p>
+        <p className="mapa-sidebar" href="">
+          Mapa
+        </p>
         <Link to="/mordor">
           <a>Mordor</a>
         </Link>
