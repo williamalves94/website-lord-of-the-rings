@@ -6,16 +6,16 @@ import {
 } from "../styles-mordor/header-mordor-styles";
 import { Link } from "react-router-dom";
 import { BiMenu } from "react-icons/bi";
-import { MenuIcon } from "../../styles/header-style";
+import { MenuIconMordor } from "../styles-mordor/header-mordor-styles";
 export const HeaderMordorSection = () => {
   return (
     <HeaderMordor>
       <LogoImg>
         <img src={LogoMain} />
       </LogoImg>
-      <MenuIcon>
+      <MenuIconMordor>
         <BiMenu />
-      </MenuIcon>
+      </MenuIconMordor>
       <NavHeader>
         <Link to="/">
           <a>Terra Média</a>

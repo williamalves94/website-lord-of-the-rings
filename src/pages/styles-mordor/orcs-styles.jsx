@@ -67,6 +67,9 @@ export const DivImagesOrcsAndTextOne = styled.div`
   margin-top: 20px;
   background-color: #1d1d1d;
   box-shadow: 12px 12px 20px 0px #00000086;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
   @media (max-width: 480px) {
     flex-direction: column;
   }
@@ -125,6 +128,9 @@ export const TextOrcs = styled.div`
     }
     @media (max-width: 769px) {
       font-size: 13px;
+    }
+    @media (max-width: 768px) {
+      font-size: 20px;
     }
   }
 `;

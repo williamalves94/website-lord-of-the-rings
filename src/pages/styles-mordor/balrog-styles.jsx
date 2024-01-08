@@ -89,6 +89,9 @@ export const DivImgAndTextOne = styled.div`
   display: flex;
   box-shadow: 12px 12px 20px 0px #00000086;
   background-color: #111111;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
   @media (max-width: 480px) {
     flex-direction: column;
   }
@@ -154,6 +157,9 @@ export const DivImgAndTextTwo = styled.div`
   box-shadow: 12px 12px 20px 0px #00000086;
   background-color: #111111;
   border-radius: 3px;
+  @media (max-width: 768px) {
+    flex-direction: column-reverse;
+  }
   @media (max-width: 480px) {
     flex-direction: column-reverse;
   }

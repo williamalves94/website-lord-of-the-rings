@@ -17,7 +17,7 @@ export const EagleImage = styled.div`
   img {
     width: 100%;
     height: auto;
-    margin-top: 100px;
+    margin-top: 80px;
     box-shadow: 12px 12px 20px 0px #00000086;
     @media (max-width: 480px) {
       margin-top: 100px;
@@ -30,7 +30,7 @@ export const TitleMordor = styled.div`
   //align-items: center;
   position: absolute;
   height: 100vh;
-  margin-top: 420px;
+  margin-top: 400px;
   margin-left: 120px;
 
   .title-mordor {
@@ -42,41 +42,74 @@ export const TitleMordor = styled.div`
     }
     @media (max-width: 1460px) {
       font-size: 180px;
-      margin-top: -100px;
+      margin-top: -40px;
     }
     @media (max-width: 1300px) {
-      font-size: 160px;
-      margin-top: -130px;
+      font-size: 150px;
+      margin-top: -70px;
       margin-left: -50px;
     }
     @media (max-width: 1155px) {
-      font-size: 140px;
-      margin-top: -160px;
+      font-size: 130px;
+      margin-top: -90px;
+    }
+    @media (max-width: 1000px) {
+      font-size: 120px;
+      margin-top: -120px;
     }
     @media (max-width: 960px) {
       font-size: 120px;
-      margin-top: -180px;
+      margin-top: -120px;
     }
     @media (max-width: 890px) {
       font-size: 100px;
-      margin-top: -200px;
+      margin-top: -130px;
     }
     @media (max-width: 780px) {
       font-size: 90px;
-      margin-top: -220px;
+      margin-top: -150px;
+    }
+    @media (max-width: 768px) {
+      font-size: 80px;
+      margin-top: -170px;
+      margin-left: -80px;
+    }
+    @media (max-width: 600px) {
+      font-size: 70px;
+      margin-top: -180px;
+      margin-left: -80px;
+    }
+    @media (max-width: 540px) {
+      font-size: 60px;
+      margin-top: -200px;
+      margin-left: -80px;
     }
     @media (max-width: 480px) {
       font-size: 60px;
       margin-left: -90px;
     }
-    @media (max-width: 414px) {
-      font-size: 50px;
+    @media (max-width: 450px) {
+      font-size: 60px;
+      margin-top: -220px;
+    }
+    @media (max-width: 400px) {
+      font-size: 45px;
+      margin-top: -220px;
+    }
+
+    @media (max-width: 375px) {
+      font-size: 45px;
+      margin-top: -220px;
+      margin-left: -90px;
+    }
+    @media (max-width: 350px) {
+      font-size: 40px;
       margin-top: -230px;
       margin-left: -90px;
     }
-    @media (max-width: 375px) {
-      font-size: 50px;
-      margin-top: -250px;
+    @media (max-width: 300px) {
+      font-size: 35px;
+      margin-top: -240px;
       margin-left: -90px;
     }
   }
@@ -95,6 +128,9 @@ export const DivImgAndTextMordorOne = styled.div`
   background-color: #111111;
   margin: 20px 0 0 0;
   box-shadow: 12px 12px 20px 0px #00000086;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
   @media (max-width: 480px) {
     flex-direction: column;
   }
@@ -167,6 +203,9 @@ export const DivImgAndTextMordorTwo = styled.div`
   display: flex;
   background-color: #111111;
   box-shadow: 12px 12px 20px 0px #00000086;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
   @media (max-width: 480px) {
     flex-direction: column;
   }
@@ -235,6 +274,9 @@ export const Mountain = styled.div`
   display: flex;
   background-color: #111111;
   box-shadow: 12px 12px 20px 0px #00000086;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
   @media (max-width: 480px) {
     flex-direction: column;
   }
@@ -256,7 +298,7 @@ export const ImgMountain = styled.div`
 export const TextMountain = styled.div`
   display: flex;
   align-items: center;
-  padding: 10px 20px 0px 20px;
+  padding: 10px 20px 10px 20px;
   background-color: #111111;
   flex: 1;
   p {
