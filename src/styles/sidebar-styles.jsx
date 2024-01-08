@@ -38,36 +38,60 @@ export const DivTags = styled.div`
       color: #d4af37;
       transition: all.3s;
     }
+    @media (max-width: 768px) {
+      font-size: 34px;
+    }
+    @media (max-width: 574px) {
+      font-size: 32px;
+      margin: 0 10px 0 10px;
+    }
+    @media (max-width: 490px) {
+      font-size: 30px;
+      //margin: 0 10px 0 10px;
+    }
+    @media (max-width: 480px) {
+      font-size: 30px;
+      //margin: 0 10px 0 10px;
+    }
     @media (max-width: 459px) {
-      font-size: 35px;
-      margin: 0 17px 0 17px;
+      font-size: 30px;
+      //margin: 0 15px 0 15px;
     }
     @media (max-width: 442px) {
-      font-size: 35px;
-      margin: 0 16px 0 16px;
+      font-size: 30px;
+      //margin: 0 16px 0 16px;
+    }
+    @media (max-width: 400px) {
+      font-size: 30px;
+      //margin: 0 15px 0 15px;
     }
     @media (max-width: 436px) {
-      font-size: 34px;
-      margin: 0 15px 0 15px;
-    }
-    @media (max-width: 419px) {
-      font-size: 33px;
-      margin: 0 15px 0 15px;
+      font-size: 30px;
+      // margin: 0 15px 0 15px;
     }
     @media (max-width: 410px) {
-      font-size: 32px;
+      font-size: 3px;
     }
     @media (max-width: 403px) {
-      font-size: 31px;
+      font-size: 30px;
     }
     @media (max-width: 393px) {
       font-size: 30px;
     }
-    @media (max-width: 375px) {
+    @media (max-width: 379px) {
       font-size: 28px;
     }
+    @media (max-width: 361px) {
+      font-size: 25px;
+    }
+    @media (max-width: 335px) {
+      font-size: 23px;
+    }
+    @media (max-width: 320px) {
+      font-size: 23px;
+    }
   }
-  p {
+  .mapa-sidebar {
     color: #f2ca53;
     font-size: 34px;
     cursor: pointer;
@@ -76,36 +100,63 @@ export const DivTags = styled.div`
       color: #d4af37;
       transition: all.3s;
     }
+    @media (max-width: 768px) {
+      font-size: 34px;
+      margin: 0 30px 0 30px;
+    }
+
+    @media (max-width: 574px) {
+      font-size: 32px;
+      margin: 0 10px 0 10px;
+    }
+    @media (max-width: 490px) {
+      font-size: 30px;
+      margin: 0 10px 0 10px;
+    }
+    @media (max-width: 480px) {
+      font-size: 30px;
+      margin: 0 10px 0 10px;
+    }
+    @media (max-width: 459px) {
+      font-size: 30px;
+      margin: 0 10px 0 10px;
+    }
     @media (max-width: 442px) {
-      font-size: 35px;
+      font-size: 30px;
+    }
+    @media (max-width: 435px) {
+      font-size: 28px;
     }
     @media (max-width: 400px) {
-      font-size: 35px;
+      font-size: 30px;
     }
 
     @media (max-width: 436px) {
-      font-size: 34px;
+      font-size: 30px;
     }
     @media (max-width: 419px) {
-      font-size: 32px;
+      font-size: 30px;
     }
     @media (max-width: 410px) {
-      font-size: 32px;
+      font-size: 30px;
     }
     @media (max-width: 403px) {
-      font-size: 31px;
+      font-size: 30px;
     }
     @media (max-width: 393px) {
       font-size: 30px;
     }
-    @media (max-width: 375px) {
+    @media (max-width: 379px) {
       font-size: 28px;
     }
-    @media (max-width: 320px) {
-      font-size: 35px;
+    @media (max-width: 361px) {
+      font-size: 25px;
     }
-    @media (max-width: 310px) {
-      font-size: 30px;
+    @media (max-width: 335px) {
+      font-size: 23px;
+    }
+    @media (max-width: 320px) {
+      font-size: 23px;
     }
   }
 `;

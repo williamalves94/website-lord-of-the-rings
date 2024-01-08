@@ -7,7 +7,7 @@ export const Head = styled.header`
   z-index: 999;
   position: fixed;
   background-color: black; //1f242d
-  color: white;
+  //color: white;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -37,9 +37,6 @@ export const MenuIcon = styled.menu`
     transition: all.3s;
   }
   @media (max-width: 768px) {
-    display: flex;
-  }
-  @media (max-width: 480px) {
     display: flex;
     font-size: 34px;
   }
@@ -133,10 +130,6 @@ export const NavHeader = styled.header`
   }
 
   @media (max-width: 768px) {
-    display: none;
-  }
-
-  @media (max-width: 480px) {
     display: none;
   }
 `;
