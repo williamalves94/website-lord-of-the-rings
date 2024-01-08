@@ -6,14 +6,14 @@ import {
   DivFellowshipImgOne,
   DivFellowshipImgTwo,
   ImgFellowship,
-} from "../styles/fellowship-section-style";
-import FellowshipImagemMain from "../assets/fellowshipsimgs/fellowshipmain.jpg";
-import FrodoBolseiro from "../assets/fellowshipsimgs/frodo.jpg";
-import FellowshipGroup from "../assets/fellowshipsimgs/fellowshipgroup.jpg";
-import Gandalf from "../assets/fellowshipsimgs/gandalf.jpg";
-import Group from "../assets/fellowshipsimgs/group.jpg";
-import Aragorn from "../assets/fellowshipsimgs/aragorn.jpg";
-import Legolas from "../assets/fellowshipsimgs/legolas.jpg";
+} from "../../styles/styles-condado/fellowship-section-style";
+import FellowshipImagemMain from "../../assets/fellowshipsimgs/fellowshipmain.jpg";
+import FrodoBolseiro from "../../assets/fellowshipsimgs/frodo.jpg";
+import FellowshipGroup from "../../assets/fellowshipsimgs/fellowshipgroup.jpg";
+import Gandalf from "../../assets/fellowshipsimgs/gandalf.jpg";
+import Group from "../../assets/fellowshipsimgs/group.jpg";
+import Aragorn from "../../assets/fellowshipsimgs/aragorn.jpg";
+import Legolas from "../../assets/fellowshipsimgs/legolas.jpg";
 
 export const FellowshipSection = () => {
   return (

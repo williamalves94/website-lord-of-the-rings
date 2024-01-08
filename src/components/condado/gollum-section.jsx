@@ -11,11 +11,11 @@ import {
   DivTwoImageGollumShadow,
   ImageGollumFisrt,
   ImageGollumLast,
-} from "../styles/gollum-section-style";
-import GollumMain from "../assets/gollum/gollummain.jpg";
-import Gollum1 from "../assets/gollum/gollum1.jpg";
-import Gollum2 from "../assets/gollum/gollum2.jpg";
-import Gollum3 from "../assets/gollum/gollum3.jpg";
+} from "../../styles/styles-condado/gollum-section-style";
+import GollumMain from "../../assets/gollum/gollummain.jpg";
+import Gollum1 from "../../assets/gollum/gollum1.jpg";
+import Gollum2 from "../../assets/gollum/gollum2.jpg";
+import Gollum3 from "../../assets/gollum/gollum3.jpg";
 
 export const GollumSection = () => {
   return (

@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import MordorSection from "./pages/mordor/mordor-section.jsx";
+import MordorSection from "../src/components/mordor/mordor-section.jsx";
 
 const router = createBrowserRouter([
   {

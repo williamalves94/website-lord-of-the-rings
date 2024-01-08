@@ -10,7 +10,7 @@ import {
   DivTextBalrogTwo,
   DivShadowBalrogOne,
   DivShadowBalrogTwo,
-} from "../styles-mordor/balrog-styles";
+} from "../../styles/styles-mordor/balrog-styles";
 import BalrogMain from "../../assets/balrog/balrogmain.jpg";
 import Balrog2 from "../../assets/balrog/balrog2.jpg";
 import Balrog3 from "../../assets/balrog/balrog3.jpg";

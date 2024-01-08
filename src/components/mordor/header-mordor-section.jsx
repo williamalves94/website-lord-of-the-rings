@@ -3,10 +3,10 @@ import {
   HeaderMordor,
   LogoImg,
   NavHeader,
-} from "../styles-mordor/header-mordor-styles";
+} from "../../styles/styles-mordor/header-mordor-styles";
 import { Link } from "react-router-dom";
 import { BiMenu } from "react-icons/bi";
-import { MenuIconMordor } from "../styles-mordor/header-mordor-styles";
+import { MenuIconMordor } from "../../styles/styles-mordor/header-mordor-styles";
 export const HeaderMordorSection = () => {
   return (
     <HeaderMordor>

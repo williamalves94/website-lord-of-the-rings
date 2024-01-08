@@ -1,7 +1,12 @@
 import { Link } from "react-router-dom";
 import React, { useState } from "react";
-import { Head, NavHeader, LogoImg, MenuIcon } from "../styles/header-style";
-import LogoMain from "../assets/logosf.png";
+import {
+  Head,
+  NavHeader,
+  LogoImg,
+  MenuIcon,
+} from "../../styles/styles-condado/header-style";
+import LogoMain from "../../assets/logosf.png";
 import { BiMenu } from "react-icons/bi";
 import { SidebarSection } from "./sidebar";
 

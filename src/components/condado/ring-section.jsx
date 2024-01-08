@@ -10,10 +10,10 @@ import {
   DivGloveRingText,
   DivRingShadow,
   DivGloveShadow,
-} from "../styles/ring-section-style";
-import RingMain from "../assets/ring/ringmain.jpg";
-import Ring1 from "../assets/ring/ring1.jpg";
-import Ring2 from "../assets/ring/ring2.png";
+} from "../../styles/styles-condado/ring-section-style";
+import RingMain from "../../assets/ring/ringmain.jpg";
+import Ring1 from "../../assets/ring/ring1.jpg";
+import Ring2 from "../../assets/ring/ring2.png";
 
 export const RingSection = () => {
   return (

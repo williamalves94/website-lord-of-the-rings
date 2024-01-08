@@ -12,7 +12,7 @@ import {
   DivShadowOne,
   DivShadowTwo,
   DivMountainShadow,
-} from "../styles-mordor/mordor-styles";
+} from "../../styles/styles-mordor/mordor-styles";
 import Mordor1 from "../../assets/mordor/mordor1.jpg";
 import Mordor2 from "../../assets/mordor/mordor2.png";
 import Mountain1 from "../../assets/mordor/mountainmordor.jpg";

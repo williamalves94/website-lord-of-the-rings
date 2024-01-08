@@ -18,7 +18,7 @@ import {
   DivShadowNazgulTwo,
   DivShadowNazgulThree,
   DivShadowNazgulFour,
-} from "../styles-mordor/nazgul-styles";
+} from "../../styles/styles-mordor/nazgul-styles";
 import NazgulMain from "../../assets/nazgul/nazgulmain.jpg";
 import Nazgul1 from "../../assets/nazgul/nazgul1.jpg";
 import Nazgul2 from "../../assets/nazgul/nazgul2.jpg";

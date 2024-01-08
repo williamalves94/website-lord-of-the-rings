@@ -1,12 +1,12 @@
 import React from "react";
-import Mapa from "../assets/mapa.jpg";
+import Mapa from "../../assets/mapa.jpg";
 
 import {
   Modal,
   DivShadowModal,
   CloseButton,
   ImageModal,
-} from "../styles/modal-styles";
+} from "../../styles/styles-condado/modal-styles";
 
 export const ModalMap = ({ isOpen, handleCloseModal }) => {
   if (isOpen) {

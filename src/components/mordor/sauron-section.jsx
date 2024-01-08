@@ -7,7 +7,7 @@ import {
   DivThreeImgSauron,
   ImageSauron,
   DivShadowSauron,
-} from "../styles-mordor/sauron-styles";
+} from "../../styles/styles-mordor/sauron-styles";
 import SauronMain from "../../assets/sauron/sauronmain.jpg";
 import Sauron1 from "../../assets/sauron/sauron1.png";
 import Sauron2 from "../../assets/sauron/sauronteste.jpg";

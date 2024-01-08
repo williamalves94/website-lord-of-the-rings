@@ -3,7 +3,7 @@ import {
   TitleMordor,
   DivMainImageEagleAndTitle,
   EagleImage,
-} from "../styles-mordor/mordor-styles";
+} from "../../styles/styles-mordor/mordor-styles";
 import ImageMainMordor from "../../assets/mordor/mordormain.png";
 
 export const MordorEagleSection = () => {
