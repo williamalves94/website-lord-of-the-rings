@@ -5,18 +5,22 @@ export const MordorImageMain = styled.div`
   margin-top: -8px;
   img {
     width: 100%;
-    //height: 100vh;
+    height: 100vh;
     border-radius: 4px;
   }
 `;
 
-export const MainImageEagle = styled.div`
+export const DivMainImageEagleAndTitle = styled.div``;
+
+export const EagleImage = styled.div`
+  height: 100%;
   img {
     width: 100%;
     height: auto;
+    margin-top: 100px;
     box-shadow: 12px 12px 20px 0px #00000086;
     @media (max-width: 480px) {
-      margin-top: 90px;
+      margin-top: 100px;
     }
   }
 `;

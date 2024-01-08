@@ -1,13 +1,20 @@
-import { MainImageEagle, TitleMordor } from '../styles-mordor/mordor-styles'
-import ImageMainMordor from '../../assets/mordor/mordormain.png'
+import {
+  //MainImageEagle,
+  TitleMordor,
+  DivMainImageEagleAndTitle,
+  EagleImage,
+} from "../styles-mordor/mordor-styles";
+import ImageMainMordor from "../../assets/mordor/mordormain.png";
 
 export const MordorEagleSection = () => {
-    return (
-        <MainImageEagle>
-            <TitleMordor>
-                <p className='title-mordor'>Mordor</p>
-            </TitleMordor>
-            <img src={ ImageMainMordor } />
-        </MainImageEagle>
-    )
-}
+  return (
+    <DivMainImageEagleAndTitle>
+      <TitleMordor>
+        <p className="title-mordor">Mordor</p>
+      </TitleMordor>
+      <EagleImage>
+        <img src={ImageMainMordor} />
+      </EagleImage>
+    </DivMainImageEagleAndTitle>
+  );
+};
