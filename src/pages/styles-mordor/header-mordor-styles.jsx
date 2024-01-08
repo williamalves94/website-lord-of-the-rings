@@ -10,6 +10,9 @@ export const HeaderMordor = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  @media (max-width: 768px) {
+    height: 90px;
+  }
 
   //@media (max-width: 1250px) {
   //width: 100%;
