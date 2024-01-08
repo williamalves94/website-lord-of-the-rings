@@ -11,6 +11,9 @@ export const DivSidebar = styled.div`
   height: 8%;
   top: 100px;
   width: 100%;
+  @media (max-width: 768px) {
+    top: 80px;
+  }
 
   left: ${(props) => (props.sidebar ? "0" : "100%")};
 

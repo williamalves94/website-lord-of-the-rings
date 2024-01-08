@@ -19,9 +19,6 @@ export const EagleImage = styled.div`
     height: auto;
     margin-top: 80px;
     box-shadow: 12px 12px 20px 0px #00000086;
-    @media (max-width: 480px) {
-      margin-top: 100px;
-    }
   }
 `;
 
@@ -79,38 +76,39 @@ export const TitleMordor = styled.div`
       margin-top: -180px;
       margin-left: -80px;
     }
-    @media (max-width: 540px) {
-      font-size: 60px;
+    @media (max-width: 550px) {
+      font-size: 65px;
       margin-top: -200px;
       margin-left: -80px;
     }
-    @media (max-width: 480px) {
+    @media (max-width: 500px) {
       font-size: 60px;
+      margin-top: -210px;
       margin-left: -90px;
     }
     @media (max-width: 450px) {
-      font-size: 60px;
+      font-size: 50px;
       margin-top: -220px;
     }
     @media (max-width: 400px) {
       font-size: 45px;
-      margin-top: -220px;
+      margin-top: -230px;
     }
 
     @media (max-width: 375px) {
-      font-size: 45px;
-      margin-top: -220px;
+      font-size: 40px;
+      margin-top: -235px;
       margin-left: -90px;
     }
     @media (max-width: 350px) {
       font-size: 40px;
-      margin-top: -230px;
-      margin-left: -90px;
+      margin-top: -245px;
+      margin-left: -100px;
     }
     @media (max-width: 300px) {
       font-size: 35px;
-      margin-top: -240px;
-      margin-left: -90px;
+      margin-top: -255px;
+      margin-left: -100px;
     }
   }
 `;
