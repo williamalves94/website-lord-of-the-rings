@@ -86,6 +86,10 @@ export const TitleMordor = styled.div`
       margin-top: -210px;
       margin-left: -90px;
     }
+    @media (max-width: 480px) {
+      font-size: 55px;
+      margin-top: -220px;
+    }
     @media (max-width: 450px) {
       font-size: 50px;
       margin-top: -220px;
@@ -96,9 +100,9 @@ export const TitleMordor = styled.div`
     }
 
     @media (max-width: 375px) {
-      font-size: 40px;
+      font-size: 45px;
       margin-top: -235px;
-      margin-left: -90px;
+      margin-left: -100px;
     }
     @media (max-width: 350px) {
       font-size: 40px;
