@@ -11,6 +11,9 @@ export const Head = styled.header`
   align-items: center;
   justify-content: space-between;
 
+  @media (max-width: 768px) {
+    height: 80px;
+  }
   //@media (max-width: 1250px) {
   //width: 100%;
   //height: 100px;
