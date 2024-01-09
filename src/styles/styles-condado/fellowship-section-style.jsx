@@ -62,9 +62,13 @@ export const DivTextFellowship = styled.div`
     @media (max-width: 1100px) {
       font-size: 36px;
     }
+    @media (max-width: 768px) {
+      font-size: 36px;
+      padding: 0px 10px 10px 0;
+    }
   }
 
-  p {
+  .text-fellowship {
     font-size: 35px;
     padding: 10px;
     color: #f2ca53;
@@ -144,6 +148,10 @@ export const DivTextFellowship = styled.div`
     }
     @media (max-width: 805px) {
       font-size: 12px;
+    }
+    @media (max-width: 768px) {
+      font-size: 20px;
+      padding: 0px 10px 10px 0;
     }
 
     @media (max-width: 480px) {

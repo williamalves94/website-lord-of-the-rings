@@ -24,7 +24,7 @@ export const FellowshipSection = () => {
         </ImageFellowship>
         <DivTextFellowship>
           <p className="title-fellowship">A Sociedade do Anel</p>
-          <p>
+          <p className="text-fellowship">
             A Sociedade do Anel, com nove membros, foi criada em oposição aos
             nove Cavaleiros Negros de Sauron, e com o objetivo de destruir o Um
             Anel. Ela se constituía de Frodo Bolseiro, o portador do Anel, de
