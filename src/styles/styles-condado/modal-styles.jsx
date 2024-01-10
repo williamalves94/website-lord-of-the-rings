@@ -64,8 +64,9 @@ export const Modal = styled.div`
       height: 370px;
     }
     @media (max-width: 480px) {
-      width: 330px;
-      height: 260px;
+      width: 360px;
+      height: 290px;
+      margin-top: -20px;
     }
   }
 `;
