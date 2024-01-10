@@ -66,7 +66,6 @@ export const Modal = styled.div`
     @media (max-width: 480px) {
       width: 360px;
       height: 290px;
-      margin-top: -20px;
     }
   }
 `;
