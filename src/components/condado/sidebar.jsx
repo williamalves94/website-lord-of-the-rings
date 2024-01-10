@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import {
   DivSidebar,
@@ -7,6 +7,7 @@ import {
 import { AllContext } from "../../context/context";
 
 export const SidebarSection = ({ active }) => {
+  const { handleOpenModal } = useContext(AllContext);
   return (
     <AllContext.Provider>
       <DivSidebar sidebar={active}>
@@ -14,7 +15,7 @@ export const SidebarSection = ({ active }) => {
           <Link to="/">
             <a>Terra Média</a>
           </Link>
-          <p className="mapa-sidebar" href="">
+          <p className="mapa-sidebar" onClick={handleOpenModal}>
             Mapa
           </p>
           <Link to="/mordor">

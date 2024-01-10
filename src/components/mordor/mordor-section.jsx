@@ -35,4 +35,3 @@ const MordorSection = () => {
 };
 
 export default MordorSection;
-//<HeaderMordorSection />
