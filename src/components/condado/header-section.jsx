@@ -8,10 +8,10 @@ import {
 } from "../../styles/styles-condado/header-style";
 import LogoMain from "../../assets/logosf.png";
 import { BiMenu } from "react-icons/bi";
-import { AllContext, AllProvider } from "../../context/context";
+import { AllContext } from "../../context/context";
 
-export const HeaderSection = ({ handleOpenModal }) => {
-  const { SidebarSection, sidebar, setSidebar, showSidebar } =
+export const HeaderSection = () => {
+  const { SidebarSection, sidebar, setSidebar, showSidebar, handleOpenModal } =
     useContext(AllContext);
 
   return (

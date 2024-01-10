@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-
+import React, { useContext } from "react";
 import { HeaderSection } from "./components/condado/header-section";
 import { HomeMain } from "./components/condado/home-main";
 import { CondadoSection } from "./components/condado/condado-section";
@@ -7,18 +6,13 @@ import { FellowshipSection } from "./components/condado/fellowship-section";
 import { FooterFunc } from "./components/condado/footer";
 import { RingSection } from "./components/condado/ring-section";
 import { GollumSection } from "../src/components/condado/gollum-section";
-import { ModalMap } from "./components/condado/modal-map";
+//import { ModalMap } from "./components/condado/modal-map";
+import { AllContext } from "./context/context";
 
 const App = () => {
-  const [openModal, setOpenModal] = useState(false);
+  const { ModalMap, openModal, setOpenModal, handleCloseModal } =
+    useContext(AllContext);
 
-  const handleOpenModal = () => {
-    setOpenModal(true);
-  };
-
-  const handleCloseModal = () => {
-    setOpenModal(false);
-  };
   return (
     <div>
       <ModalMap
@@ -26,7 +20,7 @@ const App = () => {
         handleCloseModal={handleCloseModal}
         onClose={(e) => setOpenModal(false)}
       />
-      <HeaderSection handleOpenModal={handleOpenModal} />
+      <HeaderSection />
       <HomeMain />
       <CondadoSection />
       <FellowshipSection />

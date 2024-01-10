@@ -11,7 +11,7 @@ import { MenuIconMordor } from "../../styles/styles-mordor/header-mordor-styles"
 import { AllContext } from "../../context/context";
 
 export const HeaderMordorSection = () => {
-  const { SidebarSection, sidebar, setSidebar, showSidebar } =
+  const { SidebarSection, sidebar, setSidebar, showSidebar, handleOpenModal } =
     useContext(AllContext);
 
   return (
@@ -27,7 +27,9 @@ export const HeaderMordorSection = () => {
         <Link to="/">
           <a>Terra Média</a>
         </Link>
-        <p className="mapa">Mapa</p>
+        <p onClick={handleOpenModal} className="mapa">
+          Mapa
+        </p>
         <a href="#mordor">Mordor</a>
       </NavHeader>
     </HeaderMordor>
