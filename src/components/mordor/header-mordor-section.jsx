@@ -1,3 +1,4 @@
+import { useContext } from "react";
 import LogoMain from "../../assets/logosf.png";
 import {
   HeaderMordor,
@@ -7,14 +8,20 @@ import {
 import { Link } from "react-router-dom";
 import { BiMenu } from "react-icons/bi";
 import { MenuIconMordor } from "../../styles/styles-mordor/header-mordor-styles";
+import { AllContext } from "../../context/context";
+
 export const HeaderMordorSection = () => {
+  const { SidebarSection, sidebar, setSidebar, showSidebar } =
+    useContext(AllContext);
+
   return (
     <HeaderMordor>
       <LogoImg>
         <img src={LogoMain} />
       </LogoImg>
       <MenuIconMordor>
-        <BiMenu />
+        <BiMenu onClick={showSidebar} />
+        {sidebar && <SidebarSection active={setSidebar} />}
       </MenuIconMordor>
       <NavHeader>
         <Link to="/">

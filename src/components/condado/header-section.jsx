@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import {
   Head,
   NavHeader,
@@ -8,11 +8,11 @@ import {
 } from "../../styles/styles-condado/header-style";
 import LogoMain from "../../assets/logosf.png";
 import { BiMenu } from "react-icons/bi";
-import { SidebarSection } from "./sidebar";
+import { AllContext, AllProvider } from "../../context/context";
 
 export const HeaderSection = ({ handleOpenModal }) => {
-  const [sidebar, setSidebar] = useState(false);
-  const showSidebar = () => setSidebar(!sidebar);
+  const { SidebarSection, sidebar, setSidebar, showSidebar } =
+    useContext(AllContext);
 
   return (
     <Head>

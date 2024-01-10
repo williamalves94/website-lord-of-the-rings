@@ -4,21 +4,24 @@ import {
   DivSidebar,
   DivTags,
 } from "../../styles/styles-condado/sidebar-styles";
+import { AllContext } from "../../context/context";
 
 export const SidebarSection = ({ active }) => {
   return (
-    <DivSidebar sidebar={active}>
-      <DivTags>
-        <Link to="/">
-          <a>Terra Média</a>
-        </Link>
-        <p className="mapa-sidebar" href="">
-          Mapa
-        </p>
-        <Link to="/mordor">
-          <a>Mordor</a>
-        </Link>
-      </DivTags>
-    </DivSidebar>
+    <AllContext.Provider>
+      <DivSidebar sidebar={active}>
+        <DivTags>
+          <Link to="/">
+            <a>Terra Média</a>
+          </Link>
+          <p className="mapa-sidebar" href="">
+            Mapa
+          </p>
+          <Link to="/mordor">
+            <a>Mordor</a>
+          </Link>
+        </DivTags>
+      </DivSidebar>
+    </AllContext.Provider>
   );
 };
