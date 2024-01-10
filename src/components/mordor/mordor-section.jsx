@@ -7,29 +7,27 @@ import { OrcsSection } from "./orcs-section";
 import { FooterMordorSection } from "../mordor/footer-mordor";
 import { MordorEagleSection } from "../mordor/mordor-eagle-section";
 import { useContext } from "react";
-import { AllContext, AllProvider } from "../../context/context";
+import { AllContext } from "../../context/context";
 
 const MordorSection = () => {
-  const { ModalMap, opneModal, setOpenModal, handleCloseModal } =
+  const { ModalMap, openModal, setOpenModal, handleCloseModal } =
     useContext(AllContext);
 
   return (
     <div>
-      <AllProvider>
-        <ModalMap
-          isOpen={opneModal}
-          handleCloseModal={handleCloseModal}
-          onClose={(e) => setOpenModal(false)}
-        />
-        <HeaderMordorSection />
-        <MordorEagleSection />
-        <MordorMainSection />
-        <SauronSection />
-        <NazgulSection />
-        <BalrogSection />
-        <OrcsSection />
-        <FooterMordorSection />
-      </AllProvider>
+      <ModalMap
+        isOpen={openModal}
+        handleCloseModal={handleCloseModal}
+        onClose={(e) => setOpenModal(false)}
+      />
+      <HeaderMordorSection />
+      <MordorEagleSection />
+      <MordorMainSection />
+      <SauronSection />
+      <NazgulSection />
+      <BalrogSection />
+      <OrcsSection />
+      <FooterMordorSection />
     </div>
   );
 };

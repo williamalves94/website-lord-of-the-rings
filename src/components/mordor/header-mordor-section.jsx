@@ -27,7 +27,7 @@ export const HeaderMordorSection = () => {
         <Link to="/">
           <a>Terra Média</a>
         </Link>
-        <p onClick={handleOpenModal} className="mapa">
+        <p className="mapa" onClick={handleOpenModal}>
           Mapa
         </p>
         <a href="#mordor">Mordor</a>
