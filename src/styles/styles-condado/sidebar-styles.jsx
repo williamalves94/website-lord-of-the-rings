@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const DivSidebar = styled.div`
-  background-color: black;
+  background-color: #111111;
   border-bottom: 2px solid #f2ca53;
   display: flex;
   justify-content: center;
