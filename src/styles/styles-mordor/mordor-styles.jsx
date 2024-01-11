@@ -18,7 +18,7 @@ export const EagleImage = styled.div`
     width: 100%;
     height: auto;
     margin-top: 80px;
-    box-shadow: 12px 12px 20px 0px #00000086;
+    box-shadow: 0px 12px 20px 0px #00000086;
   }
 `;
 

@@ -9,7 +9,7 @@ export const BalrogImageMain = styled.div`
   img {
     width: 100%;
     height: auto;
-    box-shadow: 12px 12px 20px 0px #00000086;
+    box-shadow: 0px 12px 20px 0px #00000086;
   }
 `;
 

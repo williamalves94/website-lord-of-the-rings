@@ -17,7 +17,7 @@ export const Home = styled.section`
     width: 100%;
     height: auto;
     //border-bottom: 2px solid #f2ca53;
-    box-shadow: 12px 12px 20px 0px #00000086;
+    box-shadow: 0px 12px 20px 0px #00000086;
     margin-top: 100px;
     @media (max-width: 768px) {
       margin-top: 80px;
