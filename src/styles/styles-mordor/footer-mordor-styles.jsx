@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const FooterMordor = styled.footer`
   width: 100%;
-  height: 165px;
+  height: 152px;
   background-color: #111111;
   display: flex;
   align-items: center;
