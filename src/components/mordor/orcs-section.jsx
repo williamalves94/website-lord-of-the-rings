@@ -9,8 +9,8 @@ import {
   DivShadowOrcs,
 } from "../../styles/styles-mordor/orcs-styles";
 import OrcsMain from "../../assets/orcs/orcsmain.jpg";
-import Orcs1 from "../../assets/orcs/orcs1.jpg";
-import Orcs2 from "../../assets/orcs/orcs2.jpg";
+import Orcs1 from "../../assets/orcs/orcs3.jpg";
+import Orcs2 from "../../assets/orcs/orcs1.jpg";
 
 export const OrcsSection = () => {
   return (
