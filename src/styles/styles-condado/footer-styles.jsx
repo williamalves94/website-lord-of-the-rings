@@ -7,7 +7,7 @@ export const Footer = styled.footer`
   display: flex;
   align-items: center;
   justify-content: center;
-  border-top: 3px solid #f2ca53;
+  border-top: 2px solid #f2ca53;
 `;
 
 export const LogoFooter = styled.div`
