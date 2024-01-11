@@ -8,10 +8,10 @@
   scroll-behavior: smooth;
   ::-webkit-scrollbar {
     width: 15px;
-    background-color: black;
+    background-color: #111111;
   }
   ::-webkit-scrollbar-thumb {
-    background: linear-gradient(360deg, #000, #000, #f2ca53, #f0ce6b);
+    background: linear-gradient(360deg, #111111, #111111, #f2ca53, #f0ce6b);
     border-radius: 6px;
   }
 }
