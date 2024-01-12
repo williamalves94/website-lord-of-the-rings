@@ -12,7 +12,7 @@ import {
 } from "../../styles/styles-condado/condado-section-style";
 import CondadoMain from "../../assets/condadoimgs/condadomain.jpg";
 import Condado1 from "../../assets/condadoimgs/condado1.jpg";
-import Condado2 from "../../assets/condadoimgs/testecondado.jpg";
+import Condado2 from "../../assets/condadoimgs/condado2.jpg";
 import Condado3 from "../../assets/condadoimgs/condado3.jpg";
 
 export const CondadoSection = () => {
