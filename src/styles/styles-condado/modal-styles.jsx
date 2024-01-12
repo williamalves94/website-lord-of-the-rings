@@ -99,12 +99,28 @@ export const Modal = styled.div`
       width: 360px;
       height: 290px;
     }
+    @media (max-width: 420px) {
+      width: 330px;
+      height: 290px;
+    }
     @media (max-width: 400px) {
+      width: 320px;
+      height: 290px;
+    }
+    @media (max-width: 380px) {
+      width: 310px;
+      height: 290px;
+    }
+    @media (max-width: 360px) {
       width: 300px;
       height: 290px;
     }
-    @media (max-width: 370px) {
+    @media (max-width: 350px) {
       width: 270px;
+      height: 290px;
+    }
+    @media (max-width: 320px) {
+      width: 250px;
       height: 290px;
     }
   }
