@@ -22,7 +22,7 @@ import {
 import NazgulMain from "../../assets/nazgul/nazgulmain.jpg";
 import Nazgul1 from "../../assets/nazgul/nazgul1.jpg";
 import Nazgul2 from "../../assets/nazgul/nazgul2.jpg";
-import Nazgul3 from "../../assets/nazgul/nazgul3.jpg";
+import Nazgul3 from "../../assets/nazgul/nazgulhorse.jpg";
 import Nazgul4 from "../../assets/nazgul/nazgul4.jpg";
 
 export const NazgulSection = () => {
