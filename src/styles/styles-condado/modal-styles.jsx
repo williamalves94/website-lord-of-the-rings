@@ -100,7 +100,7 @@ export const Modal = styled.div`
       height: 290px;
     }
     @media (max-width: 420px) {
-      width: 330px;
+      width: 350px;
       height: 290px;
     }
     @media (max-width: 400px) {
