@@ -63,8 +63,48 @@ export const Modal = styled.div`
       width: 600px;
       height: 370px;
     }
+    @media (max-width: 768px) {
+      width: 600px;
+      height: 370px;
+    }
+    @media (max-width: 750px) {
+      width: 580px;
+      height: 350px;
+    }
+    @media (max-width: 750px) {
+      width: 550px;
+      height: 320px;
+    }
+    @media (max-width: 650px) {
+      width: 500px;
+      height: 290px;
+    }
+    @media (max-width: 600px) {
+      width: 460px;
+      height: 290px;
+    }
+    @media (max-width: 550px) {
+      width: 410px;
+      height: 290px;
+    }
+    @media (max-width: 500px) {
+      width: 380px;
+      height: 290px;
+    }
     @media (max-width: 480px) {
       width: 360px;
+      height: 290px;
+    }
+    @media (max-width: 450px) {
+      width: 320px;
+      height: 290px;
+    }
+    @media (max-width: 400px) {
+      width: 300px;
+      height: 290px;
+    }
+    @media (max-width: 370px) {
+      width: 270px;
       height: 290px;
     }
   }
