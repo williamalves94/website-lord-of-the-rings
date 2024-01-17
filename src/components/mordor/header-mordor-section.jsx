@@ -11,13 +11,19 @@ import { MenuIconMordor } from "../../styles/styles-mordor/header-mordor-styles"
 import { AllContext } from "../../context/context";
 
 export const HeaderMordorSection = () => {
-  const { SidebarSection, sidebar, setSidebar, showSidebar, handleOpenModal } =
-    useContext(AllContext);
+  const {
+    SidebarSection,
+    sidebar,
+    setSidebar,
+    showSidebar,
+    handleOpenModal,
+    handleClickLogo,
+  } = useContext(AllContext);
 
   return (
     <HeaderMordor>
       <LogoImg>
-        <img src={LogoMain} />
+        <img src={LogoMain} onClick={handleClickLogo} />
       </LogoImg>
       <MenuIconMordor>
         <BiMenu onClick={showSidebar} />

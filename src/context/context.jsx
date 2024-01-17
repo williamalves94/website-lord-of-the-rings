@@ -7,8 +7,23 @@ export const AllContext = createContext({});
 export const AllProvider = ({ children }) => {
   const [sidebar, setSidebar] = useState(false);
   const showSidebar = () => setSidebar(!sidebar);
-
   const [openModal, setOpenModal] = useState(false);
+  const [scrollTop, setScrollTop] = useState(false);
+
+  const handleClickLogo = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+  window.onscroll = () => {
+    if (window.scrollY > 100) {
+      setScrollTop(true);
+    } else {
+      setScrollTop(false);
+    }
+  };
+
   const handleOpenModal = () => {
     setOpenModal(true);
     setSidebar(!sidebar);
@@ -30,6 +45,7 @@ export const AllProvider = ({ children }) => {
         setOpenModal,
         handleOpenModal,
         handleCloseModal,
+        handleClickLogo,
       }}
     >
       {children}

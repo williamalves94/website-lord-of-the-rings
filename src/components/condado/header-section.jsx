@@ -11,13 +11,19 @@ import { BiMenu } from "react-icons/bi";
 import { AllContext } from "../../context/context";
 
 export const HeaderSection = () => {
-  const { SidebarSection, sidebar, setSidebar, showSidebar, handleOpenModal } =
-    useContext(AllContext);
+  const {
+    SidebarSection,
+    sidebar,
+    setSidebar,
+    showSidebar,
+    handleOpenModal,
+    handleClickLogo,
+  } = useContext(AllContext);
 
   return (
     <Head>
       <LogoImg>
-        <img src={LogoMain} />
+        <img src={LogoMain} onClick={handleClickLogo} />
       </LogoImg>
       <MenuIcon>
         <BiMenu onClick={showSidebar} />
