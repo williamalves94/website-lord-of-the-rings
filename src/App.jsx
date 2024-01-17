@@ -6,7 +6,6 @@ import { FellowshipSection } from "./components/condado/fellowship-section";
 import { FooterFunc } from "./components/condado/footer";
 import { RingSection } from "./components/condado/ring-section";
 import { GollumSection } from "../src/components/condado/gollum-section";
-//import { ModalMap } from "./components/condado/modal-map";
 import { AllContext } from "./context/context";
 
 const App = () => {

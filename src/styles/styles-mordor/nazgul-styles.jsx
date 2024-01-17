@@ -178,7 +178,9 @@ export const DivShadowNazgulTwo = styled.div`
 export const DivImageAndTextNazgulTwo = styled.div`
   display: flex;
   box-shadow: 12px 12px 20px 0px #00000086;
-  flex-direction: column-reverse;
+  @media (max-width: 768px) {
+    flex-direction: column-reverse;
+  }
   @media (max-width: 480px) {
     flex-direction: column-reverse;
   }

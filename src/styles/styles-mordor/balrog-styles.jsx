@@ -49,9 +49,19 @@ export const TitleBalrog = styled.div`
       margin-left: -70px;
     }
     @media (max-width: 769px) {
-      font-size: 110px;
-      margin-top: -230px;
-      margin-left: -70px;
+      font-size: 90px;
+      margin-top: -260px;
+      margin-left: -75px;
+    }
+    @media (max-width: 650px) {
+      font-size: 75px;
+      margin-top: -280px;
+      margin-left: -80px;
+    }
+    @media (max-width: 550px) {
+      font-size: 65px;
+      margin-top: -290px;
+      margin-left: -80px;
     }
 
     @media (max-width: 480px) {
