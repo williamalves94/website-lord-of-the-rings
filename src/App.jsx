@@ -5,7 +5,7 @@ import { CondadoSection } from "./components/condado/condado-section";
 import { FellowshipSection } from "./components/condado/fellowship-section";
 import { FooterFunc } from "./components/condado/footer";
 import { RingSection } from "./components/condado/ring-section";
-import { GollumSection } from "../src/components/condado/gollum-section";
+import { GollumSection } from "./components/condado/gollum-section";
 import { AllContext } from "./context/context";
 
 const App = () => {
