@@ -32,7 +32,7 @@ export const HeaderSection = () => {
 
       <NavHeader>
         <Link to="/">
-          <a>Terra Média</a>
+          <a onChange={handleClickLogo}>Terra Média</a>
         </Link>
         <p onClick={handleOpenModal} className="mapa">
           Mapa
