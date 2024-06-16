@@ -1,1 +1,5 @@
-Meu segundo projeto pessoal desenvolvido por mim do zero, uma landing Page desenvolvida usando ReactJS e Styled-components 100% resposivo.
+Projeto Pessoal
+
+Deploy feito com Vercel: https://website-lord-of-the-rings.vercel.app/
+
+Aplicação desenvolvida com Javascript, ReactJS, Styled Components e React Router Dom, 100% Responsivo.
